@@ -5,6 +5,8 @@ comments: true
 description: "What I learnt from characters of FRIENDS"
 keywords: "Friends"
 ---
+
+*Thank You [Mahe](https://twitter.com/IramMahe) for the edits.*   
 I know what you thinking; "Oh, not another FRIENDS fan!!!" But who cares what you think? I am a F.R.I.E.N.D.S fan and I am going to write about it.  I have been a fan ever since I first watched these 6 reckless adults trying to make the best out of their beautifully troublesome and oh-so-happening life. 
 
 Obsessive-compulsive natured Monica, dim-witted yet caring Joey, Rachel: self centered but always trying to be a good friend, Phoebe-the gaga with a child's heart, clumsy but intelligent Ross, and of course Chandler, the socially awkward king of sarcasm; I wanted to be friends with each one of them!
