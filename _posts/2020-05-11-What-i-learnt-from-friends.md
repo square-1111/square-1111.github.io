@@ -17,4 +17,7 @@ A group of 6 reckless adults at The Central Perk Cafe, New York making their lif
 
 **Rachel** : From leaving his fiance and being a spoiled brat to being offered a position at Louis Vuitton in Paris, Rachel taught that it is never too late. Her role as waitress narrates, sometimes you have to settle for a job you dislike. She delivered that materialism isn’t the key to happiness but being sassy can make you feel good. Also, she taught us that true love can withstand a lot.
 
-**Joey** : “How you doin’..?” — Joey is a good natured person but not so bright. He loves food and sex — “I you had to, what would you give up, food or sex? I want girls on bread”. His dim-witted nature made him very optimistic and appreciate his talents. He taught us to have confidence in yourself even when no one else does. 
+**Joey** : “How you doin’..?” — Joey is a good natured person but not so bright. He loves food and sex — “I you had to, what would you give up, food or sex? I want girls on bread”. His dim-witted nature made him very optimistic and appreciate his talents. He taught us to have confidence in yourself even when no one else does.  
+
+
+It's not just comedy, it feels like I am part of the group everytime I watch it because I feel the different emotions they go through. 
