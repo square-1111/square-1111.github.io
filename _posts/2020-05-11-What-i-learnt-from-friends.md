@@ -5,19 +5,29 @@ comments: true
 description: "What I learnt from characters of FRIENDS"
 keywords: "Friends"
 ---
-A group of 6 reckless adults at The Central Perk Cafe, New York making their life happening and troublesome, this is how it all started. I have been a fan ever since and have binged it an infinite number of times. From the obsessive-compulsive nature of Monica, dim-witted yet caring nature of Joey, Rachel being self centered but always trying to be a good friend, Phoebe being gaga with child's heart , Ross being clumsy with intelligence and Chandler good with numbers, socially awkward but extremely sarcastic, they all harmonized in a perfect symphony to make me learn life lesson. Everytime I feel happy, sad, fearful, disgusting, angry or surprised I watch FRIENDS, which means I watch it all the time. Each character has taught me something and I would like to share that:
+I know what you thinking; "Oh, not another FRIENDS fan!!!" But who cares what you think? I am a F.R.I.E.N.D.S fan and I am going to write about it.  I have been a fan ever since I first watched these 6 reckless adults trying to make the best out of their beautifully troublesome and oh-so-happening life. 
 
-**Monica** : A cleanliness freak — “I know” — who glued the group as family. She is the mother of the group and like some mothers, she can be domineering and overbearing. Why not? She taught us that it's alright to let people down just to be yourself. Her habit of orderliness and planning tells us that always having a plan is the best way to live your life. And most important thing, food is truly the best thing in the world.
+Obsessive-compulsive natured Monica, dim-witted yet caring Joey, Rachel: self centered but always trying to be a good friend, Phoebe-the gaga with a child's heart, clumsy but intelligent Ross, and of course Chandler, the socially awkward king of sarcasm; I wanted to be friends with each one of them!
 
-**Ross** : “Hi” — I might kill myself. With a doctorate degree and three divorces, Ross has taught us about UNAGI. In all seriousness, Ross has been a caring, polite and kind person. He was always there to help when something is morally wrong. His intelligence and nerd weirdness never stops him from forming valuable relationships. He proves that brainsy is the new sexy. 
+Their starkly different natures all harmonized in a perfect symphony. I binge watch F.R.I.E.N.D.S on a daily basis. 
+I feel happy, I watch FRIENDS. I am sad, I watch FRIENDS.  I am fearful, disgusted, angry or surprised I watch FRIENDS. I watch FRIENDS all the time. 
+Today I ended up pondering  what each character of FRIENDS taught me. 
+This is what I came up with: 
 
-**Chandler** : Hands down, Chandler has evolved the most, from being the most vulnerable to his endless love towards Monica taught us to love. His never ending witty remarks and socially awkward puns he told us the best thing you can give someone is a good laugh. He has one liners for every situation and he knows how to diffuse tension in the room.  
+**Ross** : “Hi” — I might kill myself. With a doctorate degree and three divorces, Ross taught me UNAGI * does the touching-forehead-with-index-finger action *. In all seriousness, Ross has been a caring, polite and a kind person. He was always there to help when something went wrong. His intelligence and nerd weirdness never stops him from forming valuable relationships. Ross proved that brainy is the new sexy! 
 
-**Phoebe** : “Smelly Cat, Smelly Cat, what are they feeding you” —  I believe you must have sung it. She is my favorite character because of her freaky and weird childlike spirit. Her oddly realistic guitar session has been like a therapy to me. Her bizarre pseudo-scientific theory to explain actually got me.
+**Monica** : A cleanliness freak — “I know” —  glued the entire group as family. I think she is the mother of the group and like mothers sometimes are,  she can be domineering and overbearing. Why not? She taught us that it's alright to let people down just to be yourself. Her habit of orderliness and planning tells us that always having a plan is the best way to live your life(well, it's nice to think so). And the most important thing; food is truly the best thing in the world. 
 
-**Rachel** : From leaving his fiance and being a spoiled brat to being offered a position at Louis Vuitton in Paris, Rachel taught that it is never too late. Her role as waitress narrates, sometimes you have to settle for a job you dislike. She delivered that materialism isn’t the key to happiness but being sassy can make you feel good. Also, she taught us that true love can withstand a lot.
+**Chandler** : Hands down, Chandler has evolved the most, from being the most vulnerable to his endless love towards Monica, Chandler taught us how to love. Through his never ending witty remarks and socially awkward puns he told us the best thing you can give someone is a good laugh. The guy has one liners for every damned situation and he knows how to diffuse tension in the room. I try to follow. 
 
-**Joey** : “How you doin’..?” — Joey is a good natured person but not so bright. He loves food and sex — “I you had to, what would you give up, food or sex? I want girls on bread”. His dim-witted nature made him very optimistic and appreciate his talents. He taught us to have confidence in yourself even when no one else does.  
+**Rachel** : From leaving her fiancé and being a spoiled brat to being offered a position at Louis Vuitton in Paris, Rachel taught me that it is never too late. Her role as waitress narrates that sometimes one has to settle for a job one dislikes. Rachel's character delivered that materialism isn’t the key to happiness but being sassy can make you feel good. Most importantly, she taught me that true love can withstand a great deal.
+
+**Phoebe** : “Smelly Cat, Smelly Cat, what are they feeding you” — I believe you must have sung it. She is by far my most favorite character because of her freaky and weird childlike spirit. Her oddly realistic guitar sessions have been a therapy for me. Her bizarre pseudo-scientific theory to explain actually got me.  
+
+**Joey** : “How you doin’..?” — Joey is good natured  but not so bright. He loves food and sex — “If you had to, what would you give up, food or sex? I want girls on bread”. Haha. Even thinking of that scene, I crack up! Was it his dim-witted nature that made him so optimistic and so confident of his talents? I learnt from Joey to  have faith in myself even when no one else did.   
+
+I have felt their heart break and I have rejoiced in their joy.
+I have cried with them. I have sat on that orange couch and have laughed with them.  
+These 6 weirdos are not just characters for me, they are my own best friends.
 
 
-It's not just comedy, it feels like I am part of the group everytime I watch it because I feel the different emotions they go through. 
