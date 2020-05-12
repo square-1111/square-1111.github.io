@@ -12,6 +12,11 @@ Little did Hungarian Professor Erno Rubik know when he invented rubik's cube fro
 
 As I was learning gradually, I wanted to feed my curiosity to solve different types of Rubik’s Cube. The 5X5X5 and Mirror cube were very similar to 3X3X3 where the centerpiece is directly connected to the scaffold which means the center won’t move. But in 4X4X4, also known as Rubik’s Revenge, there are no fixed centerpiece, this makes it more tricky. Axis Cube is a mod of 3X3X3 cube with unequal divisions, which means a scrambled Axis Cube won’t be cubical in shape. The main hustle with Axis Cube is to figure out center, edge and corner parts. And then comes Megaminx, a dodecahedron based puzzle similar to Rubik's Cube with 50 separate pieces and 12 different colors.
 
+<center><img src="/assets/images/rubiksCube.jpg" height="80%" width="80%">
+</center>
+
+<br>
+
 The more I learned about it, the more I wanted to know about it. All the algorithms slowly became trivial when I started understanding the mathematics of Rubik’s Cube. I am always fascinated by how many secrets Rubik's cube holds. Out of all these the most interesting is the God’s number which tells the maximum number of steps required to solve a Rubik’s Cube is 20 despite the configuration. It is called so because you have to be some kind of omniscient to figure out these moves. Out of 43 quintillion possibilities only 490 million (1.14*10<sup>-9</sup> %) requires a maximum of 20 moves to solve it. 
 
 Besides, Rubiks Cube has added lots of positivity in my life. Sometimes, this simplistic yet complex toy acts as a de-stresser, providing a distraction from life. Other times, it challenges me to draw out more secrets. But it always satisfies my inner self.
