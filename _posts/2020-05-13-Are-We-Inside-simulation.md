@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Day 003, Are we inside simulation"
+title: "Day 003, Are we inside simulation?"
 comments: true
 description: "A post about Simulated Universe"
 keywords: "dummy content"
