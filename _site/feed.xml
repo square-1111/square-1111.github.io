@@ -5,9 +5,43 @@
     <description>Square</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 14 May 2020 03:09:25 +0530</pubDate>
-    <lastBuildDate>Thu, 14 May 2020 03:09:25 +0530</lastBuildDate>
+    <pubDate>Fri, 15 May 2020 06:17:35 +0530</pubDate>
+    <lastBuildDate>Fri, 15 May 2020 06:17:35 +0530</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Day 004, First Principle</title>
+        <description>&lt;p&gt;Isn’t it overwhelming to break down a complicated problem into basic elements? Not anymore. First Principle to the rescue. Reasoning with first principle helps you break down the problem into small bite-sized steps and then reassemble them from ground. It is one of the best ways to learn to think for yourself, improve your creativity and speed up the process. This approach was introduced by Aristotle and is now used by Elon Musk and many visionaries.&lt;/p&gt;
+
+&lt;p&gt;It is easier to think in terms of analogy than first principles but first principles deals with more fundamental aspects. What that really means is to boil things down to fundamental truth and then reason up from there. Thus, reasoning by first principle removes impurity of assumptions and convention, leaving us with essentials. These essentials allow us to see where reasoning with analogy would leave us ashtray.&lt;/p&gt;
+
+&lt;p&gt;Consider an example, people used to say batteries will be expensive but someone broke battery down into its components and optimized its cost. That is because the first principle helps in driving innovation which in turn leads to looking at things from different perspectives. It has a tremendous effect on people’s ability to make decisions and foster changes. If we never learn to take something apart, test the assumption and reconstruct it, we will get stuck in what other people told us — trapped in the way things have always been. The reason it is a revolutionary idea is, most of the people spend most of their time looking on the surface. But the ideas are engraved within the fundamentals.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“To understand is to know what to do.” — Wittgenstein&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Socrates, who is famous for laying the foundation for modern Western Philosophy, developed a questioning system to establish first principle. Socratic questioning is a stringent process and illuminates the importance of questioning in learning. Following steps are taken in the process&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Clarifying thinking and explaining the origin of ideas&lt;/li&gt;
+  &lt;li&gt;Challenging the assumptions&lt;/li&gt;
+  &lt;li&gt;Providing evidences on basis of truth&lt;/li&gt;
+  &lt;li&gt;Considering alternative perspective&lt;/li&gt;
+  &lt;li&gt;Exploring implication and consequences&lt;/li&gt;
+  &lt;li&gt;Questioning the original question&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This process helps you take off the blinds and builds something that lasts.&lt;/p&gt;
+
+&lt;p&gt;Reasoning through analogy is definitely easier but reasoning through first principle helps you develop better understanding of the fundamental. This is what makes the best resource for creative thinking.  Thinking in first principles allows you to look at the world in a different way, adapt to the changing environment and seize the opportunity others can’t. So next time you are confused about a decision and how to break it down — The First Principle.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 14 May 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/2020/First-Principle/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/First-Principle/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Day 003, Are we inside simulation?</title>
