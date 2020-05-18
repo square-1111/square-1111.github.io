@@ -5,15 +5,44 @@
     <description>Square</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 18 May 2020 04:09:50 +0530</pubDate>
-    <lastBuildDate>Mon, 18 May 2020 04:09:50 +0530</lastBuildDate>
+    <pubDate>Tue, 19 May 2020 01:53:35 +0530</pubDate>
+    <lastBuildDate>Tue, 19 May 2020 01:53:35 +0530</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
-        <title>Day 007, Cyberbullying</title>
-        <description>&lt;p&gt;Cyberbullying&lt;/p&gt;
+        <title>Day 008, Being One</title>
+        <description>&lt;p&gt;Don’t overthink, there is nothing whimsical, scary, poetic, it’s just a post about number one. No no no, not about number one but about NUMBER 1. Ugh! It’s just too hard. Nevermind.&lt;/p&gt;
 
-&lt;p&gt;Bullying is someone using their power to hurt someone physically, mentally or socially, it is much more worse than being mean. But with technologies in hand you don’t need to be powerful to harass anyone — And I present to you Cyberbullying.&lt;/p&gt;
+&lt;p&gt;“One is the loneliest number” is not just a song but a truth in the world of Mathematics. 1 is no fun to play with. Multiplying and dividing by one is so underwhelming. Mathematically, it is called “unity” and it has even more strange properties — the square root of one is one. With all this unlikeliness, one wasn’t even considered as a number for a long time.&lt;/p&gt;
+
+&lt;p&gt;Aristotle, Euclid and many of the founding fathers of Mathematics did not consider one as a number. Why? They reasoned that the number is “multitude composed of units”. Under this definition, one is not a number but the seed for a number. And I used to feel I am a sufferer of FOMO. But this isn’t the end. In Contemporary world, when one is considered as a number there are other hustles. Historically, One has been on and off the hook of prime numbers list. With all the properties of being a prime, mathematicians suggested one does not preserve the uniqueness of the factorization. Finally, The fundamental theorem of arithmetic which states that “Every positive integer can be represented as the product of prime numbers.” suggested the world of mathematics to exclude one from the definition of prime.&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;6 = 2\times 3&lt;/script&gt;
+6 = 3\times 2
+6 = 1\times 2 \times 3
+6 = 1\times 1\times 2 \times 3&lt;/p&gt;
+
+&lt;p&gt;One is the loneliest number you will ever do.&lt;/p&gt;
+
+&lt;p&gt;One might be the loneliest number but one was never the loser. It has overpowered the world of technology along with zero —  binary notation. No number can be formed without the approval of one. In Grandi’s series when one was added and subtracted infinitely to add up to 1/2, made one quite confused about its existence&lt;/p&gt;
+
+&lt;p&gt;S = 1-1+1-1+1-1+…
+1-S = 1 - (1-1+1-1…..) = S
+1-S = S
+S = 1/2&lt;/p&gt;
+
+&lt;p&gt;One might as well have its own problems, but it is ruling the world with peace. Next time you feel low or anxious or sad, think about the struggles of one — From not even getting considered as a number to being one.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 18 May 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/2020/Being-One/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Being-One/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Day 007, Cyberbullying</title>
+        <description>&lt;p&gt;Bullying is someone using their power to hurt someone physically, mentally or socially, it is much more worse than being mean. But with technologies in hand you don’t need to be powerful to harass anyone — And I present to you Cyberbullying.&lt;/p&gt;
 
 &lt;p&gt;Subsequently, there are various ways of cyberbullying, sending, posting or sharing negative, wrong information about anyone. These depraved activities to harass or defame someone makes the victim angry, sad, anxious, depressed and oftentimes suicidal which takes toll upon their mental health over years. Mostly, teenagers are either victims or perpetrators of cyberbullying. Their developing prefrontal cortex — a part of the brain which helps in making decisions and controlling impulses — often provokes them to take stupid decisions when poked even slightly. Ever Since we are in the middle of the pandemic, Gen Z’s are spending more time scrolling Instagram, Facebook, Snapchat for personal or educational purposes, internet hate has increased and so has cyberbullying.&lt;/p&gt;
 
