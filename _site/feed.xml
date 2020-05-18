@@ -5,8 +5,8 @@
     <description>Square</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 19 May 2020 01:53:35 +0530</pubDate>
-    <lastBuildDate>Tue, 19 May 2020 01:53:35 +0530</lastBuildDate>
+    <pubDate>Tue, 19 May 2020 02:16:24 +0530</pubDate>
+    <lastBuildDate>Tue, 19 May 2020 02:16:24 +0530</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -17,21 +17,25 @@
 
 &lt;p&gt;Aristotle, Euclid and many of the founding fathers of Mathematics did not consider one as a number. Why? They reasoned that the number is “multitude composed of units”. Under this definition, one is not a number but the seed for a number. And I used to feel I am a sufferer of FOMO. But this isn’t the end. In Contemporary world, when one is considered as a number there are other hustles. Historically, One has been on and off the hook of prime numbers list. With all the properties of being a prime, mathematicians suggested one does not preserve the uniqueness of the factorization. Finally, The fundamental theorem of arithmetic which states that “Every positive integer can be represented as the product of prime numbers.” suggested the world of mathematics to exclude one from the definition of prime.&lt;/p&gt;
 
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;6 = 2\times 3&lt;/script&gt;
-6 = 3\times 2
-6 = 1\times 2 \times 3
-6 = 1\times 1\times 2 \times 3&lt;/p&gt;
+&lt;p&gt;\[6 = 2\times 3\]
+\[6 = 3\times 2\]
+\[6 = 1\times 2 \times 3\]
+\[6 = 1\times 1\times 2 \times 3\]&lt;/p&gt;
 
-&lt;p&gt;One is the loneliest number you will ever do.&lt;/p&gt;
+&lt;p&gt;The first two are unique factorization but latter two aren’t.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;center&gt;One is the loneliest number you will ever do.&lt;/center&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;One might be the loneliest number but one was never the loser. It has overpowered the world of technology along with zero —  binary notation. No number can be formed without the approval of one. In Grandi’s series when one was added and subtracted infinitely to add up to 1/2, made one quite confused about its existence&lt;/p&gt;
 
-&lt;p&gt;S = 1-1+1-1+1-1+…
-1-S = 1 - (1-1+1-1…..) = S
-1-S = S
-S = 1/2&lt;/p&gt;
+&lt;p&gt;\[S = 1-1+1-1+1-1+…\]
+\[1-S = 1 - (1-1+1-1…..) = S\]
+\[1-S = S\]
+\[S = \frac{1}{2}\]&lt;/p&gt;
 
-&lt;p&gt;One might as well have its own problems, but it is ruling the world with peace. Next time you feel low or anxious or sad, think about the struggles of one — From not even getting considered as a number to being one.&lt;/p&gt;
+&lt;p&gt;“One” might as well have its own problems, but it is ruling the world with peace. Next time you feel low or anxious or sad, think about the struggles of one — From not even getting considered as a number to being one.&lt;/p&gt;
 </description>
         <pubDate>Mon, 18 May 2020 00:00:00 +0530</pubDate>
         <link>http://localhost:4000/2020/Being-One/</link>
