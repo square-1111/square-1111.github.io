@@ -5,9 +5,28 @@
     <description>Square</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 22 May 2020 02:12:12 +0530</pubDate>
-    <lastBuildDate>Fri, 22 May 2020 02:12:12 +0530</lastBuildDate>
+    <pubDate>Sat, 23 May 2020 01:52:36 +0530</pubDate>
+    <lastBuildDate>Sat, 23 May 2020 01:52:36 +0530</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Day 012, Cave Painting</title>
+        <description>&lt;p&gt;The Chauvet-Pont-d’Arc Caves, in Southeast France, are one of the most important prehistoric sites ever discovered. Although these artworks were designed 35000 years ago but the animals drawn on the cave are considered to be masterpieces.
+Caption : Rhinoceros Alcove in Chauvet-Pont-d’Arc Cave, France&lt;/p&gt;
+
+&lt;p&gt;Cave art depicting groups of rhinos, humans hunting boar and buffaloes, human-animal hybrid etc are nearly 44,000 years old, making it one of the earliest known cave paintings by humans. Cave Paintings are pictorial records of storytelling and figurative art. The seeds of artistic creativity were sown as early as 65,000 years ago by Neanderthals (subspecies of Archaic Human) in Spain. It flourished in Europe where it burst and came into full fledged view.&lt;/p&gt;
+
+&lt;p&gt;Most common subjects of these cave doodles were wild animals — bison, horses, auroch, deer, human figures and symbolic art. They were developed using organic and inorganic pigments — red and yellow ochre, hematite, manganese oxide, charcoal etc. To further accentuate the features of the animals, artists used natural contours of the walls. These symbolic and religious paintings are believed to be drawn by Shamans, who went deep inside the cave to perform ceremonial trance and drew their spirit animals. 
+These faded yet stark and evocative designs tell us about the distant past and provide us with the evidence of time. More precisely, it tells us about human evolution. Cave Painters weren’t just Picasso, drawing impressions on the walls. Rather, they had  high-level cognitive processing to develop a communication system. Moreover, these cave graffiti tells us about the features of animals of that time, extinct animals and animals who have emerged.&lt;/p&gt;
+
+&lt;p&gt;The motivation that drove cave artists might be a mystery but the treasure it possesses to the contemporary world is immense.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 22 May 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/2020/Cave-Painting/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Cave-Painting/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Day 011, Today: A Lazy Day</title>
@@ -17,7 +36,7 @@
 
 &lt;p&gt;Despite my chores, I decided to write my assignment. Wait a minute! Were there any tasks on schedule? Caught me! Nah there weren’t any. I had zero idea about the subject, but who needs it when I have gracious friends around me. With every page I wrote I wandered something bizarre — What if our eyes popped out from the socket abruptly? More ideas provoked as I finished the assignment. Next, I performed the dark art of fat loss and right after it, I had 3 rasgullas. Those rasgullas made me so sleepy that I dozed off for some more time.&lt;/p&gt;
 
-&lt;p&gt;Next thing I remember - I woke up for dinner and this made my mom think that I had smoked weed. While watching another episode of FRIENDS for the gazillionth time, I had dinner. Film rolled and I binged episode after episode of FRIENDS. 11:30 PM and I had not yet decided what to write about. That’s when my friend suggested writing about today. Finally, after such a tiring day, I gathered all my courage to post this.&lt;/p&gt;
+&lt;p&gt;Next thing I remember - I woke up for dinner and this made my mom think that I had smoked weed. While watching another episode of FRIENDS for the gazillionth time, I had dinner. Film rolled and I binged episode after episode of FRIENDS. &lt;strong&gt;11:30 PM&lt;/strong&gt; and I had not yet decided what to write about. That’s when my friend suggested writing about today. Finally, after such a tiring day, I gathered all my courage to post this.&lt;/p&gt;
 
 &lt;p&gt;It has been one really happy day but I might go insane if I follow it more often. Now, if you will please let me snore again.&lt;/p&gt;
 
@@ -244,32 +263,6 @@
         <pubDate>Wed, 13 May 2020 00:00:00 +0530</pubDate>
         <link>http://localhost:4000/2020/Are-We-Inside-simulation/</link>
         <guid isPermaLink="true">http://localhost:4000/2020/Are-We-Inside-simulation/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Day 002, Rubik's Cube</title>
-        <description>&lt;p&gt;“What’s that red, blue, yellow twisty toy am I fidgeting with? Rubik’s Cube? Those who know me know how gaga I am for Rubik’s Cube.”&lt;/p&gt;
-
-&lt;p&gt;Little did Hungarian Professor Erno Rubik know when he invented rubik’s cube from wooden blocks and paper clips that his invention would be so popular. It’s been a long time since I was first gifted with a Rubik’s Cube. My father gifted me one he bought from the Aligarh Exhibition when I was 12 or 13 years old. Like many school going kids I was enamored by the Rubik’s Cube but could barely even solve 1 layer. One day, in frustration, I broke the cube but later that day I joined those pieces together and that’s how I solved the cube for the first time but never touched it again. Up until freshman year at college where I bought a decent cube and again, I started the quest to figure out 1 of the 43 quintillion total possibilities without any help. Baffled, I was on the verge to break the cube when a cousin of mine told me the algorithm to solve it. Delhi wasn’t far, I learned to solve the cube in 2 days and within a week I memorized the basic algorithm and was able to solve it in less than 3 minutes. After a month of practice, my average speed was about a minute or so but I wasn’t satisfied by the algorithm and started to look for a faster alternative for speed cubing. I started to watch youtube tutorials endlessly and over some time my speed gradually improved.&lt;/p&gt;
-
-&lt;p&gt;As I was learning gradually, I wanted to feed my curiosity to solve different types of Rubik’s Cube. The 5X5X5 and Mirror cube were very similar to 3X3X3 where the centerpiece is directly connected to the scaffold which means the center won’t move. But in 4X4X4, also known as Rubik’s Revenge, there are no fixed centerpiece, this makes it more tricky. Axis Cube is a mod of 3X3X3 cube with unequal divisions, which means a scrambled Axis Cube won’t be cubical in shape. The main hustle with Axis Cube is to figure out center, edge and corner parts. And then comes Megaminx, a dodecahedron based puzzle similar to Rubik’s Cube with 50 separate pieces and 12 different colors.&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;/assets/images/rubiksCube.jpg&quot; height=&quot;80%&quot; width=&quot;80%&quot; /&gt;
-&lt;/center&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;The more I learned about it, the more I wanted to know about it. All the algorithms slowly became trivial when I started understanding the mathematics of Rubik’s Cube. I am always fascinated by how many secrets Rubik’s cube holds. Out of all these the most interesting is the God’s number which tells the maximum number of steps required to solve a Rubik’s Cube is 20 despite the configuration. It is called so because you have to be some kind of omniscient to figure out these moves. Out of 43 quintillion possibilities only 490 million (1.14*10&lt;sup&gt;-9&lt;/sup&gt; %) requires a maximum of 20 moves to solve it.&lt;/p&gt;
-
-&lt;p&gt;Besides, Rubiks Cube has added lots of positivity in my life. Sometimes, this simplistic yet complex toy acts as a de-stresser, providing a distraction from life. Other times, it challenges me to draw out more secrets. But it always satisfies my inner self.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&lt;center&gt;Next time you see a Rubik's Cube, grab it and try solving it. It's fun, it's meditative, it's amazing.&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 12 May 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/Rubiks-Cube/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/Rubiks-Cube/</guid>
         
         
       </item>
