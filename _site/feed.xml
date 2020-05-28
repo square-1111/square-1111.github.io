@@ -5,9 +5,34 @@
     <description>Square</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 27 May 2020 17:34:33 +0530</pubDate>
-    <lastBuildDate>Wed, 27 May 2020 17:34:33 +0530</lastBuildDate>
+    <pubDate>Fri, 29 May 2020 02:28:54 +0530</pubDate>
+    <lastBuildDate>Fri, 29 May 2020 02:28:54 +0530</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Day 017, P versus NP</title>
+        <description>&lt;p&gt;Programmers in the early days of computing started to solve problems using their cabinet size computers. Just like every solution initially, it used to be slow and then improved iteratively. But for some problems they cannot figure out a faster solution while a variety of problems have been proved to have no faster solution, like predicting the optimal move in chess. In order to handle the situation, researchers started sorting programs on how fast the program can solve the problem. Multiplication, Sorting have a faster program while for chess there is no faster program. But there were some problems which couldn’t be determined in which bucket they fell — finding prime numbers, travelling-salesman problem etc. This is where P and NP come in.&lt;/p&gt;
+
+&lt;p&gt;But how to figure out that the program is fast in general? Computer Scientists calculate the time for each step and add up. The catch is, they don’t answer this in minutes or seconds, instead they calculate it relative to the number of elements.&lt;/p&gt;
+
+&lt;p&gt;P class of problems are those which can be solved in polynomial time, or the set of problems whose solution time is proportional to polynomial. Obviously, an algorithm whose time is proportional to N&lt;sup&gt;3&lt;/sup&gt; is slower than N&lt;sup&gt;2&lt;/sup&gt; but this is insignificant when compared to another distinction — the complexity of algorithms where a number is raised to the Nth power, like, 2&lt;sup&gt;N&lt;/sup&gt;. And this discrepancy gets much, much worse as N grows.&lt;/p&gt;
+
+&lt;p&gt;NP — Nondeterministic Polynomial time — is a problem whose solution can be verified in polynomial time. But many of these problems take exponential times to get solved. So what’s the deal with P equal NP? It means if the solution to a problem can be verified in polynomial time, can it be found in polynomial time? Frequently called the most important problem in the computer science domain, P vs NP is one of the 7 problems for which the Clay Mathematics Institute will give you million dollars to (dis)prove.&lt;/p&gt;
+
+&lt;p&gt;Did you ponder? There is no specific problem but there are multiple problems in this class. What does that mean? In early 70’s complexity researchers realised that a dozen NP problems they were struggling with are essentially the same but with some polynomial time constraints. You just need to prove one of the problems to make the entire NP set lie inside the P class set. As hard as it is to prove this problem, proving any problem in itself is a NP problem.&lt;/p&gt;
+
+&lt;p&gt;What makes it so important? 
+The excitement to solve this problem is as vivid as the applications it can solve. A lot of the puzzles we are trying to figure out will become easier — the protein folding problem, drug for cancer. We can develop an accurate financial forecasting model,  figure out the optimal arrangement of transistors on a silicon chip and the banking system might collapse as encryptions will become easier to crack.  As &lt;strong&gt;Scott Aaronson&lt;/strong&gt; said,&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;center&gt;”If P=NP, then the world would be a profoundly different place than we usually assume it to be. There would be no special value in “creative leaps,” no fundamental gap between solving a problem and recognizing the solution once it's found. Everyone who could appreciate a symphony would be Mozart; everyone who could follow a step-by-step argument would be Gauss; everyone who could recognize a good investment strategy would be Warren Buffett.“&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 27 May 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/2020/P-NP/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/P-NP/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Day 016, Robin: A quintessential Sidekick</title>
@@ -231,34 +256,6 @@ These faded yet stark and evocative designs tell us about the distant past and p
         <pubDate>Mon, 18 May 2020 00:00:00 +0530</pubDate>
         <link>http://localhost:4000/2020/Being-One/</link>
         <guid isPermaLink="true">http://localhost:4000/2020/Being-One/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Day 007, Cyberbullying</title>
-        <description>&lt;p&gt;Bullying is someone using their power to hurt someone physically, mentally or socially, it is much more worse than being mean. But with technologies in hand you don’t need to be powerful to harass anyone — And I present to you Cyberbullying.&lt;/p&gt;
-
-&lt;p&gt;Subsequently, there are various ways of cyberbullying, sending, posting or sharing negative, wrong information about anyone. These depraved activities to harass or defame someone makes the victim angry, sad, anxious, depressed and oftentimes suicidal which takes toll upon their mental health over years. Mostly, teenagers are either victims or perpetrators of cyberbullying. Their developing prefrontal cortex — a part of the brain which helps in making decisions and controlling impulses — often provokes them to take stupid decisions when poked even slightly. Ever Since we are in the middle of the pandemic, Gen Z’s are spending more time scrolling Instagram, Facebook, Snapchat for personal or educational purposes, internet hate has increased and so has cyberbullying.&lt;/p&gt;
-
-&lt;p&gt;It could happen anytime, anywhere leaving the victim with no place to feel safe. Victims are tormented by the hate they get through messages or through the hate page solely dedicated to trashing a person. Yes, you read it correct, purposely built HATE PAGES. With the anonymity features of social media platforms the picture has become scarier, the sufferers do not know who is organizing the attacks. Presence of these toxicities makes me feel queasy.&lt;/p&gt;
-
-&lt;p&gt;Cyberbullying is more pernicious when it comes to children who do not have the resilience to deal hatred like an adult. Just because it takes place over the internet and does not have physical threat parents generally ignore it. This leaves the victim in a timid spot. This is why 9 out of 10 of the cyberbullied do not tell their guardians about it.&lt;/p&gt;
-
-&lt;p&gt;Social media platforms are trying to curb floods of toxic, extreme content and misinformation. Instagram, which has the most number of young audiences, is using machine learning algorithms to detect cyberbullying in photos and captions. Parents should start to talk to their kids about cyberbullying. Products like “&lt;a href=&quot;www.rethinkwords.com&quot;&gt;ReThink&lt;/a&gt;” are developing solutions to stop cyberbullying before the damage is done.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Research shows that when adolescents are alerted to rethink their decision, they change their minds 93% of the time. Using ReThink™, the overall willingness of an adolescent to post an offensive message reduced from 71% to 4%.&lt;br /&gt;
-— Trisha Prabhu, Inventer ReThink&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Cyberbullying is as heinous a crime. Awareness is the key to prevent from getting harassed online. Children should be made aware about the consequences of sharing personal information on the internet. It cannot be stopped until everyone takes responsibility to report any of such behaviour.&lt;br /&gt;
-&lt;em&gt;&lt;center&gt;”Stop ignoring cyberbullying. Let’s make internet a better place!”&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Sun, 17 May 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/Cyberbullying/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/Cyberbullying/</guid>
         
         
       </item>
