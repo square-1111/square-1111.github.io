@@ -5,9 +5,35 @@
     <description>Square</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 01 Jun 2020 01:07:49 +0530</pubDate>
-    <lastBuildDate>Mon, 01 Jun 2020 01:07:49 +0530</lastBuildDate>
+    <pubDate>Mon, 01 Jun 2020 21:04:40 +0530</pubDate>
+    <lastBuildDate>Mon, 01 Jun 2020 21:04:40 +0530</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Day 019, Portal Paradox</title>
+        <description>&lt;p&gt;&lt;sub&gt;&lt;sup&gt;asdasd&lt;/sup&gt;&lt;/sub&gt;&lt;/p&gt;
+
+&lt;p&gt;Portal is a hilariously mind-bending game which challenges you to use brains over weapons in a diabolical world of Aperture Science Facility. A young woman, Chell, is forced to solve tests designed by psychopath AI, GLaDOS, using a portal gun with a promise to receive a cake when she solves the puzzle. The player can create portals on ceiling, floor, or wall and move through them instantaneously.&lt;/p&gt;
+
+&lt;p&gt;Objects in the game, or player themself can pass instantaneously from one end of the portal to another. An object entering one end of the portal at a certain speed leaves the other end at the same speed. The direction of the object leaving the portal depends on the orientation of the other end of the portal. This leads to a paradox — if one end of the portal moves toward the object: does the stationary object simply come out of the portal with zero speed or the object shoots out of the portal with corresponding relative speed?&lt;/p&gt;
+
+&lt;p&gt;Obviously, these types of portal do not exist in real life but if they did and obeyed the laws of physics then the question reduces to: if an object has to enter and exit the portal at the same speed then what’s that speed relative to? Velocity is governed in relation to some other object, there is no absolute zero velocity point. This leads us to two options. First, when the object passes through the portal it maintains the same speed relative to the environment though direction may change. Second, the speed of an object, while exiting, is the same as the speed of the portal through which it enters. Another possibility is, the object’s velocity is measured relative to the exit end of the portal. Although the last possibility is quite vague.&lt;/p&gt;
+
+&lt;p&gt;First option which suggests the object remains stationary when entering and exiting the portal seems invalid, because how could a stationary object remain stationary while leaving the portal. The object would have to move. There is a way this option might work, as the cross-section of the object passes through the portal then while exiting, the particles will pile up at the portal as 2D cross-section of the object ensures zero velocity. Moreso, in order to retain the shape and topology of the object the exit portal will act as a wall and the entry portal will bounce off the object prohibiting the exit.&lt;/p&gt;
+
+&lt;p&gt;Second option seems more reasonable — velocity of the object is measured relative to the individual ends of the portal. This would be roughly what we expect if the portals are connected to each other through a wormhole then the object would obey the Law of Conservation of Momentum in curved spacetime.&lt;/p&gt;
+
+&lt;p&gt;Physics point of view suggests that the second option is logical while the designer of the game has opted to otherwise because they are easier to program. Since it is fictional, it’s up to you to decide which approach you would like to follow — the physicists or the programmers.&lt;/p&gt;
+
+&lt;p&gt;As we look more into it, we bump into more possibilities and numerous questions pop up.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 29 May 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/2020/Portal-Paradox/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Portal-Paradox/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Day 018, Stages of Grief</title>
@@ -228,33 +254,6 @@ These faded yet stark and evocative designs tell us about the distant past and p
         <pubDate>Wed, 20 May 2020 00:00:00 +0530</pubDate>
         <link>http://localhost:4000/2020/Battle-of-laziest/</link>
         <guid isPermaLink="true">http://localhost:4000/2020/Battle-of-laziest/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Day 009, Dark Matter and Dark Energy : the holding forces</title>
-        <description>&lt;p&gt;Ever Since the Big Bang, our Universe is expanding and reaching new feat. If gravity was playing its role, the universe would have collapsed. Also, gravity cannot explain the high rotation speed of the galaxies. Either the gravity behaves in an odd fashion or there might be some matter in the Universe that holds everything together while the Universe is expanding. Indeed there exists a substance termed as Dark Matter. Dark matter is the most mysterious yet ubiquitous substance in the Universe. Our Universe has around 68% dark energy, 37% Dark Matter. The rest 5% is everything on Earth, everything ever observed by instruments and all normal material.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I feel so tiny.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Unlike the 5 basic elements — Space, Air, Fire, Water, and Earth — of the material world, Dark Matter could not be seen, felt, smelt or tasted. In fact, It does not even interact with electromagnetic waves. This means it does not absorb, reflect or emit light, making it more difficult to spot. Researchers have seen some potential interaction with gravitational forces. What is it? As of now, we know more about what it isn’t than what it is. Dark Matter isn’t anti matter, otherwise it would have produced gamma rays when annihilated with normal matter. Neither is it a black hole, or failed stars or clouds of gas or anything else that can be made from normal matter.&lt;/p&gt;
-
-&lt;p&gt;Organizations are trying to figure out its presence to understand more about the Universe. Scientists have installed sensitive sensors under the Earth to see if Dark Matter interacts with classical elements. Similarly, Satellites, through a special Gamma Ray Telescope, traces the energy imprints of dark matter collision. Moreover, at CERN, researches are smashing normal particles together inside the Large Hadron Collider just to check if there is subsequent change in the property of the material inside. Although the results aren’t successful, we understand more about it.&lt;/p&gt;
-
-&lt;p&gt;There are several theories explaining dark matter. Albert Einstein first explained it as the property of the space, suggesting empty space is not nothing. Later, in one version of Einstein’s gravity theory, he proposed a cosmological constant. Through cosmological constant, he predicted that “empty space” can possess its own energy and would not be diluted. As more space comes, more energy will be generated. This defines the ever expanding nature of the Universe. No one actually understood why cosmological constant is even there. Another theory, derived from Quantum theory of matter, proposed that empty space is made of virtual particles that continually form and disappear. But using this theory, when the energy of dark matter was calculated, it was wrong by an order of 10&lt;sup&gt;120&lt;/sup&gt;. There are other incomplete theories which, at the end, lead to nothing. So, the mystery remains unrevealed.&lt;/p&gt;
-
-&lt;p&gt;Dark Matter is a mystery that we want to understand. Demystifying it would be a key to a whole new understanding of physics.&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Dark Matter matters!&lt;/p&gt;
-&lt;/blockquote&gt;
-
-</description>
-        <pubDate>Tue, 19 May 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/Dark-Matter-and-Dark-energy/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/Dark-Matter-and-Dark-energy/</guid>
         
         
       </item>
