@@ -3,11 +3,31 @@
   <channel>
     <title></title>
     <description>Square</description>
-    <link>https://square-1111.github.io/</link>
-    <atom:link href="https://square-1111.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 03 Jun 2020 16:22:35 +0530</pubDate>
-    <lastBuildDate>Wed, 03 Jun 2020 16:22:35 +0530</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 04 Jun 2020 22:20:03 +0530</pubDate>
+    <lastBuildDate>Thu, 04 Jun 2020 22:20:03 +0530</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Day 021, Why Socrates hated democracy?</title>
+        <description>&lt;p&gt;Ancient Greece was not even a cohesive empire, it was made up of many city states, led by Athens and Sparta. Despite its fragmentation, it has made innumerous contributions to civilization. Contribution in Mathematics, Medical Science, Astronomy out of which the most prevalent is in Philosophy. Amongst the famous philosophers was Socrates, who lived in the times when democracy was flourishing in Athens. But he was skeptical about the business of democracy.&lt;/p&gt;
+
+&lt;p&gt;His pessimistic behaviour towards unfettered and pure democracy is described in Plato’s sixth book of &lt;em&gt;The Republic&lt;/em&gt;. Plato dialogued the conversation between Socrates and Adeimantus where Socrates was telling the flaws of democracy by comparing it to a ship. Socrates asked, if you are heading out on a journey in a ship, who would you like to be leading the ship? Just anyone or educated people who fit the role? Adeimantus said the latter of course. In response, Socrates asked why do we keep thinking that any old person should be fit to choose the ruler of the country?&lt;/p&gt;
+
+&lt;p&gt;Socrates pointed out voting in an election is a skill, not a random intuition. People must be taught about it systematically like any other skill. Socrates suggested just like maneuvering the ship in a storm, selecting a ruler for the country requires expertise. He was never against the idea everyone should vote. Instead he was worried if the people are educated enough to make this type of decision? Maybe they can be manipulated by the demagogue.&lt;/p&gt;
+
+&lt;p&gt;Socrates knew how easy, people running for election could exploit our desires for easy answers. He asked us to imagine an election between two candidates, one similar to a sweet shop owner and other similar to a doctor. Candidate similar to a sweetshop owner says about his rival, he gives you injection, asks you to eat bitter medicines and tells you to eat and drink, but I will give you sweets and candies and ice creams. In response, the doctor did not have much to say but wanted to help the society. This caused an uproar amongst the voters. Ever Since, we have elected many sweet shop owners and very few doctors.&lt;/p&gt;
+
+&lt;p&gt;Socrates insisted that only people who think rationally and deeply about the issues should be allowed to vote. But as President Abraham Lincoln defined democracy as “Government of the people, by the people, for the people” are we electing more sweet shop owners or a ruler who wants to make the world a better place. Is it democracy or demagoguery?&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 31 May 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/2020/Socrates-And-Democracy/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Socrates-And-Democracy/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Day 020, Dreams</title>
@@ -23,8 +43,8 @@
 
 </description>
         <pubDate>Sat, 30 May 2020 00:00:00 +0530</pubDate>
-        <link>https://square-1111.github.io/2020/Dreams/</link>
-        <guid isPermaLink="true">https://square-1111.github.io/2020/Dreams/</guid>
+        <link>http://localhost:4000/2020/Dreams/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Dreams/</guid>
         
         
       </item>
@@ -49,8 +69,8 @@
 
 </description>
         <pubDate>Fri, 29 May 2020 00:00:00 +0530</pubDate>
-        <link>https://square-1111.github.io/2020/Portal-Paradox/</link>
-        <guid isPermaLink="true">https://square-1111.github.io/2020/Portal-Paradox/</guid>
+        <link>http://localhost:4000/2020/Portal-Paradox/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Portal-Paradox/</guid>
         
         
       </item>
@@ -83,8 +103,8 @@
 &lt;em&gt;&lt;center&gt;As Long As There Is Life, There Is Hope. As Long As There Is Hope, There Is Life.&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 28 May 2020 00:00:00 +0530</pubDate>
-        <link>https://square-1111.github.io/2020/Stages-of-grief/</link>
-        <guid isPermaLink="true">https://square-1111.github.io/2020/Stages-of-grief/</guid>
+        <link>http://localhost:4000/2020/Stages-of-grief/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Stages-of-grief/</guid>
         
         
       </item>
@@ -108,8 +128,8 @@ The excitement to solve this problem is as vivid as the applications it can solv
 
 </description>
         <pubDate>Wed, 27 May 2020 00:00:00 +0530</pubDate>
-        <link>https://square-1111.github.io/2020/P-NP/</link>
-        <guid isPermaLink="true">https://square-1111.github.io/2020/P-NP/</guid>
+        <link>http://localhost:4000/2020/P-NP/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/P-NP/</guid>
         
         
       </item>
@@ -128,8 +148,8 @@ The excitement to solve this problem is as vivid as the applications it can solv
 
 </description>
         <pubDate>Tue, 26 May 2020 00:00:00 +0530</pubDate>
-        <link>https://square-1111.github.io/2020/Robin/</link>
-        <guid isPermaLink="true">https://square-1111.github.io/2020/Robin/</guid>
+        <link>http://localhost:4000/2020/Robin/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Robin/</guid>
         
         
       </item>
@@ -147,8 +167,8 @@ The excitement to solve this problem is as vivid as the applications it can solv
 &lt;p&gt;Tour de France isn’t about the strongest rider but one who endures the most pain, physically and mentally,  and ultimately has what it takes to conquer the mountains.&lt;/p&gt;
 </description>
         <pubDate>Mon, 25 May 2020 00:00:00 +0530</pubDate>
-        <link>https://square-1111.github.io/2020/Tour-de-France/</link>
-        <guid isPermaLink="true">https://square-1111.github.io/2020/Tour-de-France/</guid>
+        <link>http://localhost:4000/2020/Tour-de-France/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Tour-de-France/</guid>
         
         
       </item>
@@ -177,8 +197,8 @@ The excitement to solve this problem is as vivid as the applications it can solv
 
 </description>
         <pubDate>Sun, 24 May 2020 00:00:00 +0530</pubDate>
-        <link>https://square-1111.github.io/2020/Cult-of-Q/</link>
-        <guid isPermaLink="true">https://square-1111.github.io/2020/Cult-of-Q/</guid>
+        <link>http://localhost:4000/2020/Cult-of-Q/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Cult-of-Q/</guid>
         
         
       </item>
@@ -200,8 +220,8 @@ Woodpeckers spiral through the tree trunks in search of insects. They peck at up
 
 </description>
         <pubDate>Sat, 23 May 2020 00:00:00 +0530</pubDate>
-        <link>https://square-1111.github.io/2020/Birdie-Study/</link>
-        <guid isPermaLink="true">https://square-1111.github.io/2020/Birdie-Study/</guid>
+        <link>http://localhost:4000/2020/Birdie-Study/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Birdie-Study/</guid>
         
         
       </item>
@@ -223,30 +243,8 @@ These faded yet stark and evocative designs tell us about the distant past and p
 &lt;p&gt;The motivation that drove cave artists might be a mystery but the treasure it possesses to the contemporary world is immense.&lt;/p&gt;
 </description>
         <pubDate>Fri, 22 May 2020 00:00:00 +0530</pubDate>
-        <link>https://square-1111.github.io/2020/Cave-Painting/</link>
-        <guid isPermaLink="true">https://square-1111.github.io/2020/Cave-Painting/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Day 011, Today: A Lazy Day</title>
-        <description>&lt;p&gt;After my &lt;a href=&quot;https://square-1111.github.io/2020/Battle-of-laziest/&quot;&gt;previous post&lt;/a&gt; on laziness, I decided to take a day off, Because - Why not? And believe me, it was a great day.&lt;/p&gt;
-
-&lt;p&gt;It was 10 o’clock in the morning when I snoozed my alarm for the last time, not because I didn’t want to sleep more but ma had different plans. She loves me so much that she came with a rolling pin (belan). I got overwhelmed by her love and woke up. I was about to step down from the bed, a thought popped “Today is a lazy day, Why don’t you stew in your filth for some more time” and it was a life changing decision. Lazily I picked up my phone and scrolled the devils plunger — Reddit for an hour. Bored! I slept for another hour. Waking up, I gathered some strength to get my laptop which was 3 ft away resting on the table. I consumed some of the weirdest content on YouTube. Finally, I decided to leave the bed after receiving Google Classroom’s notification. Assignment! Uh Huh, I also second it.&lt;/p&gt;
-
-&lt;p&gt;Despite my chores, I decided to write my assignment. Wait a minute! Were there any tasks on schedule? Caught me! Nah there weren’t any. I had zero idea about the subject, but who needs it when I have gracious friends around me. With every page I wrote I wandered something bizarre — What if our eyes popped out from the socket abruptly? More ideas provoked as I finished the assignment. Next, I performed the dark art of fat loss and right after it, I had 3 rasgullas. Those rasgullas made me so sleepy that I dozed off for some more time.&lt;/p&gt;
-
-&lt;p&gt;Next thing I remember - I woke up for dinner and this made my mom think that I had smoked weed. While watching another episode of FRIENDS for the gazillionth time, I had dinner. Film rolled and I binged episode after episode of FRIENDS. &lt;strong&gt;11:30 PM&lt;/strong&gt; and I had not yet decided what to write about. That’s when my friend suggested writing about today. Finally, after such a tiring day, I gathered all my courage to post this.&lt;/p&gt;
-
-&lt;p&gt;It has been one really happy day but I might go insane if I follow it more often. Now, if you will please let me snore again.&lt;/p&gt;
-
-&lt;p&gt;Good Bye. Peace out.&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 21 May 2020 00:00:00 +0530</pubDate>
-        <link>https://square-1111.github.io/2020/Lazy-day/</link>
-        <guid isPermaLink="true">https://square-1111.github.io/2020/Lazy-day/</guid>
+        <link>http://localhost:4000/2020/Cave-Painting/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Cave-Painting/</guid>
         
         
       </item>
