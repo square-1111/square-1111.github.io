@@ -3,11 +3,31 @@
   <channel>
     <title></title>
     <description>Square</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 04 Jun 2020 23:32:53 +0530</pubDate>
-    <lastBuildDate>Thu, 04 Jun 2020 23:32:53 +0530</lastBuildDate>
+    <link>https://square-1111.github.io/</link>
+    <atom:link href="https://square-1111.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 06 Jun 2020 04:27:02 +0530</pubDate>
+    <lastBuildDate>Sat, 06 Jun 2020 04:27:02 +0530</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Day 022, Pi</title>
+        <description>&lt;p&gt;&lt;em&gt;&lt;center&gt;“3.1415926535… help I am trapped”&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Let’s visit the number land once again — this time for non-other than Pi. It is a celebrity number, defined as the ratio of simplest shape, circle, to its diameter. Tech giants compete to calculate the maximum number of digits of Pi. There are competitions of Pi digit memorization. Isn’t it insane that the world record for Pi digits memorization is 100,000? As beautiful as it may sound, uglier it is, the infinite and non-repeating property of Pi, simply leads to mess and madness and chaos. But being transcendental and irrational, isn’t it boring. There are various numbers like these.&lt;/p&gt;
+
+&lt;p&gt;So, what makes Pi so iconic? Pi is omnipotent. It existed even prior to The Big Bang. The meandering ratio of the river to the orbits of satellites. It’s not just about circles, Pi helps us understand curves, periodic and oscillating systems. It is used in electromagnetics and music as well. In statistics it is used to measure the area under the bell curve.&lt;/p&gt;
+
+&lt;p&gt;Despite all its application, Pi is so devoid of patterns that it passes every randomness test with flying colors. It is not only random, but that any string of them occurs just as much as any other of the same length. This means if we encode Pi in base 26, representing each number as alphabets then we can find all of the work of Shakespeare. It would be merely absurd to question at which decimal position. Doesn’t it amuse you, that such an elementary formula gives rise to such a plethora of information? Moreover, Pi opens up the window for transcendental numbers. Most of the numbers on the number line are transcendental, and we have rarely visited that road. This imposes how limited human knowledge is.&lt;/p&gt;
+
+&lt;p&gt;But how do we calculate Pi? We can’t tell the exact value of Pi but only approximate. The first recorded algorithm to rigorously calculate Pi was Polygon Approximation. Mathematicians inscribed and circumscribed the polygon around a unit circle and thereby calculated the perimeter of both the hugging polygons to find the lower and upper bound of the Pi. Later, this was revolutionized by converging infinite sums. Now in the age of technology, we can calculate the value of Pi with an accuracy within 0.04 % through iterative algorithms. What if we calculate the exact value of Pi, will it be a breakthrough or will it be just another day, who knows? Until then enjoy the chaos of Pi.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 01 Jun 2020 00:00:00 +0530</pubDate>
+        <link>https://square-1111.github.io/2020/Pi/</link>
+        <guid isPermaLink="true">https://square-1111.github.io/2020/Pi/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Day 021, Why Socrates hated democracy?</title>
@@ -23,8 +43,8 @@
 
 </description>
         <pubDate>Sun, 31 May 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/Socrates-And-Democracy/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/Socrates-And-Democracy/</guid>
+        <link>https://square-1111.github.io/2020/Socrates-And-Democracy/</link>
+        <guid isPermaLink="true">https://square-1111.github.io/2020/Socrates-And-Democracy/</guid>
         
         
       </item>
@@ -43,8 +63,8 @@
 
 </description>
         <pubDate>Sat, 30 May 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/Dreams/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/Dreams/</guid>
+        <link>https://square-1111.github.io/2020/Dreams/</link>
+        <guid isPermaLink="true">https://square-1111.github.io/2020/Dreams/</guid>
         
         
       </item>
@@ -69,8 +89,8 @@
 
 </description>
         <pubDate>Fri, 29 May 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/Portal-Paradox/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/Portal-Paradox/</guid>
+        <link>https://square-1111.github.io/2020/Portal-Paradox/</link>
+        <guid isPermaLink="true">https://square-1111.github.io/2020/Portal-Paradox/</guid>
         
         
       </item>
@@ -103,8 +123,8 @@
 &lt;em&gt;&lt;center&gt;As Long As There Is Life, There Is Hope. As Long As There Is Hope, There Is Life.&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 28 May 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/Stages-of-grief/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/Stages-of-grief/</guid>
+        <link>https://square-1111.github.io/2020/Stages-of-grief/</link>
+        <guid isPermaLink="true">https://square-1111.github.io/2020/Stages-of-grief/</guid>
         
         
       </item>
@@ -128,8 +148,8 @@ The excitement to solve this problem is as vivid as the applications it can solv
 
 </description>
         <pubDate>Wed, 27 May 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/P-NP/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/P-NP/</guid>
+        <link>https://square-1111.github.io/2020/P-NP/</link>
+        <guid isPermaLink="true">https://square-1111.github.io/2020/P-NP/</guid>
         
         
       </item>
@@ -148,8 +168,8 @@ The excitement to solve this problem is as vivid as the applications it can solv
 
 </description>
         <pubDate>Tue, 26 May 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/Robin/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/Robin/</guid>
+        <link>https://square-1111.github.io/2020/Robin/</link>
+        <guid isPermaLink="true">https://square-1111.github.io/2020/Robin/</guid>
         
         
       </item>
@@ -167,8 +187,8 @@ The excitement to solve this problem is as vivid as the applications it can solv
 &lt;p&gt;Tour de France isn’t about the strongest rider but one who endures the most pain, physically and mentally,  and ultimately has what it takes to conquer the mountains.&lt;/p&gt;
 </description>
         <pubDate>Mon, 25 May 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/Tour-de-France/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/Tour-de-France/</guid>
+        <link>https://square-1111.github.io/2020/Tour-de-France/</link>
+        <guid isPermaLink="true">https://square-1111.github.io/2020/Tour-de-France/</guid>
         
         
       </item>
@@ -197,8 +217,8 @@ The excitement to solve this problem is as vivid as the applications it can solv
 
 </description>
         <pubDate>Sun, 24 May 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/Cult-of-Q/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/Cult-of-Q/</guid>
+        <link>https://square-1111.github.io/2020/Cult-of-Q/</link>
+        <guid isPermaLink="true">https://square-1111.github.io/2020/Cult-of-Q/</guid>
         
         
       </item>
@@ -220,31 +240,8 @@ Woodpeckers spiral through the tree trunks in search of insects. They peck at up
 
 </description>
         <pubDate>Sat, 23 May 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/Birdie-Study/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/Birdie-Study/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Day 012, Cave Painting</title>
-        <description>&lt;p&gt;The Chauvet-Pont-d’Arc Caves, in Southeast France, are one of the most important prehistoric sites ever discovered. Although these artworks were designed 35000 years ago but the animals drawn on the cave are considered to be masterpieces.
-&lt;br /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;img src=&quot;/assets/images/cavePainting.jpg&quot; height=&quot;80%&quot; width=&quot;80%&quot; /&gt;
-&lt;/center&gt;
-&lt;center&gt;&lt;sub&gt;&lt;sup&gt;Rhinoceros Alcove in Chauvet-Pont-d’Arc Cave, France&lt;/sup&gt;&lt;/sub&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Cave art depicting groups of rhinos, humans hunting boar and buffaloes, human-animal hybrid etc are nearly 44,000 years old, making it one of the earliest known cave paintings by humans. Cave Paintings are pictorial records of storytelling and figurative art. The seeds of artistic creativity were sown as early as 65,000 years ago by Neanderthals (subspecies of Archaic Human) in Spain. It flourished in Europe where it burst and came into full fledged view.&lt;/p&gt;
-
-&lt;p&gt;Most common subjects of these cave doodles were wild animals — bison, horses, auroch, deer, human figures and symbolic art. They were developed using organic and inorganic pigments — red and yellow ochre, hematite, manganese oxide, charcoal etc. To further accentuate the features of the animals, artists used natural contours of the walls. These symbolic and religious paintings are believed to be drawn by Shamans, who went deep inside the cave to perform ceremonial trance and drew their spirit animals. 
-These faded yet stark and evocative designs tell us about the distant past and provide us with the evidence of time. More precisely, it tells us about human evolution. Cave Painters weren’t just Picasso, drawing impressions on the walls. Rather, they had  high-level cognitive processing to develop a communication system. Moreover, these cave graffiti tells us about the features of animals of that time, extinct animals and animals who have emerged.&lt;/p&gt;
-
-&lt;p&gt;The motivation that drove cave artists might be a mystery but the treasure it possesses to the contemporary world is immense.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 22 May 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/Cave-Painting/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/Cave-Painting/</guid>
+        <link>https://square-1111.github.io/2020/Birdie-Study/</link>
+        <guid isPermaLink="true">https://square-1111.github.io/2020/Birdie-Study/</guid>
         
         
       </item>
