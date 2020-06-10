@@ -5,9 +5,27 @@
     <description>Square</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 11 Jun 2020 01:00:11 +0530</pubDate>
-    <lastBuildDate>Thu, 11 Jun 2020 01:00:11 +0530</lastBuildDate>
+    <pubDate>Thu, 11 Jun 2020 02:07:32 +0530</pubDate>
+    <lastBuildDate>Thu, 11 Jun 2020 02:07:32 +0530</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Day 026, </title>
+        <description>&lt;p&gt;The innovation of moving frames was invented by Lumière Brothers and today we are in the age of Netflix, Disney+, Hotstar etc. The technology of cinema has evolved. Things changed from the black and white moving images to hours of UltraHD video footage with binaural noise to movies that have a whole lot of visual effects to movies made of computer-generated images. In terms of technology, first came the television age, then a lot of private channels which brought in a lot more entertainment, then came the era of CDs and DVDs and finally the advent of broadband gave way to Over-the-top media services and now we can stream the movie that we want, the show that we want, the documentary that we want anytime, anywhere.&lt;/p&gt;
+
+&lt;p&gt;The streaming revolution is here — the next great leap in how the world gets its entertainment is here.  With thousands of hours of content on OTT platforms, this age can be termed as the golden age of OTT. OTTs are doing more than evolving the TV format; OTT is growing, both for consumers and advertisers. For consumers, the accessibility of the content on multiple screens anytime and anywhere makes it more engaging. And advertisers can show personalized advertisements. Also, OTT platforms often help in the production of numerous movies, shows and documentaries.&lt;/p&gt;
+
+&lt;p&gt;With the boom in network technologies and internet speed, people have started to consume more content. Customers are slowly cutting off their cable connection and switching to OTT platforms. OTTs provide the consumer to view specified content despite Television. The subscription-based media consumption provides an abundance of particular media streams through one channel while television provides a plethora of channels to view but a limited number of options of a particular genre.&lt;/p&gt;
+
+&lt;p&gt;The OTTs are evolving as well. With every new feature they add to their platform, other platforms try to incorporate it to make more monetary benefits. In the fiscal year 2019, OTT platforms in India had a market value of ₹3500 crores and slowly the market is expanding. We don’t know what the future of streaming looks like but we surely know it will provide a diversity of streams on a given platform.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 05 Jun 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/2020/OTTs/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/OTTs/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Day 025, N-Queen Problem </title>
@@ -212,26 +230,6 @@ The excitement to solve this problem is as vivid as the applications it can solv
         <pubDate>Wed, 27 May 2020 00:00:00 +0530</pubDate>
         <link>http://localhost:4000/2020/P-NP/</link>
         <guid isPermaLink="true">http://localhost:4000/2020/P-NP/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Day 016, Robin: A quintessential Sidekick</title>
-        <description>&lt;p&gt;80 years ago, Robin — the most iconic sidekick, was born. Quirky, witty, comical, bold and badass — this  “Boy Wonder” has risked its life innumerous times while entertaining us. While Bruce Wayne has worn Batman’s cape, there have been many characters behind Robin’s Mask.&lt;/p&gt;
-
-&lt;p&gt;Richard John “Dick” Grayson or Robin was debuted in Detective Comics #38, 1940. After the cold-blooded murder of Robin’s parents, by Tony Zucco in order to extort money from the circus that employed them, Robin vowed to take revenge. Witnessing this, Bruce Wayne, a wealthy American playboy, philanthropist by day and vigilante by night, took Robin in and channelized his anger. Batman taught him martial art and trained him as his alter ego to become a crime fighting master. Dick’s successor Jason Todd shared a similar story but due to his negative reception, he was killed, at the hands of Joker, in DC #408 and during the “A death of the Family” storyline. In 2005, he was resurrected as vengeful Red Hood and became a ruthless antihero who clashed with Batman.&lt;/p&gt;
-
-&lt;p&gt;Next, Carrie Kelly appeared in Batman: The Dark Knight Returns (1986) which made her the most popular Robin till time. In 1989, Tim Drake, a teen with excellent hacking and technical skill, was trained to become Robin. Stephanie Brown, daughter of villainous Cluemaster, became the first female Robin in mainstream DC continuity in Robin no. 126, who later assumed the role of Batgirl. Lastly, Damian Wayne, son of Talia and Batman fitted into the mantle of Robin. Trained by League of Assassin, when Damian met his father he started to fight for the cause.&lt;/p&gt;
-
-&lt;p&gt;With a colorful attire of red, green and yellow tunic, scaly speedos and pixie boots, Robin was inseparable from Batman forming a dynamic duo.  Moreover, Robin is Batman’s best friend and provided him with a family when no one was there. With endless puns, he lightened the dark theme of the comics.  Dick prevented Batman from going too far and reminded him why he chose to fight. Jason mirrored Batman’s own rage, giving him the glimpse of what could have happened if his principles weren’t crude. Tim mirrored Batman’s need for justice while Stephanie showed him how intense his recklessness is. Damian, his own son, has shown him there is a future to the idea despite how bleak the chances are.&lt;/p&gt;
-
-&lt;p&gt;Robins have left a lasting impression on the audience with its comic sense. As the comics grew, each Robin taught Batman something — becoming a perfect sidekick. The legacy of Robin will continue to expand in a positive direction.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 26 May 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/Robin/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/Robin/</guid>
         
         
       </item>
