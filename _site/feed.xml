@@ -3,14 +3,14 @@
   <channel>
     <title></title>
     <description>Square</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 11 Jun 2020 02:07:32 +0530</pubDate>
-    <lastBuildDate>Thu, 11 Jun 2020 02:07:32 +0530</lastBuildDate>
+    <link>https://square-1111.github.io/</link>
+    <atom:link href="https://square-1111.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 11 Jun 2020 02:18:54 +0530</pubDate>
+    <lastBuildDate>Thu, 11 Jun 2020 02:18:54 +0530</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
-        <title>Day 026, </title>
+        <title>Day 026, Over-the-top (OTT) media services</title>
         <description>&lt;p&gt;The innovation of moving frames was invented by Lumière Brothers and today we are in the age of Netflix, Disney+, Hotstar etc. The technology of cinema has evolved. Things changed from the black and white moving images to hours of UltraHD video footage with binaural noise to movies that have a whole lot of visual effects to movies made of computer-generated images. In terms of technology, first came the television age, then a lot of private channels which brought in a lot more entertainment, then came the era of CDs and DVDs and finally the advent of broadband gave way to Over-the-top media services and now we can stream the movie that we want, the show that we want, the documentary that we want anytime, anywhere.&lt;/p&gt;
 
 &lt;p&gt;The streaming revolution is here — the next great leap in how the world gets its entertainment is here.  With thousands of hours of content on OTT platforms, this age can be termed as the golden age of OTT. OTTs are doing more than evolving the TV format; OTT is growing, both for consumers and advertisers. For consumers, the accessibility of the content on multiple screens anytime and anywhere makes it more engaging. And advertisers can show personalized advertisements. Also, OTT platforms often help in the production of numerous movies, shows and documentaries.&lt;/p&gt;
@@ -21,8 +21,8 @@
 
 </description>
         <pubDate>Fri, 05 Jun 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/OTTs/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/OTTs/</guid>
+        <link>https://square-1111.github.io/2020/OTTs/</link>
+        <guid isPermaLink="true">https://square-1111.github.io/2020/OTTs/</guid>
         
         
       </item>
@@ -43,8 +43,8 @@
 
 </description>
         <pubDate>Thu, 04 Jun 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/Queen-Problem/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/Queen-Problem/</guid>
+        <link>https://square-1111.github.io/2020/Queen-Problem/</link>
+        <guid isPermaLink="true">https://square-1111.github.io/2020/Queen-Problem/</guid>
         
         
       </item>
@@ -61,8 +61,8 @@
 
 </description>
         <pubDate>Wed, 03 Jun 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/Mechanical-Keyboards/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/Mechanical-Keyboards/</guid>
+        <link>https://square-1111.github.io/2020/Mechanical-Keyboards/</link>
+        <guid isPermaLink="true">https://square-1111.github.io/2020/Mechanical-Keyboards/</guid>
         
         
       </item>
@@ -84,8 +84,8 @@
 
 </description>
         <pubDate>Tue, 02 Jun 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/Qurantine-College/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/Qurantine-College/</guid>
+        <link>https://square-1111.github.io/2020/Qurantine-College/</link>
+        <guid isPermaLink="true">https://square-1111.github.io/2020/Qurantine-College/</guid>
         
         
       </item>
@@ -103,8 +103,8 @@
 &lt;p&gt;But how do we calculate Pi? We can’t tell the exact value of Pi but only approximate. The first recorded algorithm to rigorously calculate Pi was Polygon Approximation. Mathematicians inscribed and circumscribed the polygon around a unit circle and thereby calculated the perimeter of both the hugging polygons to find the lower and upper bound of the Pi. Later, this was revolutionized by converging infinite sums. Now in the age of technology, we can calculate the value of Pi with an accuracy within 0.04% through iterative algorithms. What if we calculate the exact value of Pi? Will it be a breakthrough or will it be just another day, who knows? Until then enjoy the chaos of Pi.&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Jun 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/Pi/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/Pi/</guid>
+        <link>https://square-1111.github.io/2020/Pi/</link>
+        <guid isPermaLink="true">https://square-1111.github.io/2020/Pi/</guid>
         
         
       </item>
@@ -123,8 +123,8 @@
 
 </description>
         <pubDate>Sun, 31 May 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/Socrates-And-Democracy/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/Socrates-And-Democracy/</guid>
+        <link>https://square-1111.github.io/2020/Socrates-And-Democracy/</link>
+        <guid isPermaLink="true">https://square-1111.github.io/2020/Socrates-And-Democracy/</guid>
         
         
       </item>
@@ -143,8 +143,8 @@
 
 </description>
         <pubDate>Sat, 30 May 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/Dreams/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/Dreams/</guid>
+        <link>https://square-1111.github.io/2020/Dreams/</link>
+        <guid isPermaLink="true">https://square-1111.github.io/2020/Dreams/</guid>
         
         
       </item>
@@ -169,8 +169,8 @@
 
 </description>
         <pubDate>Fri, 29 May 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/Portal-Paradox/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/Portal-Paradox/</guid>
+        <link>https://square-1111.github.io/2020/Portal-Paradox/</link>
+        <guid isPermaLink="true">https://square-1111.github.io/2020/Portal-Paradox/</guid>
         
         
       </item>
@@ -203,8 +203,8 @@
 &lt;em&gt;&lt;center&gt;As Long As There Is Life, There Is Hope. As Long As There Is Hope, There Is Life.&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 28 May 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/Stages-of-grief/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/Stages-of-grief/</guid>
+        <link>https://square-1111.github.io/2020/Stages-of-grief/</link>
+        <guid isPermaLink="true">https://square-1111.github.io/2020/Stages-of-grief/</guid>
         
         
       </item>
@@ -228,8 +228,8 @@ The excitement to solve this problem is as vivid as the applications it can solv
 
 </description>
         <pubDate>Wed, 27 May 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/P-NP/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/P-NP/</guid>
+        <link>https://square-1111.github.io/2020/P-NP/</link>
+        <guid isPermaLink="true">https://square-1111.github.io/2020/P-NP/</guid>
         
         
       </item>
