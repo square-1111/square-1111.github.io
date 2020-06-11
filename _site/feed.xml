@@ -5,9 +5,28 @@
     <description>Square</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 11 Jun 2020 02:44:59 +0530</pubDate>
-    <lastBuildDate>Thu, 11 Jun 2020 02:44:59 +0530</lastBuildDate>
+    <pubDate>Thu, 11 Jun 2020 21:01:21 +0530</pubDate>
+    <lastBuildDate>Thu, 11 Jun 2020 21:01:21 +0530</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Day 027, Onion Peel Experiment</title>
+        <description>&lt;p&gt;Woohoo! Finally we are going to visit the Biology Lab. Class 9 was an innocuous period — Little did we know, little did we bother. Just like any other day I dressed up and cycled my way to school. Bell rang and It was our biology class and the teacher entered the class. Professor Afsar Khan, had a weird personality — witty and strict at the same time. We never understood if we should laugh at his jokes or not, if we did he might scold us and if we didn’t we might disrespect his joke. Despite this, he was a brilliant teacher. But an unusual thing happened as he entered the class, while we were taking out our notebooks he asked us to pack our bags. At first we were confused because he has never asked us to do so but later we thought he would take us to the ground and we will play. Instead, we were going to perform an experiment — Onion Peel Experiment — in the Biology Lab. And, for those of you who don’t know, it was our first time in any kind of laboratory.&lt;/p&gt;
+
+&lt;p&gt;Silence of our class broke out and it seemed like a fish market — everyone was super excited, but our teacher had a dead look on his face. In a matter of seconds we formed a queue, which otherwise used to take eternity, and jollily marched through the corridor. And as a matter of fact, for students of boys school, we behaved the most ___ . No one jumped the queue, none stopped for toilet or water break, and even the disinterested students were gleaming. As we approached the laboratory, our Lab Assistant unlocked the lab. As soon as we had a glimpse of the lab our jaws dropped. We did not expect anything like that in our old school building, but little did we know, we never saw a lab before. It seemed like Potions class from Harry Potter, there were jars of different specimens all around us. Skeleton hung by the wall, there were diagrams of plant and animal reproductive parts. Boys started to conspire about all of them and came up with most unlikely theories and ambitions. However silly they seem now, they all made sense in 9th standard. I vividly remember one, a friend of mine claimed, on seeing a brain inside a jar, that the brain belonged to Albert Einstein which left us all in awe. While we were extending our eyes as far as we could, Professor Afsar grabbed our attention and started to explain the experiment.&lt;/p&gt;
+
+&lt;p&gt;He asked us to take a piece of chopped onion and told us that the lab assistant will provide tools. Professor Afsar asked us to start performing the experiment but everyone was blankly staring at each other because we were so deeply engulfed that anyone barely cared to listen. There was awkwardness in the environment and our teachers could sense it and they love to feed on it, so did Professor Afsar. He gave us a piece of his mind, but he explained it to us again. We were asked to take off onion peel, place it on watch glass, then add safranin and let it soak. Then wash the peel with water, soak extra water, add a drop of glycerine and then examine it under the microscope to observe the plant cell. It might seem simple now, but we found an opportunity to mischief at each step. Aware of the danger that Professor is watching, we fought for a bigger onion piece with a tweezer as our sword and watch glass as our shield. In another corner of the laboratory, students were pinching each other with a tweezer, some of the students tried to create music by clicking tweezers together. The impressive thing was Professor Afsar did not lose his cool, it seemed like he had already experienced all of this earlier as well. Once in a while he took a check on us and taunted us for not doing any work. As the class was about to get over, he created two watch glasses and put it under two microscopes because we all were too busy with our own stupidity. He asked us to form two queues and look at the onion peel through the microscope. No one understood what they were looking at and what was the purpose of it. Everyone was having the time of their life while some students were still in line and the bell rang. Students in the queue looked disappointed but Professor Afsar allowed them to fulfill their wishes and look into nothingness.&lt;/p&gt;
+
+&lt;p&gt;We packed our bags and walked back to classes as if we had just performed a surgery. This was the most fulfilling day of our school life.
+And Period.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 06 Jun 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/2020/Onion-Peel-Experiment/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Onion-Peel-Experiment/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Day 026, Over-the-top (OTT) media services</title>
@@ -205,31 +224,6 @@
         <pubDate>Thu, 28 May 2020 00:00:00 +0530</pubDate>
         <link>http://localhost:4000/2020/Stages-of-grief/</link>
         <guid isPermaLink="true">http://localhost:4000/2020/Stages-of-grief/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Day 017, P versus NP</title>
-        <description>&lt;p&gt;Programmers in the early days of computing started to solve problems using their cabinet size computers. Just like every solution initially, it used to be slow and then improved iteratively. But for some problems they cannot figure out a faster solution while a variety of problems have been proved to have no faster solution, like predicting the optimal move in chess. In order to handle the situation, researchers started sorting programs on how fast the program can solve the problem. Multiplication, Sorting have a faster program while for chess there is no faster program. But there were some problems which couldn’t be determined in which bucket they fell — finding prime numbers, travelling-salesman problem etc. This is where P and NP come in.&lt;/p&gt;
-
-&lt;p&gt;But how to figure out that the program is fast in general? Computer Scientists calculate the time for each step and add up. The catch is, they don’t answer this in minutes or seconds, instead they calculate it relative to the number of elements.&lt;/p&gt;
-
-&lt;p&gt;P class of problems are those which can be solved in polynomial time, or the set of problems whose solution time is proportional to polynomial. Obviously, an algorithm whose time is proportional to N&lt;sup&gt;3&lt;/sup&gt; is slower than N&lt;sup&gt;2&lt;/sup&gt; but this is insignificant when compared to another distinction — the complexity of algorithms where a number is raised to the Nth power, like, 2&lt;sup&gt;N&lt;/sup&gt;. And this discrepancy gets much, much worse as N grows.&lt;/p&gt;
-
-&lt;p&gt;NP — Nondeterministic Polynomial time — is a problem whose solution can be verified in polynomial time. But many of these problems take exponential times to get solved. So what’s the deal with P equal NP? It means if the solution to a problem can be verified in polynomial time, can it be found in polynomial time? Frequently called the most important problem in the computer science domain, P vs NP is one of the 7 problems for which the Clay Mathematics Institute will give you million dollars to (dis)prove.&lt;/p&gt;
-
-&lt;p&gt;Did you ponder? There is no specific problem but there are multiple problems in this class. What does that mean? In early 70’s complexity researchers realised that a dozen NP problems they were struggling with are essentially the same but with some polynomial time constraints. You just need to prove one of the problems to make the entire NP set lie inside the P class set. As hard as it is to prove this problem, proving any problem in itself is a NP problem.&lt;/p&gt;
-
-&lt;p&gt;What makes it so important? 
-The excitement to solve this problem is as vivid as the applications it can solve. A lot of the puzzles we are trying to figure out will become easier — the protein folding problem, drug for cancer. We can develop an accurate financial forecasting model,  figure out the optimal arrangement of transistors on a silicon chip and the banking system might collapse as encryptions will become easier to crack.  As &lt;strong&gt;Scott Aaronson&lt;/strong&gt; said,&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&lt;center&gt;”If P=NP, then the world would be a profoundly different place than we usually assume it to be. There would be no special value in “creative leaps,” no fundamental gap between solving a problem and recognizing the solution once it's found. Everyone who could appreciate a symphony would be Mozart; everyone who could follow a step-by-step argument would be Gauss; everyone who could recognize a good investment strategy would be Warren Buffett.“&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 27 May 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/P-NP/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/P-NP/</guid>
         
         
       </item>
