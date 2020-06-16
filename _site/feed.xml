@@ -3,10 +3,10 @@
   <channel>
     <title></title>
     <description>Square</description>
-    <link>https://square-1111.github.io/</link>
-    <atom:link href="https://square-1111.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 16 Jun 2020 02:51:34 +0530</pubDate>
-    <lastBuildDate>Tue, 16 Jun 2020 02:51:34 +0530</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 16 Jun 2020 20:05:13 +0530</pubDate>
+    <lastBuildDate>Tue, 16 Jun 2020 20:05:13 +0530</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -34,8 +34,33 @@ The notion of not reinventing the wheel is popular in the programming world, whi
 
 </description>
         <pubDate>Tue, 16 Jun 2020 00:00:00 +0530</pubDate>
-        <link>https://square-1111.github.io/2020/Reinvent-the-wheel/</link>
-        <guid isPermaLink="true">https://square-1111.github.io/2020/Reinvent-the-wheel/</guid>
+        <link>http://localhost:4000/2020/Reinvent-the-wheel/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Reinvent-the-wheel/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Day 032, Legend of Lord Ganesha </title>
+        <description>&lt;p&gt;I have grown up in a middle-class Hindu family, my pre-teen afternoons during summer vacations were spent learning multiplication tables, eating mangoes, playing Ludo and enjoying the myths in my mother’s lap — legends of Lord Ganesha, Goddess Parvati; stories from Ramayana and Mahabharat. I barely remember any of those.&lt;/p&gt;
+
+&lt;p&gt;Days aren’t the same, but today was different. Just like any other day in quarantine, I was on desk fiddling around with the laptop, mom was scrolling through her WhatsApp. It was not at all odd that she gets all kinds of audio forwards. But today it was, someone was narrating the myths of Lord Ganesha — an anecdote about why every Puja starts with Lord Ganesha’s name.&lt;/p&gt;
+
+&lt;p&gt;Long long ago, while Lord Vishnu and Goddess Lakshmi’s marriage, Lord Ganesha was left in-charge to guard Swargalok. He was tricked to do so because other deities were embarrassed of his physical appearance and his massive diet. The procession went on, when Narad Ji saw Lord Ganesha at the door of Swargalok and asked the reason. Withered Lord Ganesha told his sorrow to Narad Muni. On knowing this Narad suggested Lord Ganesha avenge his respect and devised a plan that would make deities realise Lord Ganesha’s importance. 
+&lt;br /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;/assets/images/ganesha.jpg&quot; height=&quot;80%&quot; width=&quot;80%&quot; /&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;
+Lord Ganesha asked his Mushakraj to dig up the roads that lead to Goddess Lakshmi’s abode. Mushakraj followed the orders and bore the roads. As expected, the deities couldn’t proceed further, the wheels of their chariot got stuck in the earth. Everyone took their measures but the wheel did not move. No one could understand what was going around. A farmer, passing by, decided to help them. The farmer chanted Lord Ganesha’s name and pulled out the carriage.&lt;/p&gt;
+
+&lt;p&gt;Farmer, being asked by deities, explained that Lord Ganesha’s name has induced strength in him since he is the Remover of Obstacles. Deities realised that there is more to a being than his physical appearance, and they returned to apologize to Lord Ganesha.&lt;/p&gt;
+
+&lt;p&gt;This story tells us to Always stand up for your self-respect. I exchanged smiles, cut a mango and recalled those old days.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 16 Jun 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/2020/Legend-of-Lord-Ganesha/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Legend-of-Lord-Ganesha/</guid>
         
         
       </item>
@@ -58,8 +83,8 @@ In 2019, Ruth got the opportunity to create the world of Black Panther. It was a
 &lt;p&gt;Her work has always left people awestruck. She brings humanity, emotionality to life through her clothes in a way that they are not only historically accurate but that can imagine black lives that the history books have told us wasn’t possible.&lt;/p&gt;
 </description>
         <pubDate>Mon, 15 Jun 2020 00:00:00 +0530</pubDate>
-        <link>https://square-1111.github.io/2020/Ruth-Carter/</link>
-        <guid isPermaLink="true">https://square-1111.github.io/2020/Ruth-Carter/</guid>
+        <link>http://localhost:4000/2020/Ruth-Carter/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Ruth-Carter/</guid>
         
         
       </item>
@@ -100,8 +125,8 @@ This is character type of &lt;em&gt;The Peacemaker&lt;/em&gt;.&lt;/li&gt;
 &lt;p&gt;&lt;em&gt;PS. Enneagrams are generally used to model the characters of the protagonist in fiction.&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 13 Jun 2020 00:00:00 +0530</pubDate>
-        <link>https://square-1111.github.io/2020/Enneagram/</link>
-        <guid isPermaLink="true">https://square-1111.github.io/2020/Enneagram/</guid>
+        <link>http://localhost:4000/2020/Enneagram/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Enneagram/</guid>
         
         
       </item>
@@ -120,8 +145,8 @@ This is character type of &lt;em&gt;The Peacemaker&lt;/em&gt;.&lt;/li&gt;
 
 </description>
         <pubDate>Sun, 07 Jun 2020 00:00:00 +0530</pubDate>
-        <link>https://square-1111.github.io/2020/Honey-Bees/</link>
-        <guid isPermaLink="true">https://square-1111.github.io/2020/Honey-Bees/</guid>
+        <link>http://localhost:4000/2020/Honey-Bees/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Honey-Bees/</guid>
         
         
       </item>
@@ -139,8 +164,8 @@ And Period.&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 06 Jun 2020 00:00:00 +0530</pubDate>
-        <link>https://square-1111.github.io/2020/Onion-Peel-Experiment/</link>
-        <guid isPermaLink="true">https://square-1111.github.io/2020/Onion-Peel-Experiment/</guid>
+        <link>http://localhost:4000/2020/Onion-Peel-Experiment/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Onion-Peel-Experiment/</guid>
         
         
       </item>
@@ -157,8 +182,8 @@ And Period.&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 05 Jun 2020 00:00:00 +0530</pubDate>
-        <link>https://square-1111.github.io/2020/OTTs/</link>
-        <guid isPermaLink="true">https://square-1111.github.io/2020/OTTs/</guid>
+        <link>http://localhost:4000/2020/OTTs/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/OTTs/</guid>
         
         
       </item>
@@ -179,8 +204,8 @@ And Period.&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 04 Jun 2020 00:00:00 +0530</pubDate>
-        <link>https://square-1111.github.io/2020/Queen-Problem/</link>
-        <guid isPermaLink="true">https://square-1111.github.io/2020/Queen-Problem/</guid>
+        <link>http://localhost:4000/2020/Queen-Problem/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Queen-Problem/</guid>
         
         
       </item>
@@ -197,8 +222,8 @@ And Period.&lt;/p&gt;
 
 </description>
         <pubDate>Wed, 03 Jun 2020 00:00:00 +0530</pubDate>
-        <link>https://square-1111.github.io/2020/Mechanical-Keyboards/</link>
-        <guid isPermaLink="true">https://square-1111.github.io/2020/Mechanical-Keyboards/</guid>
+        <link>http://localhost:4000/2020/Mechanical-Keyboards/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Mechanical-Keyboards/</guid>
         
         
       </item>
@@ -220,27 +245,8 @@ And Period.&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 02 Jun 2020 00:00:00 +0530</pubDate>
-        <link>https://square-1111.github.io/2020/Qurantine-College/</link>
-        <guid isPermaLink="true">https://square-1111.github.io/2020/Qurantine-College/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Day 022, Pi</title>
-        <description>&lt;p&gt;&lt;em&gt;&lt;center&gt;“3.1415926535… help I am trapped”&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Let’s visit the number land once again — this time for none other than Pi. It is a celebrity number, defined as the ratio of simplest shape, circle, to its diameter. Tech giants compete to calculate the maximum number of digits of Pi. There are competitions of Pi digit memorization. Isn’t it insane that the world record for Pi digits memorization is 100,000? As beautiful as it may sound, uglier it is, the infinite and non-repeating property of Pi, simply leads to mess and madness and chaos. But being transcendental and irrational, isn’t it boring. There are various numbers like this.&lt;/p&gt;
-
-&lt;p&gt;So, what makes Pi so iconic? Pi is omnipotent. It existed even prior to The Big Bang. The meandering ratio of the river to the orbits of satellites. It’s not just about circles, Pi helps us understand curves, periodic and oscillating systems. It is used in electromagnetics and music as well. In statistics, it is used to measure the area under the bell curve.&lt;/p&gt;
-
-&lt;p&gt;Despite all its applications, Pi is so devoid of patterns that it passes every randomness test with flying colors. It is not only random, but that any string of them occurs just as much as any other of the same length. This means if we encode Pi in base 26, representing each number as alphabets then we can find all of the work of Shakespeare. It would be merely absurd to question at which decimal position. Doesn’t it amuse you, that such an elementary formula gives rise to such a plethora of information? Moreover, Pi opens up the window for transcendental numbers. Most of the numbers on the number line are transcendental, and we have rarely visited that road. This implies how limited human knowledge is.&lt;/p&gt;
-
-&lt;p&gt;But how do we calculate Pi? We can’t tell the exact value of Pi but only approximate. The first recorded algorithm to rigorously calculate Pi was Polygon Approximation. Mathematicians inscribed and circumscribed the polygon around a unit circle and thereby calculated the perimeter of both the hugging polygons to find the lower and upper bound of the Pi. Later, this was revolutionized by converging infinite sums. Now in the age of technology, we can calculate the value of Pi with an accuracy within 0.04% through iterative algorithms. What if we calculate the exact value of Pi? Will it be a breakthrough or will it be just another day, who knows? Until then enjoy the chaos of Pi.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 01 Jun 2020 00:00:00 +0530</pubDate>
-        <link>https://square-1111.github.io/2020/Pi/</link>
-        <guid isPermaLink="true">https://square-1111.github.io/2020/Pi/</guid>
+        <link>http://localhost:4000/2020/Qurantine-College/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Qurantine-College/</guid>
         
         
       </item>
