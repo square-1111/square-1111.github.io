@@ -5,9 +5,35 @@
     <description>Square</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 17 Jun 2020 23:41:03 +0530</pubDate>
-    <lastBuildDate>Wed, 17 Jun 2020 23:41:03 +0530</lastBuildDate>
+    <pubDate>Fri, 19 Jun 2020 23:54:42 +0530</pubDate>
+    <lastBuildDate>Fri, 19 Jun 2020 23:54:42 +0530</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Day 034, Is keeping animals in zoos cruel </title>
+        <description>&lt;p&gt;Is it?&lt;/p&gt;
+
+&lt;p&gt;Ever Since our childhood, we have been taught that zookeepers are very cruel people and that they cage the animals inside bars. We are told that they miss the freedom to explore in nature. I agree. There are so many petitions to free the animals. People suggest animals exhibit neurotic behaviour when kept in captivity.&lt;/p&gt;
+
+&lt;p&gt;But there is more to it. The art of getting animals used to the presence of humans is the science of zookeeping. Modern zoos are designed to give animals a high quality of life. The whole movement of zoos is more like colonialism. Animals get good quality food, proper flora, time to time health checkups and on top of that they are safe from all the threats, parasites, viruses they face in the jungle.&lt;/p&gt;
+
+&lt;p&gt;Take a moment to realise what if we close the zoos and free all the animals. It would be similar to you being kicked out of the house and chased by people living on the streets. Do you think you will jump and dance with joy? No, you wouldn’t. Similarly, animals are territorial species, only a familiar territory would allow them to fulfil their needs of food and water. Finding all the places — lookouts, places for resting, eating, drinking etc — within the territory and getting food six days a week makes them super comfortable in the environment. Even the newly settled animals behave in the same way of owning the territory. There have been numerous cases where animals could flee but they didn’t because they are taken good care of.&lt;/p&gt;
+
+&lt;p&gt;But humans, they are the most dangerous animals in the zoo. We feed all kinds of foreign material to animals just to get entertained when it is clearly mentioned everywhere in zoos not to do so. Blades, nails, paperclip, pen, rubber band, comb, pieces of broken glass etc are the reason for the obituary of many animals in zoos as well outside. At zoos, cruelty is more active and direct. Animals get their arms broken, beaks cracked, digestive systems disturbed.&lt;/p&gt;
+
+&lt;p&gt;Freeing the animals’ movement doesn’t seem so bad now. Instead, this will save the animals from the cruelty of the human world.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“When humans act with cruelty we characterize them as “animals”, yet the only animal that displays cruelty is humanity.”&lt;br /&gt;
+— Anthony D. Williams&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Fri, 19 Jun 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/2020/Zoo/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Zoo/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Day 033, We need to be heard </title>
@@ -18,16 +44,16 @@
 &lt;p&gt;The habit of not acknowledging others feelings stems from childhood. Parents, often the most loving ones, often stumble in this domain. It is not that they don’t intensely care about their kids but their love is quite different. They appreciate their child’s mood by ignoring it rather than subtly pushing the mood away or helping them out. Some of the conversations between parents and their child.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Scene 1&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
-&lt;em&gt;Kid : I feel sad&lt;/em&gt;&lt;br /&gt;
-&lt;em&gt;Parent : You can’t be sad, we are on vacation&lt;/em&gt;&lt;/p&gt;
+&lt;em&gt;&lt;ins&gt;Kid&lt;/ins&gt; : I feel sad&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;&lt;ins&gt;Parent&lt;/ins&gt; : You can’t be sad, we are on vacation&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Scene 2&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
-&lt;em&gt;Kid : I feel worried&lt;/em&gt; &lt;br /&gt;
-&lt;em&gt;Parent : Darling, it’s just ridiculous, there is nothing to be scared of&lt;/em&gt;&lt;/p&gt;
+&lt;em&gt;&lt;ins&gt;Kid&lt;/ins&gt; : I feel worried&lt;/em&gt; &lt;br /&gt;
+&lt;em&gt;&lt;ins&gt;Parent&lt;/ins&gt; : Darling, it’s just ridiculous, there is nothing to be scared of&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;__&lt;em&gt;Scene 3 *__
-*Kid : I wish there wasn’t any school ever ever&lt;/em&gt;&lt;br /&gt;
-&lt;em&gt;Parent : Don’t be silly. You know we have to leave the house at 8&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Scene 3&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+&lt;em&gt;&lt;ins&gt;Kid&lt;/ins&gt; : I wish there wasn’t any school ever ever&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;&lt;ins&gt;Parent&lt;/ins&gt; : Don’t be silly. You know we have to leave the house at 8&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;What if such dialogues were slightly tweaked, for example, if the parents could say “It’s alright to be sad at the oddest of the times, even on this beach” or “I can see you are scared, the wind out there is really fierce” or “It must be horrible to do math after such a lovely weekend”? The child would grow to be a better adult.&lt;/p&gt;
 
@@ -243,24 +269,6 @@ And Period.&lt;/p&gt;
         <pubDate>Thu, 04 Jun 2020 00:00:00 +0530</pubDate>
         <link>http://localhost:4000/2020/Queen-Problem/</link>
         <guid isPermaLink="true">http://localhost:4000/2020/Queen-Problem/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Day 024, Mechanical Keyboard</title>
-        <description>&lt;p&gt;Keychron, Corsair, Razer — THOCK! soothing, satisfying, clickety-clack sounds, we are talking about Mechanical Keyboards. Mechanical Keyboards have become popular in the last decade. You might ask that the ₹500 one does the same thing. This is absolutely true; we can’t deny that the cheap one does the same as the mechanical keyboard. Then why should you invest your money to buy these expensive, custom mechanical keyboards? Because keyboards are essentials we use in everyday life, so like other day-to-day items, why not get something that may potentially better your experience? But what other options do we have?&lt;/p&gt;
-
-&lt;p&gt;Membrane keyboards, the cheaper keyboards have a layer of silicon rubber matrix between the keys and the PCB. Each key is held with a rubber dome and gets activated only when the key is pressed all the way down to PCB. It is more like hitting your fingers on a hard surface — in the long run, it’s bad for fingers until you want your hands to look like Dr. Strange. But, in mechanical keyboards keys get activated on reaching the actuation point which means you don’t have to push all the way down. The cool thing about mechanical keyboards is their variety and the ability to choose a keyboard which meets your requirements. Variety as in, how the keypress feels, layout, programmability, aesthetics, materials and so on which is very limited to membrane keyboards. Do not want a number pad? Get rid of it; Need dedicated macros? Create them; Want better ergonomics? Get a split or ergonomic keyboard; Do you like the retro look? Just find a retro-looking keyboard or keycaps. It’s all out there.&lt;/p&gt;
-
-&lt;p&gt;This is not just because of mechanical keyboards, instead because of the mechanical switches, which helps in modularity and customisation. This isn’t something you can control with membrane keyboards because they are just a sheet of collapsing domes. But with mechanical keyboards, you can get a range of switches — clicky, tactile, or smooth linear switches, loud, silent whatever you want. Getting something you use in daily life, that feels good, can improve your performance, efficiency and add enjoyment.&lt;/p&gt;
-
-&lt;p&gt;Then, there is the functional side. The durability of key switches is around 50 million keystrokes which mean mechanical keyboards go for ages. Adding to it, mechanical keyboards are sturdier, heavier and nicely built. The orchestra of CHOK CHOK and CLICK CLICK has added symphony to our gaming, typing and programming experience. Mechanical keyboards are true works of art.&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 03 Jun 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/Mechanical-Keyboards/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/Mechanical-Keyboards/</guid>
         
         
       </item>
