@@ -5,9 +5,23 @@
     <description>Square</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 22 Jun 2020 13:44:41 +0530</pubDate>
-    <lastBuildDate>Mon, 22 Jun 2020 13:44:41 +0530</lastBuildDate>
+    <pubDate>Mon, 22 Jun 2020 15:15:44 +0530</pubDate>
+    <lastBuildDate>Mon, 22 Jun 2020 15:15:44 +0530</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Day 036, Phi</title>
+        <description>&lt;p&gt;Oh No! Not another greek alphabet. Do I have an obsession with them? Maybe.&lt;/p&gt;
+
+&lt;p&gt;Just like &lt;a href=&quot;/2020/Pi/&quot;&gt;Pi&lt;/a&gt;, Phi is a symbolic representation of Golden Ratio. Golden Ratio, what? I have never heard of it.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 22 Jun 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/2020/Phi/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Phi/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Day 035, Understanding Deep Learning Requires Rethinking Generalization</title>
@@ -261,24 +275,6 @@ And Period.&lt;/p&gt;
         <pubDate>Sat, 06 Jun 2020 00:00:00 +0530</pubDate>
         <link>http://localhost:4000/2020/Onion-Peel-Experiment/</link>
         <guid isPermaLink="true">http://localhost:4000/2020/Onion-Peel-Experiment/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Day 026, Over-the-top (OTT) media services</title>
-        <description>&lt;p&gt;The innovation of moving frames was invented by Lumière Brothers and today we are in the age of Netflix, Disney+, Hotstar etc. The technology of cinema has evolved. Things changed from the black and white moving images to hours of UltraHD video footage with binaural noise to movies that have a whole lot of visual effects to movies made of computer-generated images. In terms of technology, first came the television age, then a lot of private channels which brought in a lot more entertainment, then came the era of CDs and DVDs and finally the advent of broadband gave way to Over-the-top media services and now we can stream the movie that we want, the show that we want, the documentary that we want anytime, anywhere.&lt;/p&gt;
-
-&lt;p&gt;The streaming revolution is here — the next great leap in how the world gets its entertainment is here.  With thousands of hours of content on OTT platforms, this age can be termed as the golden age of OTT. OTTs are doing more than evolving the TV format; OTT is growing, both for consumers and advertisers. For consumers, the accessibility of the content on multiple screens anytime and anywhere makes it more engaging. And advertisers can show personalized advertisements. Also, OTT platforms often help in the production of numerous movies, shows and documentaries.&lt;/p&gt;
-
-&lt;p&gt;With the boom in network technologies and internet speed, people have started to consume more content. Customers are slowly cutting off their cable connection and switching to OTT platforms. OTTs provide the consumer to view specified content despite Television. The subscription-based media consumption provides an abundance of particular media streams through one channel while television provides a plethora of channels to view but a limited number of options of a particular genre.&lt;/p&gt;
-
-&lt;p&gt;The OTTs are evolving as well. With every new feature they add to their platform, other platforms try to incorporate it to make more monetary benefits. In the fiscal year 2019, OTT platforms in India had a market value of ₹3500 crores and slowly the market is expanding. We don’t know what the future of streaming looks like but we surely know it will provide a diversity of streams on a given platform.&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 05 Jun 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/OTTs/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/OTTs/</guid>
         
         
       </item>
