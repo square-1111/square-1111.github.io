@@ -5,15 +5,129 @@
     <description>Square</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 22 Jun 2020 15:15:44 +0530</pubDate>
-    <lastBuildDate>Mon, 22 Jun 2020 15:15:44 +0530</lastBuildDate>
+    <pubDate>Tue, 23 Jun 2020 19:36:22 +0530</pubDate>
+    <lastBuildDate>Tue, 23 Jun 2020 19:36:22 +0530</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Day 037, PS5</title>
+        <description>&lt;p&gt;Decepticons! The new flagship of Playstation is there. With high collar esque, Sony has unveiled PS5 — a console from an alien world.  Through the innumerous rumours, it’s been 7 years since PS4 was launched.&lt;/p&gt;
+
+&lt;p&gt;Sony, on June 11, 2020, during the Sony PS5 reveal event showed off lots of games including Gran Turismo, Spider-Man : Miles Morales, Horizon 2: Forbidden West and many more. But the showstopper was the revelation  of the PS5 console itself. Sony uncovered two variants of PS5 which will be available at launch — PS5 and PS5 Digital Edition. The only difference between the two is that PS5 Digital Edition does not have Blu-ray drive.&lt;/p&gt;
+
+&lt;p&gt;PS5 features a custom eight-core AMD Zen 2 CPU clocked at 3.5 GHz and a custom GPU  based on AMD’s RDNA 2 architecture hardware which promises 10.28 teraflops and 36 compute units clocked at 2.23GHz. To further improve the performance, Sony has replaced the HDD with an 825GB SSD and the 8 GB of DDR3 RAM of PS4 with 16 GB of GDDR6 RAM in PS5. The new PS5 provides a stunning gaming experience. Benchmarking Ray Tracing and super fast refresh rate of 120 Hz - the new iconic PS5 gives the user an exhilarating gaming experience. With an 8K Output support, Sony has truly created a futuristic machine.&lt;/p&gt;
+
+&lt;p&gt;Sony, alongside PS5, introduced the DualSense game controller. It provides haptic feedback and adaptive triggers for an immersive gaming experience. The angle of hand trigger is also tweaked and the grip is provided to suffice ergonomics. The controller has an array of in-built microphone for in-game chat. To create epic gameplay, Sony has upgraded their Share button to Create button.&lt;/p&gt;
+
+&lt;p&gt;As good as it may sound, PS5’s rival Xbox Series X is equally futuristic. With a custom processor of 12 teraflops, hardware accelerated ray tracing, variable rate shading Xbox might have a slight margin over PS5. Xbox has a black industrial design and vents on top with an underlying green sheet giving it a green halo which makes it look minimal yet modern. Compared to Xbox’s design, the rectangular design of PS5 has curves instead of edges. But PS5 has a very controversial design, the white plastic doesn’t have good respect in the techworld.&lt;/p&gt;
+
+&lt;p&gt;It’s a bummer that they both did not reveal its price and release date but we can expect them in Holiday season 2020. I cannot wait to try them out. Oh poor boy! I cannot afford it. If you feel like gifting it, I won’t mind.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 23 Jun 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/2020/PS5/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/PS5/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Day 036, Phi</title>
         <description>&lt;p&gt;Oh No! Not another greek alphabet. Do I have an obsession with them? Maybe.&lt;/p&gt;
 
 &lt;p&gt;Just like &lt;a href=&quot;/2020/Pi/&quot;&gt;Pi&lt;/a&gt;, Phi is a symbolic representation of Golden Ratio. Golden Ratio, what? I have never heard of it.&lt;/p&gt;
+
+&lt;p&gt;We find the &lt;strong&gt;Golden Ratio&lt;/strong&gt; when we divide the a line into two parts such that the ratio of the longer part to the shorter part is equal to the whole length divided by the shorter part.&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;/assets/images/GoldenRatio.png&quot; height=&quot;30%&quot; width=&quot;30%&quot; /&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;\[\varphi = \frac{a}{b} = \frac{a+b}{a}\]&lt;/p&gt;
+
+&lt;p&gt;And the magic begins,&lt;/p&gt;
+
+&lt;p&gt;\[\varphi = \frac{a}{b} = 1 + \frac{a}{b}\]
+\[\varphi = 1 + \frac{1}{\varphi}\]&lt;/p&gt;
+
+&lt;p&gt;Did I mention anything about recursion?&lt;/p&gt;
+
+&lt;p&gt;\[\varphi = 1 + \frac{1}{1 + \frac{1}{1 + \frac{1}{1 + \frac{1}{\ddots}}}}\]&lt;/p&gt;
+
+&lt;p&gt;Nevermind, let’s calculate its value.&lt;/p&gt;
+
+&lt;p&gt;\(\varphi \)  is a solution of quadratic equation \(\varphi^2 - \varphi - 1 = 0\)&lt;/p&gt;
+
+&lt;p&gt;\[\varphi = \frac{1+\sqrt{5}}{2} = 1.6180339887…\]&lt;/p&gt;
+
+&lt;p&gt;Another irrational number.&lt;/p&gt;
+
+&lt;p&gt;Inspired by the 1D line we can extend this in 2D. A 2D rectangle with side length \(a + b\) and \(a\). Following the properties of Golden Ratio, this rectangle is known as &lt;strong&gt;Golden Rectangle&lt;/strong&gt;.
+&lt;br /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;/assets/images/goldenREc.png&quot; height=&quot;30%&quot; width=&quot;30%&quot; /&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;But there is more to it. What if we subdivide the rectangle into a square and another rectangle and do it until we get two squares? Adding to it if we construct a spiral by pivoting at the corner of the square and turning it quarter in a continuous fashion, we will get &lt;strong&gt;Golden Spiral&lt;/strong&gt;. It is an ever-expanding spiral.
+&lt;br /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;/assets/images/spiralGolden.jpg&quot; height=&quot;40%&quot; width=&quot;40%&quot; /&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now let’s look from a different direction — bottom up. Consider two unit squares, combine them along the side. Attach a square of side length equal to the length of the larger side of the previously formed rectangle. We will get a similar pattern again. But if we look at the side length of squares we will find an engaging pattern.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;1, 1, 2, 3, 5, 8, 13, 21, 34, …&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Length of the side of the next square is equal to the sum of the previous two. Remember &lt;strong&gt;Fibonacci Series&lt;/strong&gt;. When we take the ratio of two successive numbers from the Fibonacci Sequence then their value is very close to Golden Ratio.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;A&lt;/th&gt;
+      &lt;th&gt;B&lt;/th&gt;
+      &lt;th&gt;B/A&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;1.5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;1.6667&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;1.6&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;13&lt;/td&gt;
+      &lt;td&gt;1.625&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;13&lt;/td&gt;
+      &lt;td&gt;21&lt;/td&gt;
+      &lt;td&gt;1.615&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;As we approach towards infinity this ratio converges to the Golden Ratio.&lt;/p&gt;
+
+&lt;p&gt;Enough of mathematics Square. We understand, Golden Ratio has myriads of secrets. Why should we care?&lt;/p&gt;
+
+&lt;p&gt;This divine proportion is all around us but its knowledge is confined to some mainstream recognition. Just like air — it’s there but we can’t see it. Similarly, Golden Ratio is omnipresent — from nature to music to architectural design. This tool is used by sculptors and artists to achieve remarkably accurate proportion and aesthetic compositions.&lt;/p&gt;
+
+&lt;p&gt;Throughout history, we can find many instances of phi. The first guy was Luca Pacioli, a Franciscan friar who wrote a book called &lt;em&gt;De Divina Proportione&lt;/em&gt; back in 1509, which was named after the golden ratio. He did not tell about the aesthetics of Phi, instead the book focused on the Vitruvian System and its allegiance with golden ratio. Leonardo da Vinci was close friends with Pacioli. Da Vinci used this secret math in many of his famous paintings including Monalisa. Ancient Greek architecture used the Golden Ratio to determine pleasing dimensional relationships between the width of a building and its height, the size of the portico and even the position of the columns supporting the structure.&lt;/p&gt;
+
+&lt;p&gt;Phi is also said to be common in nature. Flower petals often come in Fibonacci numbers, such as five or eight, and pine cones grow their seeds outward in spirals of Fibonacci numbers. The ubiquitous nature of the Golden Ratio with its diverse and engaging application have made Phi another mathematical marvel.&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 22 Jun 2020 00:00:00 +0530</pubDate>
@@ -256,25 +370,6 @@ This is character type of &lt;em&gt;The Peacemaker&lt;/em&gt;.&lt;/li&gt;
         <pubDate>Sun, 07 Jun 2020 00:00:00 +0530</pubDate>
         <link>http://localhost:4000/2020/Honey-Bees/</link>
         <guid isPermaLink="true">http://localhost:4000/2020/Honey-Bees/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Day 027, Onion Peel Experiment</title>
-        <description>&lt;p&gt;Woohoo! Finally, we were going to visit the Biology Lab. Class 9 was an innocuous period — Little did we know, little did we bother. Just like any other day, I dressed up and cycled my way to school. Bell rang and It was our biology class and the teacher entered the class. Professor Afsar Khan had a weird personality — witty and strict at the same time. We never understood if we should laugh at his jokes or not. If we did he might scold us and if we didn’t we might disrespect his joke. Despite this, he was a brilliant teacher. But an unusual thing happened as he entered the class, while we were taking out our notebooks he asked us to pack our bags. At first, we were confused because he has never asked us to do so but later we thought he would take us to the ground and we will play. Instead, we were going to perform an experiment — Onion Peel Experiment — in the Biology Lab. And, for those of you who don’t know, it was our first time in any kind of laboratory.&lt;/p&gt;
-
-&lt;p&gt;The silence of our class broke out and it seemed like a fish market — everyone was super excited, but our teacher had a dead look on his face. In a matter of seconds, we formed a queue, which otherwise used to take an eternity, and jollily marched through the corridor. And as a matter of fact, for students of boys school, we behaved the best. No one jumped the queue, none stopped for toilet or water break, and even the disinterested students were gleaming. As we approached the laboratory, our Lab Assistant unlocked the lab. As soon as we had a glimpse of the lab, our jaws dropped. We did not expect anything like that in our old school building but little did we know, we never saw a lab before. It seemed like Potions class from Harry Potter, there were jars of different specimens all around us. Skeleton hung by the wall, there were diagrams of plant and animal reproductive parts. Boys started to conspire about all of them and came up with the most unlikely theories and ambitions. However silly they seem now, they all made sense in 9th standard. I vividly remember one, a friend of mine claimed, on seeing a brain inside a jar, that the brain belonged to Albert Einstein which left us all in awe. While we were extending our eyes as far as we could, Professor Afsar grabbed our attention and started to explain the experiment.&lt;/p&gt;
-
-&lt;p&gt;He asked us to take a piece of chopped onion and told us that the lab assistant will provide tools. Professor Afsar asked us to start performing the experiment but everyone was blankly staring at each other because we were so deeply engulfed that anyone barely cared to listen. There was awkwardness in the environment and our teachers could sense it and they loved to feed on it, so did Professor Afsar. He gave us a piece of his mind, but he explained it to us again. We were asked to take off onion peel, place it on watch glass, then add safranin and let it soak. Then wash the peel with water, soak it in extra water, add a drop of glycerine and then examine it under the microscope to observe the plant cell. It might seem simple now, but we found an opportunity to mischief at each step. Aware of the danger that Professor is watching, we fought for a bigger onion piece with a tweezer as our sword and watch glass as our shield. In another corner of the laboratory, students were pinching each other with a tweezer, some of the students tried to create music by clicking tweezers together. The impressive thing was that Professor Afsar did not lose his cool, it seemed like he had already experienced all of this earlier as well. Once in a while, he took a check on us and taunted us for not doing any work. As the class was about to get over, he created two watch glasses and put it under two microscopes because we all were too busy with our own stupidity. He asked us to form two queues and look at the onion peel through the microscope. No one understood what they were looking at and what was the purpose of it. Everyone was having the time of their life while some students were still in line and the bell rang. Students in the queue looked disappointed but Professor Afsar allowed them to fulfill their wishes to look into nothingness.&lt;/p&gt;
-
-&lt;p&gt;We packed our bags and walked back to classes as if we had just performed a surgery. This was the most fulfilling day of our school life.
-And Period.&lt;/p&gt;
-
-</description>
-        <pubDate>Sat, 06 Jun 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/Onion-Peel-Experiment/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/Onion-Peel-Experiment/</guid>
         
         
       </item>
