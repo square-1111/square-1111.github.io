@@ -7,7 +7,7 @@ keywords: "dummy content"
 ---
 
 
-What comes into your mind when you think of minimalism? A perfectly lit white room with no material or extremely simple artwork. That’s how the concept is portrayed with the concept of minimalism. But when it comes to living a minimalist life, living in a well lighted room without any material would be quite morbid and deprecating. Some people follow this extreme form of minimalism; it's not recommended.
+What comes into your mind when you think of minimalism? A perfectly lit white room with no material or extremely simple artwork. That’s how the concept of minimalism is portrayed. But when it comes to living a minimalist life, living in a well lighted room without any material would be quite morbid and deprecating. Some people follow this extreme form of minimalism; it's not recommended.
 
 Minimalism is not about removing everything but it's about decluttering in order to achieve happiness, peace and sanctity. Consider an example: A person wants a cup of coffee after waking up to feel alive or happy. They start to think this is what makes them happy. But slowly this requirement locks them in. They start to structure their life around it. For a lot of us, it's evening tea or the Internet for entertainment and news or the need to watch TV in the evening to unwind time. There is nothing wrong with it. But gradually these things which make us happy start to pile up and control our life. What happens if you let go of these things and keep it as a “nice-to-have” option? It might make you feel sad for a while but it will free you.  
 
