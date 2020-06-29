@@ -3,11 +3,36 @@
   <channel>
     <title></title>
     <description>Square</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 28 Jun 2020 13:12:00 +0530</pubDate>
-    <lastBuildDate>Sun, 28 Jun 2020 13:12:00 +0530</lastBuildDate>
+    <link>https://square-1111.github.io/</link>
+    <atom:link href="https://square-1111.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 29 Jun 2020 23:25:17 +0530</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2020 23:25:17 +0530</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Day 040, Generative Adversarial Network (GAN) Part 1</title>
+        <description>&lt;p&gt;Today we will be talking about Generative Adversarial Network because they are cool and they can do lots of cool things. People use to create sketches, write poems, edit videos. The infamous DeepFakes uses GAN. It is an approach to generative modeling using deep learning methods.&lt;/p&gt;
+
+&lt;p&gt;Introduced in 2014, by Ian Goodfellow, the objective of the GAN is to create fake images that are as realistic as possible. GAN is based on a game theory objective to find (Nash Equilibrium)[https://en.wikipedia.org/wiki/Nash_equilibrium] between Generator and Discriminator, two components of GAN. The two networks, Generator and Discriminator, play a zero-sum game against each other until the discriminator is fooled for at least half the number of times. The generator converts random noise into observations that look as if they have been sampled from the original dataset while the discriminator tries to distinguish between the real and fake samples. The key to GAN lies in how we alternate the training between the networks so that the generator learns to fool the discriminator, while the discriminator gets better at correctly identifying fake samples. This drives the generator to fool the discriminator in more engaging ways.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Generator Model&lt;/strong&gt;
+The generator model takes a fixed size random vector and generates samples in the domain. The vector is randomly sampled from Gaussian Distribution, which seeds the generative process. The aim of the generator is to learn the data distribution.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Discriminator Model&lt;/strong&gt;
+The discriminator model takes an example from the domain (real or generated) and predicts the binary class of the sample (real or fake). The real examples come from training data while the fake examples are created by a generator network. The discriminator is a simple classification model.&lt;/p&gt;
+
+&lt;p&gt;After the training process, the generator model is kept and used to generate new samples.&lt;/p&gt;
+
+&lt;p&gt;GANs have the power to generate data similar to the training data. Thus they help in data augmentation. GANs provide a more domain-specific approach for data augmentation. Besides this, GANs have many other applications — Image superresolution, Creating Art, Image-to-Image translation, Drug Designing etc.&lt;/p&gt;
+
+&lt;p&gt;Perhaps the most compelling reason why GANs are used is because of their success. Since 2014 when GAN was first introduced, the results through the model are getting better manifolds every year. GANs have been able to generate samples so realistic that humans are unable to tell the difference between fake and real.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 29 Jun 2020 00:00:00 +0530</pubDate>
+        <link>https://square-1111.github.io/2020/GAN/</link>
+        <guid isPermaLink="true">https://square-1111.github.io/2020/GAN/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Day 039, Sponge City</title>
@@ -28,8 +53,8 @@
 
 </description>
         <pubDate>Sat, 27 Jun 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/Sponge-City/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/Sponge-City/</guid>
+        <link>https://square-1111.github.io/2020/Sponge-City/</link>
+        <guid isPermaLink="true">https://square-1111.github.io/2020/Sponge-City/</guid>
         
         
       </item>
@@ -56,8 +81,8 @@
 
 </description>
         <pubDate>Wed, 24 Jun 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/Minimalism/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/Minimalism/</guid>
+        <link>https://square-1111.github.io/2020/Minimalism/</link>
+        <guid isPermaLink="true">https://square-1111.github.io/2020/Minimalism/</guid>
         
         
       </item>
@@ -78,8 +103,8 @@
 
 </description>
         <pubDate>Tue, 23 Jun 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/PS5/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/PS5/</guid>
+        <link>https://square-1111.github.io/2020/PS5/</link>
+        <guid isPermaLink="true">https://square-1111.github.io/2020/PS5/</guid>
         
         
       </item>
@@ -184,8 +209,8 @@
 
 </description>
         <pubDate>Mon, 22 Jun 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/Phi/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/Phi/</guid>
+        <link>https://square-1111.github.io/2020/Phi/</link>
+        <guid isPermaLink="true">https://square-1111.github.io/2020/Phi/</guid>
         
         
       </item>
@@ -216,8 +241,8 @@
 
 </description>
         <pubDate>Sun, 21 Jun 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/Understanding-Deep-Learning-Requires-Rethinking-Generalization/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/Understanding-Deep-Learning-Requires-Rethinking-Generalization/</guid>
+        <link>https://square-1111.github.io/2020/Understanding-Deep-Learning-Requires-Rethinking-Generalization/</link>
+        <guid isPermaLink="true">https://square-1111.github.io/2020/Understanding-Deep-Learning-Requires-Rethinking-Generalization/</guid>
         
         
       </item>
@@ -242,8 +267,8 @@
 
 </description>
         <pubDate>Fri, 19 Jun 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/Zoo/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/Zoo/</guid>
+        <link>https://square-1111.github.io/2020/Zoo/</link>
+        <guid isPermaLink="true">https://square-1111.github.io/2020/Zoo/</guid>
         
         
       </item>
@@ -278,8 +303,8 @@
 
 </description>
         <pubDate>Wed, 17 Jun 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/We-need-to-be-heard/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/We-need-to-be-heard/</guid>
+        <link>https://square-1111.github.io/2020/We-need-to-be-heard/</link>
+        <guid isPermaLink="true">https://square-1111.github.io/2020/We-need-to-be-heard/</guid>
         
         
       </item>
@@ -304,8 +329,8 @@ I have grown up in a middle-class Hindu family, my pre-teen afternoons during su
 
 </description>
         <pubDate>Tue, 16 Jun 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/Legend-of-Lord-Ganesha/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/Legend-of-Lord-Ganesha/</guid>
+        <link>https://square-1111.github.io/2020/Legend-of-Lord-Ganesha/</link>
+        <guid isPermaLink="true">https://square-1111.github.io/2020/Legend-of-Lord-Ganesha/</guid>
         
         
       </item>
@@ -335,32 +360,8 @@ The notion of not reinventing the wheel is popular in the programming world, whi
 
 </description>
         <pubDate>Mon, 15 Jun 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/Reinvent-the-wheel/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/Reinvent-the-wheel/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Day 030, Ruth Carter: Costume Design </title>
-        <description>&lt;p&gt;This is a summary of Ruth Carter’s episode in Abstract: The Art of Design — a story of the first African-American women to win an Oscar for Best Costume Design for her work in Black Panther in 2019 — Ruth Carter.&lt;/p&gt;
-
-&lt;p&gt;Ruth Carter, one of the most famous names in the fashion industry began her journey in college theater. She auditioned for a play but didn’t get it, but the instructor asked her if she wanted to design costumes. She did not have any formal training in Costume Design but she knew how to navigate around the script. She went to the costume shop, picked up some fabrics and patterns, cut them and designed outfits. Before long, production after production, she became costume designer at her university.&lt;/p&gt;
-
-&lt;p&gt;For Ruth Carter, fashion was an important part of costume designing but the more important part was storytelling — the process of taking an idea and bringing it to life. She tells the story of the character, its background, its culture and what makes them themselves. It isn’t just about how the dress is perceived by others but her designs have an aura to light up the personality of the people and at the same time make them comfortable in their costumes.&lt;/p&gt;
-
-&lt;p&gt;From college theater to films, her idea to design through the costumes has been spiritualistic. How does Ruth design them? She first breaks down the script and forms the visual of the story — the culture, the timeline, the genre, everything. She develops an imaginary draft of the costumes to support the wonderments of the script to depict the richness of the script. Next step is to select the fabrics, lining, button, trim and combine them to narrate the theme of the script. Then come the nuts and bolts of what these ideas really look like, mood boards are full of fabric swatches, magazine cutouts,  illustrations, everything that gives inspiration. Designed clothes are now to be tried on, thus fitting rooms are often known as the transformation room. She always looks for improvement in her design.&lt;/p&gt;
-
-&lt;p&gt;During her early life, she had seen a derogatory image of blacks in cinema. Being a costume designer, she wanted to support greater story, story of times, story of people. And to her amazement, Spike Lee asked her to debut in Do the Right Thing, a movie in which Ruth brought out the African Pop Culture — vibrant crop top, necklaces, shorts. She loved to research the colors of times, the economics of the time, how people lived in those times, everything about it.&lt;/p&gt;
-
-&lt;p&gt;Ruth’s dynamism to understand people was instilled by her mother. Her mother taught her to empathize with people which later helped her to understand people deeply. Ruth observes the style of people walking down the street and interprets their culture, their beginning, what they care about. 
-In 2019, Ruth got the opportunity to create the world of Black Panther. It was an immense task to explore the reigns of ancient indigenous tribes around Africa which are vast resources of Artistic ideas. She infused the cultural and African diaspora with the realm of fantasy and futuristic world of Black Panther. Introduction of Killmonger in western contemporary dress to Dora Milaje’s ethnic colors of Africa depicted ethnic groups of Wakanda and defined colonialism. She was awarded an Oscar for her artistic and well-defined designs.&lt;/p&gt;
-
-&lt;p&gt;Her work has always left people awestruck. She brings humanity, emotionality to life through her clothes in a way that they are not only historically accurate but that can imagine black lives that the history books have told us wasn’t possible.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 14 Jun 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/Ruth-Carter/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/Ruth-Carter/</guid>
+        <link>https://square-1111.github.io/2020/Reinvent-the-wheel/</link>
+        <guid isPermaLink="true">https://square-1111.github.io/2020/Reinvent-the-wheel/</guid>
         
         
       </item>
