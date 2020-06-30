@@ -3,17 +3,28 @@
   <channel>
     <title></title>
     <description>Square</description>
-    <link>https://square-1111.github.io/</link>
-    <atom:link href="https://square-1111.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 29 Jun 2020 23:25:17 +0530</pubDate>
-    <lastBuildDate>Mon, 29 Jun 2020 23:25:17 +0530</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 30 Jun 2020 12:46:39 +0530</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2020 12:46:39 +0530</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Day 041, Generative Adversarial Network (GAN) Part 2</title>
+        <description>&lt;h1 id=&quot;mathematics-of-generative-adversarial-network&quot;&gt;Mathematics of Generative Adversarial Network&lt;/h1&gt;
+</description>
+        <pubDate>Tue, 30 Jun 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/2020/GAN2/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/GAN2/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Day 040, Generative Adversarial Network (GAN) Part 1</title>
         <description>&lt;p&gt;Today we will be talking about Generative Adversarial Network because they are cool and they can do lots of cool things. People use to create sketches, write poems, edit videos. The infamous DeepFakes uses GAN. It is an approach to generative modeling using deep learning methods.&lt;/p&gt;
 
-&lt;p&gt;Introduced in 2014, by Ian Goodfellow, the objective of the GAN is to create fake images that are as realistic as possible. GAN is based on a game theory objective to find (Nash Equilibrium)[https://en.wikipedia.org/wiki/Nash_equilibrium] between Generator and Discriminator, two components of GAN. The two networks, Generator and Discriminator, play a zero-sum game against each other until the discriminator is fooled for at least half the number of times. The generator converts random noise into observations that look as if they have been sampled from the original dataset while the discriminator tries to distinguish between the real and fake samples. The key to GAN lies in how we alternate the training between the networks so that the generator learns to fool the discriminator, while the discriminator gets better at correctly identifying fake samples. This drives the generator to fool the discriminator in more engaging ways.&lt;/p&gt;
+&lt;p&gt;Introduced in 2014, by Ian Goodfellow, the objective of the GAN is to create fake images that are as realistic as possible. GAN is based on a game theory objective to find &lt;a href=&quot;https://en.wikipedia.org/wiki/Nash_equilibrium&quot;&gt;Nash Equilibrium&lt;/a&gt; between Generator and Discriminator, two components of GAN. The two networks, Generator and Discriminator, play a zero-sum game against each other until the discriminator is fooled for at least half the number of times. The generator converts random noise into observations that look as if they have been sampled from the original dataset while the discriminator tries to distinguish between the real and fake samples. The key to GAN lies in how we alternate the training between the networks so that the generator learns to fool the discriminator, while the discriminator gets better at correctly identifying fake samples. This drives the generator to fool the discriminator in more engaging ways.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;The Generator Model&lt;/strong&gt;
 The generator model takes a fixed size random vector and generates samples in the domain. The vector is randomly sampled from Gaussian Distribution, which seeds the generative process. The aim of the generator is to learn the data distribution.&lt;/p&gt;
@@ -28,8 +39,8 @@ The discriminator model takes an example from the domain (real or generated) and
 &lt;p&gt;Perhaps the most compelling reason why GANs are used is because of their success. Since 2014 when GAN was first introduced, the results through the model are getting better manifolds every year. GANs have been able to generate samples so realistic that humans are unable to tell the difference between fake and real.&lt;/p&gt;
 </description>
         <pubDate>Mon, 29 Jun 2020 00:00:00 +0530</pubDate>
-        <link>https://square-1111.github.io/2020/GAN/</link>
-        <guid isPermaLink="true">https://square-1111.github.io/2020/GAN/</guid>
+        <link>http://localhost:4000/2020/GAN1/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/GAN1/</guid>
         
         
       </item>
@@ -53,8 +64,8 @@ The discriminator model takes an example from the domain (real or generated) and
 
 </description>
         <pubDate>Sat, 27 Jun 2020 00:00:00 +0530</pubDate>
-        <link>https://square-1111.github.io/2020/Sponge-City/</link>
-        <guid isPermaLink="true">https://square-1111.github.io/2020/Sponge-City/</guid>
+        <link>http://localhost:4000/2020/Sponge-City/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Sponge-City/</guid>
         
         
       </item>
@@ -81,8 +92,8 @@ The discriminator model takes an example from the domain (real or generated) and
 
 </description>
         <pubDate>Wed, 24 Jun 2020 00:00:00 +0530</pubDate>
-        <link>https://square-1111.github.io/2020/Minimalism/</link>
-        <guid isPermaLink="true">https://square-1111.github.io/2020/Minimalism/</guid>
+        <link>http://localhost:4000/2020/Minimalism/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Minimalism/</guid>
         
         
       </item>
@@ -103,8 +114,8 @@ The discriminator model takes an example from the domain (real or generated) and
 
 </description>
         <pubDate>Tue, 23 Jun 2020 00:00:00 +0530</pubDate>
-        <link>https://square-1111.github.io/2020/PS5/</link>
-        <guid isPermaLink="true">https://square-1111.github.io/2020/PS5/</guid>
+        <link>http://localhost:4000/2020/PS5/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/PS5/</guid>
         
         
       </item>
@@ -209,8 +220,8 @@ The discriminator model takes an example from the domain (real or generated) and
 
 </description>
         <pubDate>Mon, 22 Jun 2020 00:00:00 +0530</pubDate>
-        <link>https://square-1111.github.io/2020/Phi/</link>
-        <guid isPermaLink="true">https://square-1111.github.io/2020/Phi/</guid>
+        <link>http://localhost:4000/2020/Phi/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Phi/</guid>
         
         
       </item>
@@ -241,8 +252,8 @@ The discriminator model takes an example from the domain (real or generated) and
 
 </description>
         <pubDate>Sun, 21 Jun 2020 00:00:00 +0530</pubDate>
-        <link>https://square-1111.github.io/2020/Understanding-Deep-Learning-Requires-Rethinking-Generalization/</link>
-        <guid isPermaLink="true">https://square-1111.github.io/2020/Understanding-Deep-Learning-Requires-Rethinking-Generalization/</guid>
+        <link>http://localhost:4000/2020/Understanding-Deep-Learning-Requires-Rethinking-Generalization/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Understanding-Deep-Learning-Requires-Rethinking-Generalization/</guid>
         
         
       </item>
@@ -267,8 +278,8 @@ The discriminator model takes an example from the domain (real or generated) and
 
 </description>
         <pubDate>Fri, 19 Jun 2020 00:00:00 +0530</pubDate>
-        <link>https://square-1111.github.io/2020/Zoo/</link>
-        <guid isPermaLink="true">https://square-1111.github.io/2020/Zoo/</guid>
+        <link>http://localhost:4000/2020/Zoo/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Zoo/</guid>
         
         
       </item>
@@ -303,8 +314,8 @@ The discriminator model takes an example from the domain (real or generated) and
 
 </description>
         <pubDate>Wed, 17 Jun 2020 00:00:00 +0530</pubDate>
-        <link>https://square-1111.github.io/2020/We-need-to-be-heard/</link>
-        <guid isPermaLink="true">https://square-1111.github.io/2020/We-need-to-be-heard/</guid>
+        <link>http://localhost:4000/2020/We-need-to-be-heard/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/We-need-to-be-heard/</guid>
         
         
       </item>
@@ -329,39 +340,8 @@ I have grown up in a middle-class Hindu family, my pre-teen afternoons during su
 
 </description>
         <pubDate>Tue, 16 Jun 2020 00:00:00 +0530</pubDate>
-        <link>https://square-1111.github.io/2020/Legend-of-Lord-Ganesha/</link>
-        <guid isPermaLink="true">https://square-1111.github.io/2020/Legend-of-Lord-Ganesha/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Day 031, Reinvent the wheel</title>
-        <description>&lt;p&gt;&lt;strong&gt;Idiomatic Metaphor&lt;/strong&gt; : duplicate a basic method which has already previously been created or optimized by others.&lt;/p&gt;
-
-&lt;p&gt;If you ask any sane person about the greatest discovery of all the time, they will agree that it’s the wheel. The wheel has been reinvented so many times that reinventing the wheel has now become an idiom. If it hadn’t been the plethora of inventors and engineers trying to improve and adapt wheels for various purposes, we would still be traveling in Fred Flintstone’s footmobile.
-&lt;br /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;img src=&quot;/assets/images/tenor.gif&quot; height=&quot;60%&quot; width=&quot;60%&quot; /&gt;
-&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;The materials we use have changed from stones to alloys to now carbon-based substances. The content of the wheel has changed, the rim, development of strokes, aerodynamics of the wheel all were possible because someone somewhere reconsidered the novel invention of the wheel.&lt;/p&gt;
-
-&lt;p&gt;There are tons of debates that whether we should reinvent the wheel or not. Many people agree with it while others disagree. Believers suggest it’s a good way to think more critically and provide a better invention, while critics say why should we recreate something which is already there. They both are correct at the same time.&lt;/p&gt;
-
-&lt;p&gt;We need to understand that we don’t reinvent just for the sake of reinvention instead we should comprehend the situation and do the appropriate thing. For example, you run a company which sells Peanut Butter and you want to go online. Then there is no need to invent a way to interact online instead you can use online resources. But if you want to improve consistency of Peanut Butter then you might have to reinvent the wheel, breakdown each step in order to optimize each step of the process. This is how the peanut butter industry will progress.&lt;/p&gt;
-
-&lt;p&gt;Don’t reinvent the wheel because you can do it within minutes instead do it because you can develop a better, faster and optimized solution. Don’t do it just for the sake of doing instead do it because it is your requirement.
-&lt;br /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;img src=&quot;/assets/images/reinvent_the_wheel.png&quot; height=&quot;28%&quot; width=&quot;28%&quot; /&gt;
-&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;
-The notion of not reinventing the wheel is popular in the programming world, which I agree with. But sometimes it is necessary to develop things from scratch so that it goes along with your product and does not cause problems. Also, if someone is trying to reinvent the wheel, don’t downtrodden them instead encourage them to approach invention with clear intentions. &lt;strong&gt;We have not run out of ideas and we never will&lt;/strong&gt;, every time you stop someone from redoing an invention, you are shutting down the possibility of the next breakthrough. Even if there is no output, the educational value through reinventing is too significant. So encourage people to reinvent!&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 15 Jun 2020 00:00:00 +0530</pubDate>
-        <link>https://square-1111.github.io/2020/Reinvent-the-wheel/</link>
-        <guid isPermaLink="true">https://square-1111.github.io/2020/Reinvent-the-wheel/</guid>
+        <link>http://localhost:4000/2020/Legend-of-Lord-Ganesha/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Legend-of-Lord-Ganesha/</guid>
         
         
       </item>
