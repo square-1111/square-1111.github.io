@@ -5,13 +5,56 @@
     <description>Square</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 30 Jun 2020 12:46:39 +0530</pubDate>
-    <lastBuildDate>Tue, 30 Jun 2020 12:46:39 +0530</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2020 12:42:39 +0530</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2020 12:42:39 +0530</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
         <title>Day 041, Generative Adversarial Network (GAN) Part 2</title>
-        <description>&lt;h1 id=&quot;mathematics-of-generative-adversarial-network&quot;&gt;Mathematics of Generative Adversarial Network&lt;/h1&gt;
+        <description>&lt;h2 id=&quot;mathematics-of-generative-adversarial-network&quot;&gt;Mathematics of Generative Adversarial Network&lt;/h2&gt;
+&lt;p&gt;In the previous &lt;a href=&quot;/2020/GAN1/&quot;&gt;post&lt;/a&gt; we discussed the basics of GANs. In today’s post we will delve right into the mathematics of the GAN.&lt;/p&gt;
+
+&lt;p&gt;Based on the zero sum non cooperative game. If one wins then the other loses. This zero-sum game is also known as a minimax game. Discriminator (\(D\)) is trained to maximize the probability of assigning the correct label to both training examples and samples from Generator (\(G\)). While the generator maximizes probability of (\(D\)) to make mistakes, by minimizing the log of the inverse probability predicted by the discriminator for fake images.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;/assets/images/GAN.gif&quot; height=&quot;100%&quot; width=&quot;100%&quot; /&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The generator’s distribution \((p_g)\) over \(x\) is defined on prior input noise variable \(p_z(z)\). A neural network framework \(G\) is defined to learn data distribution \(x\). \(G\) maps noise variable to data space as \(G(z; \theta_g)\).&lt;br /&gt;
+\(D(x;\theta_d\) outputs a scalar. \(D(x)\) represents probability that \(x\) comes from data whereas in \(D(G(z))\) the \(G(z)\) is from generator network.&lt;/p&gt;
+
+&lt;p&gt;\(G\) is trained to minimize \(\log(1-D(G(z)))\). \(D\) and \(G\) plays minimax game with the value function \(V(G,D)\):&lt;/p&gt;
+
+&lt;p&gt;\[\min_{G}\max_{D}V(D,G) = E_{x\sim p_{data}(x)}[\log(D(x))]\;+\;E_{z\sim p_{z}(z)}[\log(D(G(z)))]\]&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;center&gt;~ means &quot;has distribution (of)&quot;&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This adversarial training principle has transformed unsupervised task to supervised task.&lt;/p&gt;
+
+&lt;h2 id=&quot;optimality&quot;&gt;Optimality&lt;/h2&gt;
+&lt;p&gt;The principle of GANs is based on Nash Equilibrium. This means, theoretically, the algorithm tries to achieve global optimality \(p_g\;=\;p_{data}\)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Preposition :&lt;/strong&gt; For \(G\) fixed, the optimal discriminator is &lt;br /&gt;
+\[D_{G}^{\ast}(x) = \frac{p_{data}(x)}{p_{data}(x)\;+\;p_g(x)}\]
+&lt;em&gt;Proof :&lt;/em&gt; To train \(D\) we maximize the value function, keeping \(G\) fixed.&lt;br /&gt;
+\[V(G,D) = \int_{x}\;p_{data}(x)\log(D(x))dx\;+\int_{z}p_z(z)\log(1-D(g(z)))dz \]
+\[= \int_{x}\;p_{data}(x)\log(D(x))dx\;+\;p_g(x)\log(1-D(x)))dx \]&lt;/p&gt;
+
+&lt;p&gt;For any \(a,b \in R^2\) such that \(a,b \neq {0,0} \). Then the function \(f \; \rightarrow a\log(y) + b\log(1-y)\) achieves maxima at \(\frac{a}{a\;+\;b}\).&lt;br /&gt;
+Discriminator is defined within \(supp(p_{data}) \cup supp(p_g)\)&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Definition: \(supp(x)\) is the subset of the domain containing those elements that are not mapped to zero.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Training objective of discriminator can be reframed as maximum log-likelihood for estimating conditional probability \(P(Y=y\;\vert \;x)\). Thus the minmax equation can be reformulated as:&lt;/p&gt;
+
+&lt;p&gt;\[C(G)\; =\; \max_D V(G,D)\]
+\[=\;E_{x\sim p_{data}}[\log(D_G^\ast(x))]\;+\;E_{z\sim p_{z}}[\log(D_G^\ast(G(z)))]\]
+\[=\;E_{x\sim p_{data}}[\log(D_G^\ast(x))]\;+\;E_{x\sim p_{g}}[\log(D_G^\ast(x))]\]
+\[=\;E_{x\sim p_{data}}\left[\log\left(\frac{p_{data}(x)}{p_{data}(x)\;+\;p_g(x)}\right)\right]\;+\;E_{x\sim p_{g}}\left[\log\left(\frac{p_{g}(x)}{p_{data}(x)\;+\;p_g(x)}\right)\right]\]&lt;/p&gt;
+
+&lt;p&gt;Of Course the aim of GAN is \(p_g\;=\;p_{data}\).&lt;/p&gt;
 </description>
         <pubDate>Tue, 30 Jun 2020 00:00:00 +0530</pubDate>
         <link>http://localhost:4000/2020/GAN2/</link>
