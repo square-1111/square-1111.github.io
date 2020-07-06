@@ -5,8 +5,8 @@
     <description>Square</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 07 Jul 2020 01:31:49 +0530</pubDate>
-    <lastBuildDate>Tue, 07 Jul 2020 01:31:49 +0530</lastBuildDate>
+    <pubDate>Tue, 07 Jul 2020 01:35:53 +0530</pubDate>
+    <lastBuildDate>Tue, 07 Jul 2020 01:35:53 +0530</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -27,21 +27,25 @@
 &lt;p&gt;The initial patterns constitute the seed of the system. This elementary cellular automata either blooms out or dies off. It is not necessary the structure becomes complex and intriguing nor is it necessary it must die off, there is a possibility that the structure oscillates and repeats itself every few moves. Block, beehive, loaf, boat — remain static and never change; blinker, toad, beacon oscillates, while glider and lightweight spaceship changes configuration over configuration and repeats the initial seed at different locations.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;img src=&quot;/assets/images/conway_static.png&quot; height=&quot;100%&quot; width=&quot;100%&quot; /&gt;
+&lt;center&gt;&lt;img src=&quot;/assets/images/conway_static.png&quot; height=&quot;70%&quot; width=&quot;70%&quot; /&gt;
 &lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;img src=&quot;/assets/images/conway_oscillate.png&quot; height=&quot;100%&quot; width=&quot;100%&quot; /&gt;
+&lt;!-- &lt;br&gt;
+&lt;br&gt; --&gt;
+&lt;center&gt;&lt;img src=&quot;/assets/images/conway_oscillate.png&quot; height=&quot;70%&quot; width=&quot;70%&quot; /&gt;
 &lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;img src=&quot;/assets/images/conway_repeat.png&quot; height=&quot;100%&quot; width=&quot;100%&quot; /&gt;
+&lt;!-- &lt;br&gt;
+&lt;br&gt; --&gt;
+&lt;center&gt;&lt;img src=&quot;/assets/images/conway_repeat.png&quot; height=&quot;70%&quot; width=&quot;70%&quot; /&gt;
 &lt;/center&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;The behaviour of plants and animals can be better understood by these simple rules. Behaviour that seems intelligent, such as ant colonies might just be simple rules that we don’t understand yet. Traffic problems might be solved by analyzing them with the mathematical tool and breaking it down to fundamental. Computer viruses are also examples of cellular automata. Finding the pattern in these viruses might also be hidden in this life. Human diseases can be cured if we could better understand how cells live and die. Exploring the galaxies could be easier if the machines could be invented that could create a replica of themselves. Game of life helps in understanding all of this.&lt;/p&gt;
 
 &lt;p&gt;Conway’s game of life is an existential proof that complex and unpredictable nature is possible due to a simple but recursive system.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;sup&gt;&lt;sub&gt;Images from &lt;a href=&quot;https://natureofcode.com/book/chapter-7-cellular-automata/&quot;&gt;Chapter 7: The Nature of Code&lt;/a&gt;&lt;/sub&gt;&lt;/sup&gt;&lt;/em&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 06 Jul 2020 00:00:00 +0530</pubDate>
