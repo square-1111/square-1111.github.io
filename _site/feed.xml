@@ -5,9 +5,51 @@
     <description>Square</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 06 Jul 2020 01:24:18 +0530</pubDate>
-    <lastBuildDate>Mon, 06 Jul 2020 01:24:18 +0530</lastBuildDate>
+    <pubDate>Tue, 07 Jul 2020 01:31:49 +0530</pubDate>
+    <lastBuildDate>Tue, 07 Jul 2020 01:31:49 +0530</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Day 045, Game of Life</title>
+        <description>&lt;p&gt;In 1970, John Conway published an eclectic paper about cellular automata — the game of life. It is a simulation that chooses how a complex thing like mind can come from a basic set of rules. This simulation consists of a grid, like a chessboard, extending infinitely in all directions. Each lid of the grid can either be lit up or dark.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Cellular Automata&lt;/strong&gt; is a collection of colored cells in a grid like pattern to represent the state of that machine or program. It evolves over time according to the rules.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Game of Life is a zero player game, whose evolution depends on the initial stage of the game. Defined on 8 adjacent grid cells, the configuration of the next state depends on the configuration of the given cell and its corresponding neighbour cells. At each step in the time, following transitions can take place:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If a cell is alive then it stays alive if it has either 2 or 3 live neighbours.&lt;/li&gt;
+  &lt;li&gt;If the cell is dead then it springs to life only in the case that it has 3 live neighbours.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The initial patterns constitute the seed of the system. This elementary cellular automata either blooms out or dies off. It is not necessary the structure becomes complex and intriguing nor is it necessary it must die off, there is a possibility that the structure oscillates and repeats itself every few moves. Block, beehive, loaf, boat — remain static and never change; blinker, toad, beacon oscillates, while glider and lightweight spaceship changes configuration over configuration and repeats the initial seed at different locations.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;/assets/images/conway_static.png&quot; height=&quot;100%&quot; width=&quot;100%&quot; /&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;/assets/images/conway_oscillate.png&quot; height=&quot;100%&quot; width=&quot;100%&quot; /&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;/assets/images/conway_repeat.png&quot; height=&quot;100%&quot; width=&quot;100%&quot; /&gt;
+&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The behaviour of plants and animals can be better understood by these simple rules. Behaviour that seems intelligent, such as ant colonies might just be simple rules that we don’t understand yet. Traffic problems might be solved by analyzing them with the mathematical tool and breaking it down to fundamental. Computer viruses are also examples of cellular automata. Finding the pattern in these viruses might also be hidden in this life. Human diseases can be cured if we could better understand how cells live and die. Exploring the galaxies could be easier if the machines could be invented that could create a replica of themselves. Game of life helps in understanding all of this.&lt;/p&gt;
+
+&lt;p&gt;Conway’s game of life is an existential proof that complex and unpredictable nature is possible due to a simple but recursive system.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 06 Jul 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/2020/Game-of-life/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Game-of-life/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Day 044, Sugar</title>
@@ -350,38 +392,6 @@ The discriminator model takes an example from the domain (real or generated) and
         <pubDate>Mon, 22 Jun 2020 00:00:00 +0530</pubDate>
         <link>http://localhost:4000/2020/Phi/</link>
         <guid isPermaLink="true">http://localhost:4000/2020/Phi/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Day 035, Understanding Deep Learning Requires Rethinking Generalization</title>
-        <description>&lt;p&gt;&lt;em&gt;This is a summary of Understanding Deep Learning Requires Rethinking Generalization paper which has been awarded for the best paper award at ICLR 2017. One of the best papers I have read so far, an eye-opener but quite verbose.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Some models generalize better than others. But how do we distinguish between them? Answering this question would help us interpret the Artificial Neural Network (ANN) and help us create reliable and principled model architecture. Before we move further ahead, generalization error is the difference between training and testing error.&lt;/p&gt;
-
-&lt;p&gt;The central idea of the paper was&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Deep neural networks easily fit random labels.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;and&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Explicit regularization may improve generalization performance, but is neither necessary nor by itself sufficient for controlling generalization error.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;randomization-test---fitting-random-labels-and-pixels&quot;&gt;Randomization Test  : Fitting Random Labels and Pixels&lt;/h2&gt;
-&lt;p&gt;The paper explained the memorization capacity of the paper through randomizing labels and pixels. Authors trained several standard architectures with randomized labels. They found DNNs easily fit random labels. Moreso, the training error becomes zero, while the testing error is the same as any random chance. Furthering this they experimented with the pixels as well — shuffled pixels, random pixel, and gaussian noise. Surprisingly, stochastic gradient descent with unchanged hyperparameters can optimize weight to fit random labels perfectly. Adding to this astonishment, it was observed that as the noise in the image increases, the generalization error decreases.&lt;/p&gt;
-
-&lt;h2 id=&quot;explicit-regularization&quot;&gt;Explicit Regularization&lt;/h2&gt;
-&lt;p&gt;Explicit regularization techniques like dropout, weight decay, data augmentation are the tools of deep learning. These techniques were tested on random labels. As expected, the results were better. But the point that labels were shuffled makes it difficult to comprehend. Not only this  but implicit regularizers like early stopping also contributed for the betterment of the model trained on shuffled class labels. But we can’t miss that regularizers don’t tamper the weights too much but make subtle changes to make weights more smooth.&lt;/p&gt;
-
-&lt;p&gt;This all boils down to explain that deep neural networks work on rote memory than on semantic understanding, making neural networks far less interpretable and reliable.&lt;/p&gt;
-
-</description>
-        <pubDate>Sun, 21 Jun 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/Understanding-Deep-Learning-Requires-Rethinking-Generalization/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/Understanding-Deep-Learning-Requires-Rethinking-Generalization/</guid>
         
         
       </item>
