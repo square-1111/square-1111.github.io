@@ -5,9 +5,32 @@
     <description>Square</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 07 Jul 2020 01:35:53 +0530</pubDate>
-    <lastBuildDate>Tue, 07 Jul 2020 01:35:53 +0530</lastBuildDate>
+    <pubDate>Thu, 09 Jul 2020 12:38:52 +0530</pubDate>
+    <lastBuildDate>Thu, 09 Jul 2020 12:38:52 +0530</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Day 046, Pandemic and Exams</title>
+        <description>&lt;p&gt;Exam and Election season in India are amazing. These two seasons cause more deaths and devastation than any other, especially the former one. Thank You Indian society for making students feel bad about themselves. Thank You for forcing them to commit suicide. Thank You for forcing them to break their mental peace. Thank You for making them feel horrible. Aha! Let’s add a topping on it, exams during a pandemic. It was fine until the assignments but exams amidst this pandemic are going to be a hodgepodge.&lt;/p&gt;
+
+&lt;p&gt;The main purpose of exams is to test students what they are taught. It gives you the ability to stay focused under pressure. It brushes your skill. I believe it does but being locked in the house for more than 100 days doesn’t make the situation better despite it makes it worse. When the lockdown was imposed I planned to take on cutting things off my bucket list. I am sure all you must have thought that way but slowly the stress, anxiety, fear, pressure started to build up. Everyone is on the verge of mental breakdown. The surrounding is depressed. The world is depressed. The world is becoming hollow.&lt;/p&gt;
+
+&lt;p&gt;Why are we taking exams? Are we even taught anything? Irregular classes, poor internet, irritated students and teachers — the feudal system. The world is going down, the economy is crashing, protests are being held, police brutality is peaking and most importantly, people are dying because of COVID-19. People are scared. Even the calmest of the minds are flipping out. What do you expect from young adults? Their prefrontal cortex is not developed. This compromises to rageful decisions, sloppy behaviour, recklessness, impulsive nature and disturbed brain. These are the future of the nation. While they are gradually slipping into the cruel world, it’s hard for them to understand the nature of people, making them anxious.&lt;/p&gt;
+
+&lt;p&gt;The decisions of UGC has contributed more to this. Students who are already under pressure are being provided with confusing statements. Authorities have constantly changed their decision in the nick of time. State governments suggested not to hold examinations then UGC, on July 6, issued a notice to conduct examinations of the terminal semester and final year, suggesting to hold exams by September 30. While WHO has passed guidelines suggesting that the worst is yet to come. UGC believes all of it will settle by September 30.&lt;/p&gt;
+
+&lt;p&gt;Universities have tried mock examinations but thanks to the poor internet infrastructure, the system has been brutally compromised. There is a case of a girl committing suicide because her father couldn’t afford a smartphone for her class. Government is slowly transforming schools and colleges to COVID centers and at the same time asking students to take offline exams. Believe it or not, things are getting out of hands.&lt;/p&gt;
+
+&lt;p&gt;An alternative is to cancel final semester exams while using the average of marks obtained in previous semesters as a proxy of final semester marks. This will meet the guidelines of pandemic and there is nothing to worry about the connectivity because prior examination results are already available. 
+While we talked about mental health when Sushant Singh Rajput died, at the same time UGC has forced exams and increased the mental tension of the final year students. Aren’t those officers aware of the fragile and panicky age of young adults, or officers at UGC love the cheap and reliable idea of exams for creating hierarchy in society?&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 08 Jul 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/2020/Exams/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Exams/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Day 045, Game of Life</title>
@@ -290,112 +313,6 @@ The discriminator model takes an example from the domain (real or generated) and
         <pubDate>Tue, 23 Jun 2020 00:00:00 +0530</pubDate>
         <link>http://localhost:4000/2020/PS5/</link>
         <guid isPermaLink="true">http://localhost:4000/2020/PS5/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Day 036, Phi</title>
-        <description>&lt;p&gt;Oh No! Not another greek alphabet. Do I have an obsession with them? Maybe.&lt;/p&gt;
-
-&lt;p&gt;Just like &lt;a href=&quot;/2020/Pi/&quot;&gt;Pi&lt;/a&gt;, Phi is a symbolic representation of Golden Ratio. Golden Ratio, what? I have never heard of it.&lt;/p&gt;
-
-&lt;p&gt;We find the &lt;strong&gt;Golden Ratio&lt;/strong&gt; when we divide the a line into two parts such that the ratio of the longer part to the shorter part is equal to the whole length divided by the shorter part.&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;img src=&quot;/assets/images/GoldenRatio.png&quot; height=&quot;30%&quot; width=&quot;30%&quot; /&gt;
-&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;\[\varphi = \frac{a}{b} = \frac{a+b}{a}\]&lt;/p&gt;
-
-&lt;p&gt;And the magic begins,&lt;/p&gt;
-
-&lt;p&gt;\[\varphi = \frac{a}{b} = 1 + \frac{a}{b}\]
-\[\varphi = 1 + \frac{1}{\varphi}\]&lt;/p&gt;
-
-&lt;p&gt;Did I mention anything about recursion?&lt;/p&gt;
-
-&lt;p&gt;\[\varphi = 1 + \frac{1}{1 + \frac{1}{1 + \frac{1}{1 + \frac{1}{\ddots}}}}\]&lt;/p&gt;
-
-&lt;p&gt;Nevermind, let’s calculate its value.&lt;/p&gt;
-
-&lt;p&gt;\(\varphi \)  is a solution of quadratic equation \(\varphi^2 - \varphi - 1 = 0\)&lt;/p&gt;
-
-&lt;p&gt;\[\varphi = \frac{1+\sqrt{5}}{2} = 1.6180339887…\]&lt;/p&gt;
-
-&lt;p&gt;Another irrational number.&lt;/p&gt;
-
-&lt;p&gt;Inspired by the 1D line we can extend this in 2D. A 2D rectangle with side length \(a + b\) and \(a\). Following the properties of Golden Ratio, this rectangle is known as &lt;strong&gt;Golden Rectangle&lt;/strong&gt;.
-&lt;br /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;img src=&quot;/assets/images/goldenREc.png&quot; height=&quot;30%&quot; width=&quot;30%&quot; /&gt;
-&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;But there is more to it. What if we subdivide the rectangle into a square and another rectangle and do it until we get two squares? Adding to it if we construct a spiral by pivoting at the corner of the square and turning it quarter in a continuous fashion, we will get &lt;strong&gt;Golden Spiral&lt;/strong&gt;. It is an ever-expanding spiral.
-&lt;br /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;img src=&quot;/assets/images/spiralGolden.jpg&quot; height=&quot;40%&quot; width=&quot;40%&quot; /&gt;
-&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now let’s look from a different direction — bottom up. Consider two unit squares, combine them along the side. Attach a square of side length equal to the length of the larger side of the previously formed rectangle. We will get a similar pattern again. But if we look at the side length of squares we will find an engaging pattern.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;1, 1, 2, 3, 5, 8, 13, 21, 34, …&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Length of the side of the next square is equal to the sum of the previous two. Remember &lt;strong&gt;Fibonacci Series&lt;/strong&gt;. When we take the ratio of two successive numbers from the Fibonacci Sequence then their value is very close to Golden Ratio.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;A&lt;/th&gt;
-      &lt;th&gt;B&lt;/th&gt;
-      &lt;th&gt;B/A&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2&lt;/td&gt;
-      &lt;td&gt;3&lt;/td&gt;
-      &lt;td&gt;1.5&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;3&lt;/td&gt;
-      &lt;td&gt;5&lt;/td&gt;
-      &lt;td&gt;1.6667&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;5&lt;/td&gt;
-      &lt;td&gt;8&lt;/td&gt;
-      &lt;td&gt;1.6&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;8&lt;/td&gt;
-      &lt;td&gt;13&lt;/td&gt;
-      &lt;td&gt;1.625&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;13&lt;/td&gt;
-      &lt;td&gt;21&lt;/td&gt;
-      &lt;td&gt;1.615&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;As we approach towards infinity this ratio converges to the Golden Ratio.&lt;/p&gt;
-
-&lt;p&gt;Enough of mathematics Square. We understand, Golden Ratio has myriads of secrets. Why should we care?&lt;/p&gt;
-
-&lt;p&gt;This divine proportion is all around us but its knowledge is confined to some mainstream recognition. Just like air — it’s there but we can’t see it. Similarly, Golden Ratio is omnipresent — from nature to music to architectural design. This tool is used by sculptors and artists to achieve remarkably accurate proportion and aesthetic compositions.&lt;/p&gt;
-
-&lt;p&gt;Throughout history, we can find many instances of phi. The first guy was Luca Pacioli, a Franciscan friar who wrote a book called &lt;em&gt;De Divina Proportione&lt;/em&gt; back in 1509, which was named after the golden ratio. He did not tell about the aesthetics of Phi, instead the book focused on the Vitruvian System and its allegiance with golden ratio. Leonardo da Vinci was close friends with Pacioli. Da Vinci used this secret math in many of his famous paintings including Monalisa. Ancient Greek architecture used the Golden Ratio to determine pleasing dimensional relationships between the width of a building and its height, the size of the portico and even the position of the columns supporting the structure.&lt;/p&gt;
-
-&lt;p&gt;Phi is also said to be common in nature. Flower petals often come in Fibonacci numbers, such as five or eight, and pine cones grow their seeds outward in spirals of Fibonacci numbers. The ubiquitous nature of the Golden Ratio with its diverse and engaging application have made Phi another mathematical marvel.&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 22 Jun 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/Phi/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/Phi/</guid>
         
         
       </item>
