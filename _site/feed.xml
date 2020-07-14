@@ -5,9 +5,31 @@
     <description>Square</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 11 Jul 2020 17:07:45 +0530</pubDate>
-    <lastBuildDate>Sat, 11 Jul 2020 17:07:45 +0530</lastBuildDate>
+    <pubDate>Wed, 15 Jul 2020 00:30:02 +0530</pubDate>
+    <lastBuildDate>Wed, 15 Jul 2020 00:30:02 +0530</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Day 048, Deep Generative Modeling of LiDAR Data</title>
+        <description>&lt;p&gt;This is the summary of the paper &lt;a href=&quot;https://arxiv.org/abs/1812.01180&quot;&gt;Deep Generative Modeling of LiDAR Data&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The paper covers the niche problem of generative modeling on lidar scans. Often, the data through the sensor is corrupted or has some inconsistencies. This might lead to a tumultuous behaviour within the robot thus affecting the output. To address this problem, developing an intelligent system is an important mission.&lt;/p&gt;
+
+&lt;p&gt;Generative modeling has shown massive growth in images but it is still in its toddler stages compared to 3D and lidar data. Thus, the authors have devised to project the 3D lidar sensory data to a 2D grid. The spherical lidar data is converted to a 2D grid through a two-step process. Step 1, the N (x,y,z) points are clustered into H parts on the basis of the angle of elevation. Points with the same angle of elevation buckets into the same cluster. In the next step, the 360 degree plane is divided into W parts. This gives us a grid of H x W. Information of each cell is accumulated into a tensor of size 3 — H x W x 3. This data can be easily converted to the polar coordinate system. The devised technique is used on the KITTI dataset.&lt;/p&gt;
+
+&lt;p&gt;Now that the data is prepared, the baselines are developed on AtlasNet using the KITTI data without any preprocessing. Paper talks about conditional and unconditional generation. In conditional generation the data is slightly tampered with some noise, here Gaussian Noise, and then remodeled to reconstruct the input intelligently. Since the modeling is not based on sampling but instead on reconstruction, VAE and AE are used. Simultaneously, for unconditional generation, GANs are used.&lt;/p&gt;
+
+&lt;p&gt;Rigorous evaluation criteria for generative modeling is still an open problem. But here the authors have used the Earth Mover metric — optimal transport problem —  and Chamfer distance. Moreso, for training parameters they have randomly selected learning rate, latent dimensions and batch size and experimented with 10 different configurations.&lt;/p&gt;
+
+&lt;p&gt;The proposed adversarial network can produce highly realistic images. Also VAE for lidar data provides a very robust solution to deal with noisy data.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 14 Jul 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/2020/Lidar/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Lidar/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Day 047, Avatar : The Last Airbender</title>
@@ -287,34 +309,6 @@ The discriminator model takes an example from the domain (real or generated) and
         <pubDate>Sat, 27 Jun 2020 00:00:00 +0530</pubDate>
         <link>http://localhost:4000/2020/Sponge-City/</link>
         <guid isPermaLink="true">http://localhost:4000/2020/Sponge-City/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Day 038, Minimalism</title>
-        <description>&lt;p&gt;What comes into your mind when you think of minimalism? A perfectly lit white room with no material or extremely simple artwork. That’s how the concept of minimalism is portrayed. But when it comes to living a minimalist life, living in a well lighted room without any material would be quite morbid and deprecating. Some people follow this extreme form of minimalism; it’s not recommended.&lt;/p&gt;
-
-&lt;p&gt;Minimalism is not about removing everything but it’s about decluttering in order to achieve happiness, peace and sanctity. Consider an example: A person wants a cup of coffee after waking up to feel alive or happy. They start to think this is what makes them happy. But slowly this requirement locks them in. They start to structure their life around it. For a lot of us, it’s evening tea or the Internet for entertainment and news or the need to watch TV in the evening to unwind time. There is nothing wrong with it. But gradually these things which make us happy start to pile up and control our life. What happens if you let go of these things and keep it as a “nice-to-have” option? It might make you feel sad for a while but it will free you.&lt;/p&gt;
-
-&lt;p&gt;Minimalism is intentionally living with things you really need — those items that support the purpose. Removing all the distractions of excess possessions to focus more on things that matter. Living a minimalist lifestyle reduces your stress and anxiety, improves your sleep, helps in clarity of thoughts, boosts your productivity and creativity and importantly helps you to save money.&lt;/p&gt;
-
-&lt;p&gt;How do you start to declutter?&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;If you are new, start with 5 minutes a day to build momentum&lt;/li&gt;
-  &lt;li&gt;Put everything in one pile&lt;/li&gt;
-  &lt;li&gt;Ask yourself: do you really need this? Do you use it regularly? Do you love it? If the answer to any of these is no, then recycle, donate, or give it to someone who might want it. Put it in a box for these purposes.&lt;/li&gt;
-  &lt;li&gt;If you want to do more than 5 minutes a day, go ahead but be careful not to overdo it in the beginning or you will think it’s difficult to continue.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Physical decluttering is just one type, you should declutter your digital life as well. Declutter your calendar by prioritizing your commitments and saying no to non-essential things.&lt;/p&gt;
-
-&lt;p&gt;There is a beautiful world of freedom and fresh breath hiding behind that clutter. Deciding how to declutter your home is up to you. A minimalist lifestyle teaches you how to say “No” to unsolicited things. This isn’t a prescription for how to live your life, but just something to consider.&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 24 Jun 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/Minimalism/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/Minimalism/</guid>
         
         
       </item>
