@@ -5,9 +5,33 @@
     <description>Square</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 16 Jul 2020 11:05:18 +0530</pubDate>
-    <lastBuildDate>Thu, 16 Jul 2020 11:05:18 +0530</lastBuildDate>
+    <pubDate>Sun, 19 Jul 2020 12:48:02 +0530</pubDate>
+    <lastBuildDate>Sun, 19 Jul 2020 12:48:02 +0530</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Day 050, Emoji — 😀 😒 🤥 💀  👾 🤖 🎃 😺</title>
+        <description>&lt;p&gt;Yesterday, July 17 was Emoji Day. So I decided to write about it. July 17 is marked as emoji day because Apple calendar emoji has the same date mentioned on it.&lt;/p&gt;
+
+&lt;p&gt;From cave paintings to emoji — we have come a long way. With every passing day, as we evolve new emojis are introduced. Emojis are the future of language and semiotics. Much like punctuations, emoji’s have made the conversations hasslefree. Well, thinking about conversation without emoji is difficult for us. Emoji makes the conversation interesting and helps us to express ourselves.&lt;/p&gt;
+
+&lt;p&gt;In the beginning, there were emoticons — :-) and :-( and :-P. For the most part, they were used in chat rooms in the 1990s. The first emoji was created by Japanese artist Shigetaka Kurita in 1999. Kurita wanted to design an attractive interface to convey information in a simple way. So Kurita sketched 12-by-12 pixel images that could be selected from the keyboard-like grid and then sent on to mobile and pages. Kurita’s original 176 emoji’s — now part of the permanent collection of the New York Museum of Modern Art — had symbols to characterise emotions, weather, traffic, technology and phases of the moon. As of March 2020, Unicode Consortium — which acts as the UN for text and signs — has approved 3304 emojis. Now more than 92 percent of the people online use emoji, and one-third use on a daily basis. This trend of emoji began when Apple added emojis to iOS keyboard in 2008. Two years later, Android also unveiled an emoji keyboard.&lt;/p&gt;
+
+&lt;p&gt;Meanwhile, the language of texting changed. In 2015, Oxford Dictionary crowned “Face with Tears of Joy” as the word of the year. This was the first time that an emoji became a linguistic champion. Meanwhile All the emojis are pixels of information. Emoji roots from the Japanese word “e” which means picture and “moji” which means character. Essentially, the emojis are images designed to narrate a story.&lt;/p&gt;
+
+&lt;p&gt;Every year designers submit new emojis to the Unicode Consortium which are properly testified before being rolled out. The fundamental improvement in the emoji vocabulary is based on the incorporation of culture of underrepresented communities. As these emojis come up we understand something about the cultural priorities and types of people who are included in forming this digital growing age. Anyone can submit a proposal to add a new emoji. Unicode asks for proper documentation, an explanation of why and how people will use it.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Text is the most powerful, go-to communication tool. Emojis are the upgrade.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Sat, 18 Jul 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/2020/Emoji/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/Emoji/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Day 049, Diamonds</title>
@@ -279,31 +303,6 @@ Discriminator is defined within \(supp(p_{data}) \cup supp(p_g)\)&lt;/p&gt;
         <pubDate>Tue, 30 Jun 2020 00:00:00 +0530</pubDate>
         <link>http://localhost:4000/2020/GAN2/</link>
         <guid isPermaLink="true">http://localhost:4000/2020/GAN2/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Day 040, Generative Adversarial Network (GAN) Part 1</title>
-        <description>&lt;p&gt;Today we will be talking about Generative Adversarial Network because they are cool and they can do lots of cool things. People use to create sketches, write poems, edit videos. The infamous DeepFakes uses GAN. It is an approach to generative modeling using deep learning methods.&lt;/p&gt;
-
-&lt;p&gt;Introduced in 2014, by Ian Goodfellow, the objective of the GAN is to create fake images that are as realistic as possible. GAN is based on a game theory objective to find &lt;a href=&quot;https://en.wikipedia.org/wiki/Nash_equilibrium&quot;&gt;Nash Equilibrium&lt;/a&gt; between Generator and Discriminator, two components of GAN. The two networks, Generator and Discriminator, play a zero-sum game against each other until the discriminator is fooled for at least half the number of times. The generator converts random noise into observations that look as if they have been sampled from the original dataset while the discriminator tries to distinguish between the real and fake samples. The key to GAN lies in how we alternate the training between the networks so that the generator learns to fool the discriminator, while the discriminator gets better at correctly identifying fake samples. This drives the generator to fool the discriminator in more engaging ways.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The Generator Model&lt;/strong&gt;
-The generator model takes a fixed size random vector and generates samples in the domain. The vector is randomly sampled from Gaussian Distribution, which seeds the generative process. The aim of the generator is to learn the data distribution.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The Discriminator Model&lt;/strong&gt;
-The discriminator model takes an example from the domain (real or generated) and predicts the binary class of the sample (real or fake). The real examples come from training data while the fake examples are created by a generator network. The discriminator is a simple classification model.&lt;/p&gt;
-
-&lt;p&gt;After the training process, the generator model is kept and used to generate new samples.&lt;/p&gt;
-
-&lt;p&gt;GANs have the power to generate data similar to the training data. Thus they help in data augmentation. GANs provide a more domain-specific approach for data augmentation. Besides this, GANs have many other applications — Image superresolution, Creating Art, Image-to-Image translation, Drug Designing etc.&lt;/p&gt;
-
-&lt;p&gt;Perhaps the most compelling reason why GANs are used is because of their success. Since 2014 when GAN was first introduced, the results through the model are getting better manifolds every year. GANs have been able to generate samples so realistic that humans are unable to tell the difference between fake and real.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 29 Jun 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/GAN1/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/GAN1/</guid>
         
         
       </item>
