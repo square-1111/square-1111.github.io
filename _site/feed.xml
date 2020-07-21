@@ -5,9 +5,44 @@
     <description>Square</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 19 Jul 2020 12:48:02 +0530</pubDate>
-    <lastBuildDate>Sun, 19 Jul 2020 12:48:02 +0530</lastBuildDate>
+    <pubDate>Tue, 21 Jul 2020 14:00:48 +0530</pubDate>
+    <lastBuildDate>Tue, 21 Jul 2020 14:00:48 +0530</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Day 051, IIT Hyderabad</title>
+        <description>&lt;p&gt;Last year, during the summer break I went to IIT Hyderabad for my internship.&lt;/p&gt;
+
+&lt;p&gt;30 km from the main city, lay concrete marvel. Nevertheless, it was still under construction and would take around 10 years to complete. I reached the college around 8 PM, got my room allotted and unpacked my stuff. I was lost, nervous but excited.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;center&gt;&lt;img src=&quot;/assets/images/iith.jpg&quot; height=&quot;90%&quot; width=&quot;90%&quot; /&gt;
+&lt;/center&gt;
+&lt;center&gt;&lt;sub&gt;&lt;sup&gt;An Evening at IIT Hyderabad&lt;/sup&gt;&lt;/sub&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Next day, I met my PhD mentor, Charantej Reddy Pochimreddy, while my guide was not available. In the meantime, Charan gave me a tour of the lab, and the work they do at the lab. They aimed mainly towards signal processing and theoretical understanding of neural networks. Also, they studied adversarial machine learning. Charan suggested some readings and asked me to make a list of all the ideas and formulate a research proposal for them. For the rest of the day, I explored &lt;a href=&quot;http://www.cleverhans.io/&quot;&gt;cleverhans.io&lt;/a&gt;, to explore the dimensions of adversarial machine learning. Next day, I met Prof. Aditya Siripuram and showed him the proposal. He suggested application based project instead of diving into theoretical approaches.&lt;/p&gt;
+
+&lt;p&gt;Finally, after rigorous first principle questioning, we developed an idea where we have to generate the training dataset of a black box classifier. Charan’s experience was quite helpful, he had submitted some research papers. Initial readings were based on decision trees and forming fuzzy images. We scraped some more papers and found out a really fascinating GAN based architecture.&lt;/p&gt;
+
+&lt;p&gt;My daily routine revolved within mess-lab-mess-lab-mess-room. Soon I met Divyansh Tiwari, another intern from Jabalpur, who first thought I was a M. Tech. student. As usual, I was running late and so was Divyansh. Day in day out, Divyansh became my first friend at IIT Hyderabad and his gang — Sonam, a mechanical engineering intern; Kailash, a skeptical athletic civil engineering intern and Chirag, another mechanical engineer intern. Chirag and Sonam worked under the same professor. On June 20, Kakul Shrivastava aka Shrini came to IIT Hyderabad for the internship, a hardworking introvert. For those who don’t know, Kakul is from ZHCET AMU.&lt;/p&gt;
+
+&lt;p&gt;Simultaneously, Our project was slowly blooming. I aimed to develop an architecture similar to Generative Adversarial Network to learn the feature space of the classifier. The classifier identified between the images of Orlando Bloom and Keira Knightley. Once the classifier was trained, we attached it in parallel to the discriminator. The weights of the Classifier were fixed. To understand the feature space of the classifier, we devised weighted loss. A dynamic scaling factor was introduced. As the image is developed by a generator, we pass it through a discriminator and classifier. The loss through discriminator was multiplied by &lt;code class=&quot;highlighter-rouge&quot;&gt;alpha&lt;/code&gt; while the loss from classifier through &lt;code class=&quot;highlighter-rouge&quot;&gt;1-alpha&lt;/code&gt; and then back propagated. Initially &lt;code class=&quot;highlighter-rouge&quot;&gt;alpha&lt;/code&gt; was set to be 1, and it changed as the model got better. This was to make sure that the classifier acted as the discriminator. Now, that the whole foundation was laid, our aim was to stabilize the GAN.&lt;/p&gt;
+
+&lt;p&gt;Whilst, I enjoyed the peaceful life — a chill, sobriety. Enjoying 3 free coffees daily at Shiru’s Cafe and having endless discussions about the weirdness of the shape of the building. Finally, other interns left. Me and Kakul were left. Interestingly, we both worked on the same floor in two different labs at diagonally opposite ends. We used to share breakfast, lunch, dinner and evening coffee. It was fun. She is one of the greatest friends I ever had, I bonded quite well with her, she is always available to help. She is like the President of Happy Club, no expectation, no demands. Probably the nicest person I have met.&lt;/p&gt;
+
+&lt;p&gt;But my project wasn’t sailing so smoothly. GANs are very hard to stabilize. The most fragile neural networks I have ever played with. Even a slight change in a factor and GANs flip out. For most of the time, I tried to stabilize GAN and clean our data. For a month or so I tried to fix the three very basic problems of GAN: Mode Collapse, Diminished Gradient and Non Convergence. To fix this, I tried the Wasserstein GANs, Wasserstein GAN with Gradient Penalty, Energy Based GANs, Spectral Normalization GAN. Most of the time I could address only 2 of the 3 specified problem. But while working with Spectral Normalization GAN, there was a substantial improvement in the result.&lt;/p&gt;
+
+&lt;p&gt;Soon I had to leave — the vibe, the calmness, the food, the melancholy and most importantly the late night show with Kakul. We both were going to meet in college but….
+Period.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 20 Jul 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/2020/IITH/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/IITH/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Day 050, Emoji — 😀 😒 🤥 💀  👾 🤖 🎃 😺</title>
@@ -249,60 +284,6 @@ Period&lt;/p&gt;
         <pubDate>Wed, 01 Jul 2020 00:00:00 +0530</pubDate>
         <link>http://localhost:4000/2020/March-Past/</link>
         <guid isPermaLink="true">http://localhost:4000/2020/March-Past/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Day 041, Generative Adversarial Network (GAN) Part 2</title>
-        <description>&lt;h2 id=&quot;mathematics-of-generative-adversarial-network&quot;&gt;Mathematics of Generative Adversarial Network&lt;/h2&gt;
-&lt;p&gt;In the previous &lt;a href=&quot;/2020/GAN1/&quot;&gt;post&lt;/a&gt; we discussed the basics of GANs. In today’s post we will delve right into the mathematics of the GAN.&lt;/p&gt;
-
-&lt;p&gt;Based on the zero sum non cooperative game. If one wins then the other loses. This zero-sum game is also known as a minimax game. Discriminator (\(D\)) is trained to maximize the probability of assigning the correct label to both training examples and samples from Generator (\(G\)). While the generator maximizes probability of (\(D\)) to make mistakes, by minimizing the log of the inverse probability predicted by the discriminator for fake images.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;img src=&quot;/assets/images/GAN.gif&quot; height=&quot;100%&quot; width=&quot;100%&quot; /&gt;
-&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;The generator’s distribution \((p_g)\) over \(x\) is defined on prior input noise variable \(p_z(z)\). A neural network framework \(G\) is defined to learn data distribution \(x\). \(G\) maps noise variable to data space as \(G(z; \theta_g)\).&lt;br /&gt;
-\(D(x;\theta_d\) outputs a scalar. \(D(x)\) represents probability that \(x\) comes from data whereas in \(D(G(z))\) the \(G(z)\) is from generator network.&lt;/p&gt;
-
-&lt;p&gt;\(G\) is trained to minimize \(\log(1-D(G(z)))\). \(D\) and \(G\) plays minimax game with the value function \(V(G,D)\):&lt;/p&gt;
-
-&lt;p&gt;\[\min_{G}\max_{D}V(D,G) = E_{x\sim p_{data}(x)}[\log(D(x))]\;+\;E_{z\sim p_{z}(z)}[\log(D(G(z)))]\]&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&lt;center&gt;~ means &quot;has distribution (of)&quot;&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;This adversarial training principle has transformed unsupervised task to supervised task.&lt;/p&gt;
-
-&lt;h2 id=&quot;optimality&quot;&gt;Optimality&lt;/h2&gt;
-&lt;p&gt;The principle of GANs is based on Nash Equilibrium. This means, theoretically, the algorithm tries to achieve global optimality \(p_g\;=\;p_{data}\)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Preposition :&lt;/strong&gt; For \(G\) fixed, the optimal discriminator is &lt;br /&gt;
-\[D_{G}^{\ast}(x) = \frac{p_{data}(x)}{p_{data}(x)\;+\;p_g(x)}\]
-&lt;em&gt;Proof :&lt;/em&gt; To train \(D\) we maximize the value function, keeping \(G\) fixed.&lt;br /&gt;
-\[V(G,D) = \int_{x}\;p_{data}(x)\log(D(x))dx\;+\int_{z}p_z(z)\log(1-D(g(z)))dz \]
-\[= \int_{x}\;p_{data}(x)\log(D(x))dx\;+\;p_g(x)\log(1-D(x)))dx \]&lt;/p&gt;
-
-&lt;p&gt;For any \(a,b \in R^2\) such that \(a,b \neq {0,0} \). Then the function \(f \; \rightarrow a\log(y) + b\log(1-y)\) achieves maxima at \(\frac{a}{a\;+\;b}\).&lt;br /&gt;
-Discriminator is defined within \(supp(p_{data}) \cup supp(p_g)\)&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Definition: \(supp(x)\) is the subset of the domain containing those elements that are not mapped to zero.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Training objective of discriminator can be reframed as maximum log-likelihood for estimating conditional probability \(P(Y=y\;\vert \;x)\). Thus the minmax equation can be reformulated as:&lt;/p&gt;
-
-&lt;p&gt;\[C(G)\; =\; \max_D V(G,D)\]
-\[=\;E_{x\sim p_{data}}[\log(D_G^\ast(x))]\;+\;E_{z\sim p_{z}}[\log(D_G^\ast(G(z)))]\]
-\[=\;E_{x\sim p_{data}}[\log(D_G^\ast(x))]\;+\;E_{x\sim p_{g}}[\log(D_G^\ast(x))]\]
-\[=\;E_{x\sim p_{data}}\left[\log\left(\frac{p_{data}(x)}{p_{data}(x)\;+\;p_g(x)}\right)\right]\;+\;E_{x\sim p_{g}}\left[\log\left(\frac{p_{g}(x)}{p_{data}(x)\;+\;p_g(x)}\right)\right]\]&lt;/p&gt;
-
-&lt;p&gt;Of Course the aim of GAN is \(p_g\;=\;p_{data}\).&lt;/p&gt;
-</description>
-        <pubDate>Tue, 30 Jun 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/2020/GAN2/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/GAN2/</guid>
         
         
       </item>
