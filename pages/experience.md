@@ -7,6 +7,12 @@ permalink: /experience
 <section class="post-list">
 	<div class="container">
 		<ul>
+			<li><span><b>Research Internship | Indian Institute of Science, Bengaluru</b></span>
+				<br>	<i>Advised by <a href="https://www.csa.iisc.ac.in/~chiru/">Professor Chiranjib Bhattacharyya </a> and 
+									<a href="https://vineethak.github.io/">Vineetha Kondameedi</a> and <a href="https://sabyasachis.github.io/">Sabyasachi Sahoo</a>
+									</i>
+				<br>Working on High Fidelity Image Generation using VAE. Also, following the narrative of disentanglement for attribute editing</li>
+				<hr>
 			<li><span><b>Research Internship | IIT, Hyderabad</b></span>
 				<br>	<i>Advised by <a href="https://scholar.google.com/citations?user=jgwFyg4AAAAJ&hl=en">Dr. Aditya Siripuram</a> and 
 									<a href="https://www.researchgate.net/profile/Charantej_Reddy">Charantej Reddy</a>
