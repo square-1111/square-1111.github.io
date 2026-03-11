@@ -413,6 +413,14 @@ ul, ol, dl {
   font-weight: 700;
 }
 
+/* Nested lists in experience */
+.nested {
+  margin-top: 0.25em;
+  margin-bottom: 0.5em;
+  list-style-type: disc;
+  font-size: 0.95em;
+}
+
 /* Mini projects */
 .mini-projects {
   list-style-type: disc;
