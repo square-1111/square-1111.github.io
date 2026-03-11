@@ -1,0 +1,31 @@
+---
+const navLinks = [
+  { href: '/blog', label: 'Blogs' },
+  { href: '/photos', label: 'Photography' },
+  { href: '/rss.xml', label: 'RSS' },
+];
+---
+
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="/" class="nav-brand">
+      <h1>Tezuesh<span class="brand-right"> Varshney</span></h1>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" id="nav-toggle">
+      <span class="toggle-bar"></span>
+      <span class="toggle-bar"></span>
+      <span class="toggle-bar"></span>
+    </button>
+    <div class="nav-links" id="nav-links">
+      {navLinks.map(({ href, label }) => (
+        <a href={href} class="nav-link">{label}</a>
+      ))}
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.getElementById('nav-toggle')?.addEventListener('click', () => {
+    document.getElementById('nav-links')?.classList.toggle('open');
+  });
+</script>
