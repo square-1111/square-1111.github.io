@@ -367,6 +367,58 @@ ul, ol, dl {
   overflow: auto;
 }
 
+/* Date alignment */
+.date-right {
+  float: right;
+  color: #999;
+  font-size: 0.875rem;
+  font-style: italic;
+}
+
+/* Skills grid */
+.skills-grid p {
+  margin-bottom: 0.25em;
+}
+
+/* About page */
+.about-content a {
+  color: #0086B3;
+  border-bottom: 2px solid transparent;
+  transition: border 300ms linear;
+}
+.about-content a:hover {
+  border-bottom: 2px solid #0086B3;
+}
+.skills-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+}
+.skills-table td {
+  padding: 0.5em 1em;
+  border-bottom: 1px solid #eee;
+  vertical-align: top;
+}
+.skills-table td:first-child {
+  width: 120px;
+  white-space: nowrap;
+}
+.resume-link {
+  margin-top: 2em;
+  padding-top: 1em;
+  border-top: 2px solid #ddd;
+}
+.resume-link a {
+  color: #0086B3;
+  font-weight: 700;
+}
+
+/* Mini projects */
+.mini-projects {
+  list-style-type: disc;
+  font-size: 0.95em;
+}
+
 /* Utility */
 .clearfix::before,
 .clearfix::after {
