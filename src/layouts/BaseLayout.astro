@@ -10,6 +10,8 @@ interface Props {
   image?: string;
   isArticle?: boolean;
   publishedDate?: string;
+  hideNav?: boolean;
+  hideFooter?: boolean;
 }
 
 const {
@@ -19,6 +21,8 @@ const {
   image = '',
   isArticle = false,
   publishedDate,
+  hideNav = false,
+  hideFooter = false,
 } = Astro.props;
 
 const siteTitle = 'Tezuesh Varshney';
@@ -66,12 +70,31 @@ const imageURL = image ? new URL(image, Astro.site).toString() : '';
     ></script>
   </head>
   <body>
-    <header class="site-header">
-      <Nav />
-    </header>
+    {!hideNav && (
+      <header class="site-header">
+        <Nav />
+      </header>
+    )}
     <main>
       <slot />
     </main>
-    <Footer />
+    {!hideFooter && <Footer />}
+    <script>
+      // Fallback for browsers without animation-timeline: view()
+      if (!CSS.supports('animation-timeline', 'view()')) {
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((e) => {
+              if (e.isIntersecting) {
+                e.target.classList.add('stamp--visible');
+                observer.unobserve(e.target);
+              }
+            });
+          },
+          { threshold: 0.1 }
+        );
+        document.querySelectorAll('.stamp').forEach((el) => observer.observe(el));
+      }
+    </script>
   </body>
 </html>

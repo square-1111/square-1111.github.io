@@ -1,0 +1,228 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const experience = [
+  {
+    company: 'Singularity Forge',
+    role: 'Co-Founder & ML Engineer',
+    date: 'Apr 2025 — Present',
+    details: [
+      'Leading SaaS development: <strong>RevQA</strong> (AI sales coaching), <strong>Logo Generation App</strong>, <strong>Voice-to-Text Notetaking App</strong>',
+      'Designing algorithms across multiple subnets in the <strong>Bittensor</strong> ecosystem for mining operations',
+      'Leading R&D in <strong>Satellite and Drone Technology</strong> for environmental mapping — DINO v3, sensor fusion for landmine detection and 3D modeling',
+    ],
+  },
+  {
+    company: 'Omega Labs',
+    role: 'AI Engineer',
+    date: 'Aug 2024 — Apr 2025',
+    details: [
+      '<strong>Any-to-Any Multimodal Models:</strong> Led development of seamless modality transformations, integrating image into speech-to-speech models',
+      '<strong>Diarization Pipeline:</strong> Built YouTube audio scraping/transcription system — 60,000+ row dataset on Hugging Face',
+      '<strong>Speech-to-Speech:</strong> Fine-tuned Mini-Omni, built multi-modality evaluation frameworks',
+    ],
+  },
+  {
+    company: 'Samsung R&D',
+    role: 'Senior AI Engineer, Visual Intelligence',
+    date: 'Dec 2021 — Dec 2024',
+    details: [
+      '<strong>Portrait Relighting:</strong> LoRA for Stable Diffusion, shipping on Samsung S25',
+      '<strong>OnlyMe Video Call:</strong> 60 FPS video instance segmentation for Galaxy S24',
+      '<strong>Selfie Camera Bokeh:</strong> Instance segmentation for S23, Flip4, Fold4 — 97.2 IoU, 60ms inference',
+    ],
+  },
+  {
+    company: 'KAUST',
+    role: 'Research Assistant — Vision CAIR Lab',
+    date: 'Sep 2021 — Mar 2022',
+    details: [
+      'Developed <strong>3D COMPaT</strong> dataset with Prof. Mohamed H. Elhoseiny — published at <strong>ECCV 2022 Oral Track</strong>',
+      'Part-material segmentation in 3D objects using <strong>branched DETR</strong>',
+    ],
+  },
+  {
+    company: 'UC San Diego',
+    role: 'Research Assistant — Embodied AI Lab',
+    date: 'Jul 2021 — Sep 2021',
+    details: [
+      'Single-image to 3D shape reconstruction with <strong>Prof. Hao Su</strong>',
+      'Compositional learning framework using localized modules and substructure factorization',
+    ],
+  },
+  {
+    company: 'IISc Bengaluru',
+    role: 'Research Assistant — Machine Learning Lab',
+    date: 'Jul 2020 — Jul 2021',
+    details: [
+      'Unsupervised <strong>LiDAR reconstruction</strong> using GANs and Auto-encoders',
+      'Training techniques for <strong>Variational Autoencoders</strong> with global/local feature modeling using DCT',
+    ],
+  },
+];
+
+const skills = [
+  { label: 'Generative AI', items: ['Diffusion Networks', 'GANs', 'Autoencoders', '3D Representation Learning'] },
+  { label: 'Languages', items: ['Python', 'C++', 'SQL'] },
+  { label: 'ML Tools', items: ['PyTorch Lightning', 'PyTorch', 'TensorFlow', 'Hugging Face'] },
+  { label: 'Vision', items: ['OpenCV', 'PIL', 'Albumentations'] },
+  { label: 'Web3', items: ['Bittensor', 'TAO Mining', 'Decentralized Agents'] },
+];
+
+const awards = [
+  { title: 'Samsung Certificate of Appreciation', desc: 'S24, S23, Flip4, Fold4' },
+  { title: 'HackData 2019', desc: '24-hr hackathon winner' },
+  { title: 'Sir Syed Global Scholar Award', desc: 'Top 25 university-wide' },
+  { title: 'NIOT SAVe 2019', desc: '4th of 128 teams, IIT-Madras' },
+  { title: 'ACM-ICPC 2017-18', desc: 'Best team from AMU' },
+  { title: 'AMU-OSS Founder', desc: '150+ members' },
+  { title: 'Google CodeJam 2018', desc: 'Qualified' },
+  { title: 'SnackDown 2018', desc: 'Qualified' },
+];
+---
+
+<BaseLayout title="Resume" description="Tezuesh Varshney — Resume. Co-Founder at Singularity Forge, former Samsung Senior AI Engineer, ECCV 2022 author.">
+  <div class="container">
+    <h1 class="page-title">Resume</h1>
+    <span class="page-subtitle">Via Aerea &bull; Curriculum Vitae</span>
+
+    <!-- EXPERIENCE STAMP -->
+    <section class="stamp">
+      <div class="stamp-inner">
+        <span class="postal-label">Via Aerea &bull; Par Avion</span>
+        <span class="stamp-value">10<small>c</small></span>
+        <h2 class="section-heading">Experience</h2>
+        <div class="timeline">
+          {experience.map((exp) => (
+            <div class="exp-flip">
+              <div class="exp-flip-inner">
+                <div class="exp-front">
+                  <div class="exp-card">
+                    <div class="exp-header">
+                      <div>
+                        <span class="exp-company">{exp.company}</span>
+                        <span class="exp-role"> — {exp.role}</span>
+                      </div>
+                      <span class="exp-date">{exp.date}</span>
+                    </div>
+                    <ul class="exp-details">
+                      {exp.details.map((d) => <li set:html={d} />)}
+                    </ul>
+                    <span class="exp-flip-hint">Hover to flip</span>
+                  </div>
+                </div>
+                <div class="exp-back">
+                  <div class="exp-back-content">
+                    <div class="exp-back-company">{exp.company}</div>
+                    <div class="exp-back-role">{exp.role}</div>
+                  </div>
+                  <span class="exp-back-hint">Postcard</span>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION STAMP -->
+    <section class="stamp">
+      <div class="stamp-inner">
+        <span class="postal-label">Par Avion</span>
+        <span class="stamp-value">20<small>c</small></span>
+        <h2 class="section-heading">Education</h2>
+        <div class="edu-item">
+          <div class="exp-header">
+            <div>
+              <span class="exp-company">ZHCET, AMU</span>
+              <span class="exp-role"> — B.Tech Computer Engineering</span>
+            </div>
+            <span class="exp-date">2016 — 2020</span>
+          </div>
+          <p style="margin: 0.5rem 0 0; color: var(--color-text-secondary); font-size: 0.9rem;">
+            CGPA: 9.017/10.0 — Thesis: Analogy Generation
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS STAMP -->
+    <section class="stamp">
+      <div class="stamp-inner">
+        <span class="postal-label">Servicio Postal</span>
+        <span class="stamp-value">15<small>c</small></span>
+        <h2 class="section-heading">Skills</h2>
+        <div class="skills-section">
+          {skills.map((cat) => (
+            <div class="skill-category">
+              <div class="skill-label">{cat.label}</div>
+              <div class="skill-tags">
+                {cat.items.map((item) => <span class="skill-tag">{item}</span>)}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- PUBLICATIONS STAMP -->
+    <section class="stamp" id="publications">
+      <div class="stamp-inner">
+        <span class="postal-label">Correo Aereo</span>
+        <span class="stamp-value">$1</span>
+        <h2 class="section-heading">Publications</h2>
+        <div class="paper-item">
+          Ujjwal Upadhyay, Yuchen Li, Habib Slim, <strong>Tezuesh Varshney</strong>, Ahmed Abdelreheem, Arpit Prajapati, Suhail Pothigara, Peter Wonka, and Mohamed Elhoseiny.
+          <strong>"3DCoMPaT: Composition of materials on parts of 3D things."</strong>
+          <br /><span class="paper-venue">ECCV 2022 (Oral)</span>
+        </div>
+        <div class="paper-item">
+          Mansi Agarwal and <strong>Tezuesh Varshney</strong>.
+          <strong>"Survey on Zero-Shot Learning and its application."</strong>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS STAMP -->
+    <section class="stamp" id="projects">
+      <div class="stamp-inner">
+        <span class="postal-label">Via Aerea</span>
+        <span class="stamp-value">$5</span>
+        <h2 class="section-heading">Projects</h2>
+        <div class="project-grid">
+          <div class="project-card">
+            <h3><a href="https://github.com/square-1111/3D-Point-Cloud-Modeling">3D Point Cloud Modeling</a></h3>
+            <p>PyTorch implementation for 3D Point Clouds. Chamfer Distance and Earth Mover Distance from scratch. Generative Modeling on ShapeNet with Autoencoders and GANs.</p>
+          </div>
+          <div class="project-card">
+            <h3><a href="https://github.com/square-1111/Apery">Apery</a></h3>
+            <p>Artistic image generation with heuristic algorithms. Transfer learning via VGG-19 for style transfer. Hill Climbing for image reconstruction using shape primitives.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AWARDS STAMP -->
+    <section class="stamp">
+      <div class="stamp-inner">
+        <span class="postal-label">Correo Certificado</span>
+        <span class="stamp-value">N.P.</span>
+        <h2 class="section-heading">Awards</h2>
+        <div class="awards-list">
+          {awards.map((a) => (
+            <div class="award-item">
+              <strong>{a.title}</strong>
+              <span style="color: var(--color-text-faded); font-size: 0.82rem;">{a.desc}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- DOWNLOAD -->
+    <div class="resume-download">
+      <a href="/pdf/resume.pdf" class="resume-download-btn">Download Resume (PDF)</a>
+    </div>
+
+  </div>
+</BaseLayout>

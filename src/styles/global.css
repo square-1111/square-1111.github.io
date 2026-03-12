@@ -34,9 +34,22 @@
   --color-border-light: #D8CCAF;
   --color-card-shadow: rgba(0, 0, 0, 0.35);
 
-  --max-width: 58rem;
-  --perf-r: 5px;   /* radius of each scallop bump */
-  --perf-d: 12px;  /* spacing of each bump */
+  --max-width: 72rem;
+  --perf-r: 7px;   /* radius of each scallop bump */
+  --perf-d: 16px;  /* spacing of each bump */
+
+  /* Airmail stripe pattern */
+  --airmail: repeating-linear-gradient(
+    -45deg,
+    var(--color-red),
+    var(--color-red) 8px,
+    var(--color-stamp) 8px,
+    var(--color-stamp) 16px,
+    var(--color-teal) 16px,
+    var(--color-teal) 24px,
+    var(--color-stamp) 24px,
+    var(--color-stamp) 32px
+  );
 }
 
 /* === Reset === */
@@ -135,7 +148,7 @@ li { margin-bottom: 0.3em; }
 .container {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 4rem 2rem 4rem;
+  padding: 4rem 2rem 6rem;
 }
 
 /* ========================================
@@ -152,17 +165,7 @@ li { margin-bottom: 0.3em; }
 /* Classic airmail red/blue stripe */
 .airmail-stripe {
   height: 8px;
-  background: repeating-linear-gradient(
-    -45deg,
-    var(--color-red),
-    var(--color-red) 8px,
-    var(--color-stamp) 8px,
-    var(--color-stamp) 16px,
-    var(--color-teal) 16px,
-    var(--color-teal) 24px,
-    var(--color-stamp) 24px,
-    var(--color-stamp) 32px
-  );
+  background: var(--airmail);
 }
 
 .navbar { min-height: 48px; }
@@ -286,8 +289,10 @@ li { margin-bottom: 0.3em; }
 /* Inner border like real stamps */
 .stamp-inner {
   border: 2px solid var(--color-border);
-  padding: 1.75rem 2rem;
+  padding: 1.75rem 2.5rem;
   position: relative;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 /* Postal label decoration */
@@ -320,31 +325,43 @@ li { margin-bottom: 0.3em; }
   vertical-align: super;
 }
 
-/* Stamp entrance — laid on table with 3D tilt */
-@keyframes stamp-land {
+/* Scroll-driven entrance — stamps slide up and fade as they enter */
+@keyframes stamp-enter {
   0% {
-    opacity: 0;
-    transform: perspective(800px) rotateX(15deg) rotateY(-5deg) translateY(60px) scale(0.92);
-  }
-  60% {
-    opacity: 1;
-    transform: perspective(800px) rotateX(-2deg) rotateY(1deg) translateY(-5px) scale(1.01);
+    opacity: 0.2;
+    transform: translateY(40px);
   }
   100% {
     opacity: 1;
-    transform: perspective(800px) rotateX(0) rotateY(0) translateY(0) scale(1);
+    transform: translateY(0);
   }
 }
-.stamp {
-  animation: stamp-land 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+
+/* Modern browsers: CSS scroll-driven animation */
+@supports (animation-timeline: view()) {
+  .stamp {
+    animation: stamp-enter linear forwards;
+    animation-timeline: view();
+    animation-range: entry 0% entry 35%;
+  }
+  /* Stagger: slight delay so stamps don't all animate identically */
+  .stamp:nth-child(even) {
+    animation-range: entry 5% entry 40%;
+  }
 }
-.stamp:nth-child(2) { animation-delay: 0.1s; }
-.stamp:nth-child(3) { animation-delay: 0.18s; }
-.stamp:nth-child(4) { animation-delay: 0.26s; }
-.stamp:nth-child(5) { animation-delay: 0.34s; }
-.stamp:nth-child(6) { animation-delay: 0.42s; }
-.stamp:nth-child(7) { animation-delay: 0.50s; }
-.stamp:nth-child(8) { animation-delay: 0.58s; }
+
+/* Fallback: IntersectionObserver driven (JS adds .stamp--visible) */
+@supports not (animation-timeline: view()) {
+  .stamp {
+    opacity: 0.2;
+    transform: translateY(40px);
+    transition: opacity 0.7s ease, transform 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+  .stamp.stamp--visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 @media (max-width: 640px) {
   .stamp {
@@ -375,18 +392,18 @@ li { margin-bottom: 0.3em; }
 }
 
 /* ========================================
-   HERO STAMP — The main attraction
+   POSTCARD HERO — Back of a postcard
    ======================================== */
-.hero-stamp {
+.postcard-hero {
   color: var(--color-text);
-  padding: 2.5rem;
-  margin-top: 0.5rem;
-  margin-bottom: 2.5rem;
   position: relative;
   box-shadow: 0 6px 32px var(--color-card-shadow);
+  background-color: var(--color-stamp);
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
 
   /* Scalloped stamp edges */
-  background-color: var(--color-stamp);
   background-image:
     radial-gradient(circle, var(--color-bg) var(--perf-r), transparent 0),
     radial-gradient(circle, var(--color-bg) var(--perf-r), transparent 0),
@@ -408,68 +425,68 @@ li { margin-bottom: 0.3em; }
     repeat-y,
     repeat-y;
 
-  /* Envelope open animation */
-  animation: envelope-open 1s cubic-bezier(0.34, 1.56, 0.64, 1) both;
-}
-@keyframes envelope-open {
-  0% {
-    opacity: 0;
-    transform: perspective(1000px) rotateX(-30deg) translateY(80px) scale(0.85);
-    clip-path: polygon(10% 100%, 90% 100%, 90% 100%, 10% 100%);
-  }
-  40% {
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
-  }
-  60% {
-    opacity: 1;
-    transform: perspective(1000px) rotateX(3deg) translateY(-8px) scale(1.02);
-  }
-  100% {
-    opacity: 1;
-    transform: perspective(1000px) rotateX(0) translateY(0) scale(1);
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
-  }
+  animation: stamp-enter 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
-.hero-stamp-inner {
-  border: 2.5px solid var(--color-teal);
-  padding: 2.5rem 2.5rem 2rem;
-  position: relative;
-  background: linear-gradient(135deg, var(--color-stamp) 0%, var(--color-stamp-alt) 100%);
+/* Left & right airmail edges */
+.postcard-hero::before,
+.postcard-hero::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 10px;
+  z-index: 2;
+  background: var(--airmail);
+}
+.postcard-hero::before { left: 0; }
+.postcard-hero::after { right: 0; }
+
+/* Airmail red-blue-white stripe on top & bottom */
+.postcard-airmail-edge {
+  height: 10px;
+  background: var(--airmail);
 }
 
-/* Teal header band inside hero stamp */
-.hero-band {
-  background: var(--color-teal);
-  color: var(--color-stamp);
-  padding: 0.75rem 1.5rem;
-  margin: -2.5rem -2.5rem 1.5rem;
+/* 3-column grid: message | divider | address */
+.postcard-grid {
+  display: grid;
+  grid-template-columns: 3fr auto 2fr;
+  flex: 1;
+  padding: 2.5rem 3rem;
+  max-width: 80rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* === Message side (left) === */
+.postcard-message {
+  padding: 1.5rem 2.5rem 1.5rem 1rem;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  /* Ruled notebook lines */
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent,
+    transparent calc(2rem - 1px),
+    rgba(196, 92, 72, 0.12) calc(2rem - 1px),
+    rgba(196, 92, 72, 0.12) 2rem
+  );
+  background-size: 100% 2rem;
+  background-position: 0 1.5rem;
 }
-.hero-band-label {
+
+.postcard-greeting {
   font-family: var(--font-mono);
-  font-size: 0.6rem;
-  letter-spacing: 0.25em;
-  text-transform: uppercase;
-  opacity: 0.7;
-}
-.hero-band-value {
-  font-family: var(--font-heading);
-  font-size: 1.8rem;
+  font-size: 0.85rem;
+  color: var(--color-text-faded);
   letter-spacing: 0.05em;
-  color: var(--color-stamp);
+  font-style: italic;
+  margin-bottom: 0.75rem;
 }
 
-.hero {
-  display: flex;
-  align-items: flex-start;
-  gap: 2.5rem;
-  margin-top: 0.5rem;
-}
-.hero-text { flex: 1; }
-.hero-name {
+.postcard-name {
   font-family: var(--font-heading);
   font-size: 3.5rem;
   letter-spacing: 0.08em;
@@ -477,14 +494,16 @@ li { margin-bottom: 0.3em; }
   line-height: 1;
   margin-bottom: 0.15rem;
 }
-.hero-country {
+
+.postcard-country {
   font-family: var(--font-heading);
   font-size: 1.3rem;
   letter-spacing: 0.15em;
   color: var(--color-red);
   margin-bottom: 0.75rem;
 }
-.hero-title {
+
+.postcard-title {
   font-family: var(--font-mono);
   font-size: 0.8rem;
   color: var(--color-teal-light);
@@ -493,24 +512,131 @@ li { margin-bottom: 0.3em; }
   letter-spacing: 0.03em;
   text-transform: none;
 }
-.hero-bio {
+
+.postcard-bio {
   color: var(--color-text-secondary);
   font-size: 0.92rem;
   line-height: 1.75;
   max-width: 36rem;
 }
-.hero-bio strong { color: var(--color-text); }
+.postcard-bio strong { color: var(--color-text); }
 
-/* Stamp-framed avatar */
+.postcard-socials {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+.postcard-socials a {
+  color: var(--color-teal);
+  transition: color 200ms ease, transform 200ms ease;
+  display: flex;
+}
+.postcard-socials a:hover {
+  color: var(--color-red);
+  transform: translateY(-2px);
+}
+
+/* === Center divider === */
+.postcard-divider {
+  width: 2px;
+  background: var(--color-red);
+  opacity: 0.5;
+  margin: 1rem 0;
+}
+
+/* === Address side (right) === */
+.postcard-address-side {
+  padding: 1.5rem 1rem 1.5rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.postcard-address-side .stamp-avatar-frame {
+  align-self: flex-end;
+}
+
+.postcard-address {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-top: 1.5rem;
+}
+.postcard-address-label {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  letter-spacing: 0.15em;
+  color: var(--color-text-faded);
+  text-transform: uppercase;
+}
+.postcard-address-line {
+  font-family: var(--font-mono);
+  font-size: 0.95rem;
+  color: var(--color-text);
+  letter-spacing: 0.03em;
+}
+
+.postcard-airmail-label {
+  margin-top: auto;
+  border: 2px solid var(--color-red);
+  padding: 0.4rem 1.25rem;
+  text-align: center;
+  align-self: flex-end;
+}
+.postcard-airmail-label span {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  letter-spacing: 0.2em;
+  color: var(--color-red);
+  text-transform: uppercase;
+}
+.postcard-airmail-sub {
+  font-size: 0.65rem !important;
+  letter-spacing: 0.15em !important;
+  color: var(--color-text-faded) !important;
+  margin-top: 0.1rem;
+}
+
+/* Stamp-framed avatar — perforated edges like a real postage stamp */
 .stamp-avatar-frame {
+  --s-perf-r: 5px;
+  --s-perf-d: 12px;
   flex-shrink: 0;
   position: relative;
+  padding: 14px;
+  background-color: var(--color-stamp-alt);
+  transform: rotate(3deg);
+  box-shadow: 2px 3px 12px rgba(0, 0, 0, 0.25);
+
+  /* Scalloped perforation on all 4 sides */
+  background-image:
+    radial-gradient(circle, var(--color-stamp) var(--s-perf-r), transparent 0),
+    radial-gradient(circle, var(--color-stamp) var(--s-perf-r), transparent 0),
+    radial-gradient(circle, var(--color-stamp) var(--s-perf-r), transparent 0),
+    radial-gradient(circle, var(--color-stamp) var(--s-perf-r), transparent 0);
+  background-size:
+    var(--s-perf-d) var(--s-perf-d),
+    var(--s-perf-d) var(--s-perf-d),
+    var(--s-perf-d) var(--s-perf-d),
+    var(--s-perf-d) var(--s-perf-d);
+  background-position:
+    calc(var(--s-perf-d) / 2) calc(var(--s-perf-r) * -1),
+    calc(var(--s-perf-d) / 2) calc(100% + var(--s-perf-r)),
+    calc(var(--s-perf-r) * -1) calc(var(--s-perf-d) / 2),
+    calc(100% + var(--s-perf-r)) calc(var(--s-perf-d) / 2);
+  background-repeat:
+    repeat-x,
+    repeat-x,
+    repeat-y,
+    repeat-y;
 }
 .hero-avatar {
   width: 160px;
   height: 180px;
   object-fit: cover;
-  border: 3px solid var(--color-teal);
+  border: 2px solid var(--color-teal);
   display: block;
 }
 
@@ -538,7 +664,6 @@ li { margin-bottom: 0.3em; }
   border: 1.5px solid rgba(196, 92, 72, 0.3);
   border-radius: 50%;
 }
-/* Wavy cancel lines */
 .postmark::after {
   content: '';
   position: absolute;
@@ -568,34 +693,43 @@ li { margin-bottom: 0.3em; }
   color: rgba(196, 92, 72, 0.6);
 }
 
-/* Vertical side text */
-.hero-side-text {
-  position: absolute;
-  right: -2rem;
-  top: 50%;
-  transform: translateY(-50%) rotate(90deg);
-  font-family: var(--font-mono);
-  font-size: 0.55rem;
-  color: var(--color-text-faded);
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
-  white-space: nowrap;
-  opacity: 0.5;
+/* === Postcard responsive === */
+@media (max-width: 1024px) and (min-width: 641px) {
+  .postcard-hero { min-height: calc(100svh - 56px); }
+  .postcard-grid {
+    grid-template-columns: 1fr auto 1fr;
+    padding: 2rem;
+  }
+  .postcard-name { font-size: 2.8rem; }
 }
 
 @media (max-width: 640px) {
-  .hero-stamp-inner { padding: 1.5rem 1.25rem 1.25rem; }
-  .hero-band { margin: -1.5rem -1.25rem 1.25rem; padding: 0.5rem 1rem; }
-  .hero {
-    flex-direction: column-reverse;
-    align-items: center;
-    text-align: center;
-    gap: 1.25rem;
+  .postcard-hero { min-height: auto; }
+  .postcard-grid {
+    grid-template-columns: 1fr;
+    padding: 1.5rem 1.25rem;
   }
-  .hero-name { font-size: 2.5rem; }
+  .postcard-message {
+    padding: 1rem 0;
+    text-align: center;
+    background-image: none;
+  }
+  .postcard-name { font-size: 2.5rem; }
+  .postcard-bio { max-width: 100%; }
+  .postcard-socials { justify-content: center; }
+  .postcard-divider {
+    width: 100%;
+    height: 2px;
+    margin: 0.5rem 0;
+  }
+  .postcard-address-side {
+    padding: 1rem 0;
+    align-items: center;
+  }
+  .postcard-address-side .stamp-avatar-frame { align-self: center; }
+  .postcard-address { align-items: center; }
+  .postcard-airmail-label { align-self: center; }
   .hero-avatar { width: 130px; height: 150px; }
-  .hero-bio { max-width: 100%; }
-  .hero-side-text { display: none; }
 }
 
 /* ========================================
@@ -937,6 +1071,7 @@ li { margin-bottom: 0.3em; }
 .post-content {
   font-size: 1.05rem;
   line-height: 1.9;
+  color: var(--color-text);
 }
 .post-content a {
   color: var(--color-teal);
@@ -1032,17 +1167,7 @@ li { margin-bottom: 0.3em; }
 }
 .footer-airmail {
   height: 8px;
-  background: repeating-linear-gradient(
-    -45deg,
-    var(--color-red),
-    var(--color-red) 8px,
-    var(--color-stamp) 8px,
-    var(--color-stamp) 16px,
-    var(--color-teal) 16px,
-    var(--color-teal) 24px,
-    var(--color-stamp) 24px,
-    var(--color-stamp) 32px
-  );
+  background: var(--airmail);
 }
 .footer-container {
   display: flex;
@@ -1169,20 +1294,107 @@ li { margin-bottom: 0.3em; }
    PERFORATED SEPARATOR
    ======================================== */
 .perf-separator {
-  height: var(--stamp-hole);
+  height: var(--perf-d);
   margin: 1rem 0;
   background-image: radial-gradient(
     circle,
-    var(--color-bg) calc(var(--stamp-hole) / 2 - 0.5px),
-    var(--color-border) calc(var(--stamp-hole) / 2 - 0.5px),
-    var(--color-border) calc(var(--stamp-hole) / 2 + 0.5px),
-    transparent calc(var(--stamp-hole) / 2 + 0.5px)
+    var(--color-bg) calc(var(--perf-r) - 0.5px),
+    var(--color-border) calc(var(--perf-r) - 0.5px),
+    var(--color-border) calc(var(--perf-r) + 0.5px),
+    transparent calc(var(--perf-r) + 0.5px)
   );
-  background-size: var(--stamp-spacing) var(--stamp-hole);
+  background-size: var(--perf-d) var(--perf-d);
+}
+
+/* ========================================
+   POSTCARD NAV — Quick links inside hero
+   ======================================== */
+.postcard-nav {
+  display: flex;
+  border-top: 1px solid var(--color-border);
+  background: var(--color-stamp-alt);
+}
+.postcard-nav-link {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0.75rem;
+  text-decoration: none;
+  transition: all 200ms ease;
+  position: relative;
+}
+.postcard-nav-link + .postcard-nav-link {
+  border-left: 1px solid var(--color-border);
+}
+.postcard-nav-link:hover {
+  background: var(--color-stamp);
+}
+.postcard-nav-label {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-teal);
+  line-height: 1;
+}
+.postcard-nav-sub {
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  color: var(--color-text-faded);
+  letter-spacing: 0.08em;
+  margin-top: 0.3rem;
+}
+
+@media (max-width: 640px) {
+  .postcard-nav {
+    flex-wrap: wrap;
+  }
+  .postcard-nav-link {
+    flex: 1 1 50%;
+    padding: 0.75rem 0.5rem;
+  }
+  /* Remove left border on first item of second row */
+  .postcard-nav-link:nth-child(3) {
+    border-left: none;
+  }
+  /* Add top border for second row */
+  .postcard-nav-link:nth-child(n+3) {
+    border-top: 1px solid var(--color-border);
+  }
+}
+
+/* ========================================
+   RESUME DOWNLOAD BUTTON
+   ======================================== */
+.resume-download {
+  text-align: center;
+  padding: 2rem 0;
+}
+.resume-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 2rem;
+  background: var(--color-red);
+  color: var(--color-stamp);
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 200ms ease;
+}
+.resume-download-btn:hover {
+  background: #b04e3c;
+  color: var(--color-stamp);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(196, 92, 72, 0.3);
 }
 
 /* === Reduce motion === */
 @media (prefers-reduced-motion: reduce) {
-  .stamp, .hero-stamp { animation: none; transform: none; }
+  .stamp, .postcard-hero { animation: none; opacity: 1; transform: none; }
   .exp-flip:hover .exp-flip-inner { transform: none; }
 }

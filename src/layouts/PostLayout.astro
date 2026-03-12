@@ -24,16 +24,21 @@ const formattedDate = date.toLocaleDateString('en-US', {
   isArticle={true}
   publishedDate={date.toISOString()}
 >
-  <article class="post container" itemscope itemtype="http://schema.org/BlogPosting">
-    <header>
-      <div class="post-meta">
-        <time datetime={date.toISOString()} itemprop="datePublished">{formattedDate}</time>
-        <span> &bull; Tezuesh Varshney</span>
+  <div class="container">
+    <article class="stamp post" itemscope itemtype="http://schema.org/BlogPosting">
+      <div class="stamp-inner">
+        <span class="postal-label">Correspondencia</span>
+        <header>
+          <div class="post-meta">
+            <time datetime={date.toISOString()} itemprop="datePublished">{formattedDate}</time>
+            <span> &bull; Tezuesh Varshney</span>
+          </div>
+          <h1 class="post-title" itemprop="name headline">{title}</h1>
+        </header>
+        <div class="post-content" itemprop="articleBody">
+          <slot />
+        </div>
       </div>
-      <h1 class="post-title" itemprop="name headline">{title}</h1>
-    </header>
-    <div class="post-content" itemprop="articleBody">
-      <slot />
-    </div>
-  </article>
+    </article>
+  </div>
 </BaseLayout>
