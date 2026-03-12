@@ -2,86 +2,72 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
-<BaseLayout title="About" description="About Tezuesh Varshney - Co-Founder at Singularity Forge, former Samsung Senior AI Engineer, ECCV 2022 author.">
-  <article class="page container">
-    <header class="page-header">
-      <h1 class="page-title">About</h1>
-    </header>
-    <div class="about-content">
-      <p>
-        I'm the Co-Founder & ML Engineer at <strong>Singularity Forge</strong>, building AI-powered SaaS products
-        and leading R&D in satellite/drone technology for environmental mapping. Before this, I worked as an
-        AI Engineer at <strong>Omega Labs</strong> on any-to-any multimodal models, and spent 3 years as a
-        Senior AI Engineer at <strong>Samsung Research & Development</strong> shipping computer vision models
-        to flagship Galaxy devices.
-      </p>
+<BaseLayout title="About" description="About Tezuesh Varshney — Co-Founder at Singularity Forge, former Samsung Senior AI Engineer, ECCV 2022 author.">
+  <article class="container">
+    <h1 class="page-title">About</h1>
+    <span class="page-title-jp">自己紹介</span>
 
-      <p>
-        My research background includes work at <strong>KAUST</strong> (3D COMPaT, published at <strong>ECCV 2022 Oral</strong>),
-        <strong>UC San Diego</strong> (3D shape reconstruction with Prof. Hao Su), and the
-        <strong>Indian Institute of Science</strong> (unsupervised LiDAR reconstruction).
-      </p>
+    <section class="postcard">
+      <div class="about-content">
+        <p>
+          I'm the Co-Founder & ML Engineer at <strong>Singularity Forge</strong>, building AI-powered SaaS products
+          and leading R&D in satellite/drone technology for environmental mapping. Before this, I worked as an
+          AI Engineer at <strong>Omega Labs</strong> on any-to-any multimodal models, and spent 3 years as a
+          Senior AI Engineer at <strong>Samsung Research & Development</strong> shipping computer vision models
+          to flagship Galaxy devices.
+        </p>
 
-      <p>
-        I graduated from <strong>Zakir Husain College of Engineering & Technology</strong>,
-        AMU with a B.Tech in Computer Engineering (CGPA: 9.017/10.0).
-      </p>
+        <p>
+          My research background includes work at <strong>KAUST</strong> (3D COMPaT, <a href="#">ECCV 2022 Oral</a>),
+          <strong>UC San Diego</strong> (3D shape reconstruction with Prof. Hao Su), and the
+          <strong>Indian Institute of Science</strong> (unsupervised LiDAR reconstruction).
+        </p>
+      </div>
+    </section>
 
-      <h2>Skills</h2>
+    <section class="postcard">
+      <h2 class="section-heading">
+        <span class="jp-label">技術</span>
+        Skills
+      </h2>
       <table class="skills-table">
-        <tr>
-          <td><strong>Generative AI</strong></td>
-          <td>Diffusion Networks, GANs, Autoencoders, 3D Representation Learning</td>
-        </tr>
-        <tr>
-          <td><strong>Languages</strong></td>
-          <td>Python, C++, SQL</td>
-        </tr>
-        <tr>
-          <td><strong>ML Tools</strong></td>
-          <td>PyTorch Lightning, PyTorch, TensorFlow, Hugging Face</td>
-        </tr>
-        <tr>
-          <td><strong>Vision</strong></td>
-          <td>OpenCV, PIL, Albumentations</td>
-        </tr>
-        <tr>
-          <td><strong>Web3</strong></td>
-          <td>Bittensor, TAO mining, decentralized agents</td>
-        </tr>
+        <tr><td>Generative AI</td><td>Diffusion Networks, GANs, Autoencoders, 3D Representation Learning</td></tr>
+        <tr><td>Languages</td><td>Python, C++, SQL</td></tr>
+        <tr><td>ML Tools</td><td>PyTorch Lightning, PyTorch, TensorFlow, Hugging Face</td></tr>
+        <tr><td>Vision</td><td>OpenCV, PIL, Albumentations</td></tr>
+        <tr><td>Web3</td><td>Bittensor, TAO mining, decentralized agents</td></tr>
       </table>
+    </section>
 
-      <h2>Publications</h2>
-      <ul>
-        <li>
-          Ujjwal Upadhyay, Yuchen Li, Habib Slim, <strong>Tezuesh Varshney</strong>, et al.
-          <strong>"3DCoMPaT: Composition of materials on parts of 3D things."</strong>
-          ECCV 2022 (Oral).
-        </li>
-        <li>
-          Mansi Agarwal and <strong>Tezuesh Varshney</strong>.
-          <strong>"Survey on Zero-Shot Learning and its application."</strong>
-        </li>
-      </ul>
+    <section class="postcard">
+      <h2 class="section-heading">
+        <span class="jp-label">出版物</span>
+        Publications
+      </h2>
+      <div class="paper-item">
+        Ujjwal Upadhyay et al., <strong>Tezuesh Varshney</strong>.
+        <strong>"3DCoMPaT: Composition of materials on parts of 3D things."</strong>
+        <br /><span class="paper-venue">ECCV 2022 (Oral)</span>
+      </div>
+      <div class="paper-item">
+        Mansi Agarwal and <strong>Tezuesh Varshney</strong>.
+        <strong>"Survey on Zero-Shot Learning and its application."</strong>
+      </div>
+    </section>
 
-      <h2>Awards</h2>
-      <ul>
-        <li><strong>Samsung Certificate of Appreciation</strong> for S24, S23, Flip4, and Fold4</li>
-        <li><strong>HackData 2019</strong> winner -- Shiv Nadar University</li>
-        <li><strong>Sir Syed Global Scholar Award 2019</strong></li>
-        <li><strong>NIOT SAVe 2019</strong> -- 4th of 128 teams (IIT-Madras)</li>
-        <li><strong>AMU-OSS</strong> founder -- 150+ member Open Source Society</li>
-      </ul>
-
-      <h2>Interests</h2>
+    <section class="postcard">
+      <h2 class="section-heading">
+        <span class="jp-label">趣味</span>
+        Interests
+      </h2>
       <p>
         Football, solving combinatorics problems, <a href="https://threejs.org/">ThreeJS</a>,
         Rubik's cube, and <a href="/photos">photography</a>.
       </p>
 
-      <p class="resume-link">
-        <a href="/pdf/resume.pdf">Download full resume (PDF)</a>
-      </p>
-    </div>
+      <div class="resume-link">
+        <a href="/pdf/resume.pdf">Download Resume (PDF)</a>
+      </div>
+    </section>
   </article>
 </BaseLayout>

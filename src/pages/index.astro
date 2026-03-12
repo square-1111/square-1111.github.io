@@ -1,137 +1,223 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+
+const experience = [
+  {
+    company: 'Singularity Forge',
+    role: 'Co-Founder & ML Engineer',
+    date: 'April 2025 - Present',
+    details: [
+      'Leading SaaS development: <strong>RevQA</strong> (AI sales coaching), <strong>Logo Generation App</strong>, <strong>Voice-to-Text Notetaking App</strong>',
+      'Designing algorithms across multiple subnets in the <strong>Bittensor</strong> ecosystem for mining operations',
+      'Leading R&D in <strong>Satellite and Drone Technology</strong> for environmental mapping — DINO v3, sensor fusion for landmine detection and 3D modeling',
+    ],
+  },
+  {
+    company: 'Omega Labs',
+    role: 'AI Engineer',
+    date: 'Aug 2024 - April 2025',
+    details: [
+      '<strong>Any-to-Any Multimodal Models:</strong> Led development of seamless modality transformations, integrating image into speech-to-speech models',
+      '<strong>Diarization Pipeline:</strong> Built YouTube audio scraping/transcription system — 60,000+ row dataset on Hugging Face',
+      '<strong>Speech-to-Speech:</strong> Fine-tuned Mini-Omni, built multi-modality evaluation frameworks',
+    ],
+  },
+  {
+    company: 'Samsung Research & Development',
+    role: 'Senior AI Engineer, Visual Intelligence',
+    date: 'Dec 2021 - Dec 2024',
+    details: [
+      '<strong>Portrait Relighting:</strong> LoRA for Stable Diffusion, shipping on Samsung S25',
+      '<strong>OnlyMe Video Call:</strong> 60 FPS video instance segmentation for Galaxy S24',
+      '<strong>Selfie Camera Bokeh:</strong> Instance segmentation for S23, Flip4, Fold4 — 97.2 IoU, 60ms inference',
+    ],
+  },
+  {
+    company: 'Vision CAIR Lab, KAUST',
+    role: 'Research Assistant',
+    date: 'Sept 2021 - March 2022',
+    details: [
+      'Developed <strong>3D COMPaT</strong> dataset with Prof. Mohamed H. Elhoseiny — published at <strong>ECCV 2022 Oral Track</strong>',
+      'Part-material segmentation in 3D objects using <strong>branched DETR</strong>',
+    ],
+  },
+  {
+    company: 'Embodied AI Lab, UC San Diego',
+    role: 'Research Assistant',
+    date: 'July 2021 - Sept 2021',
+    details: [
+      'Single-image to 3D shape reconstruction with <strong>Prof. Hao Su</strong>',
+      'Compositional learning framework using localized modules and substructure factorization',
+    ],
+  },
+  {
+    company: 'Machine Learning Lab, IISc Bengaluru',
+    role: 'Research Assistant',
+    date: 'July 2020 - July 2021',
+    details: [
+      'Unsupervised <strong>LiDAR reconstruction</strong> using GANs and Auto-encoders',
+      'Training techniques for <strong>Variational Autoencoders</strong> with global/local feature modeling using DCT',
+    ],
+  },
+];
+
+const skills = [
+  { label: 'Generative AI', items: ['Diffusion Networks', 'GANs', 'Autoencoders', '3D Representation Learning'] },
+  { label: 'Languages', items: ['Python', 'C++', 'SQL'] },
+  { label: 'ML Tools', items: ['PyTorch Lightning', 'PyTorch', 'TensorFlow', 'Hugging Face'] },
+  { label: 'Vision', items: ['OpenCV', 'PIL', 'Albumentations'] },
+  { label: 'Web3', items: ['Bittensor', 'TAO Mining', 'Decentralized Agents'] },
+];
+
+const awards = [
+  { title: 'Samsung Certificate of Appreciation', desc: 'S24, S23, Flip4, Fold4' },
+  { title: 'HackData 2019', desc: '24-hr hackathon winner, Shiv Nadar University' },
+  { title: 'Sir Syed Global Scholar Award 2019', desc: 'Amongst 25 students university-wide' },
+  { title: 'NIOT SAVe 2019', desc: '4th of 128 teams, IIT-Madras' },
+  { title: 'ACM-ICPC 2017-18', desc: 'Best team from AMU' },
+  { title: 'AMU-OSS Founder', desc: 'Open Source Society, 150+ members' },
+  { title: 'Google CodeJam 2018', desc: 'Qualified' },
+  { title: 'SnackDown 2018', desc: 'Qualified' },
+];
 ---
 
-<BaseLayout description="Tezuesh Varshney - Co-Founder & ML Engineer at Singularity Forge. Former Senior AI Engineer at Samsung R&D.">
-  <section class="intro">
-    <div class="container">
-      <p>
-        <img alt="Tezuesh Varshney" src="/images/avatar.jpg" class="avatar" />
-      </p>
-      <p>
-        Welcome! I'm the Co-Founder & ML Engineer at <strong>Singularity Forge</strong>, where I lead SaaS development
-        and R&D in satellite/drone technology for environmental mapping. Previously, I was a Senior AI Engineer at
-        <strong>Samsung Research & Development</strong> on the Visual Intelligence team, shipping models to flagship
-        Galaxy devices (S25, S24, S23, Flip4, Fold4).
-      </p>
-      <p>
-        My work spans generative AI, multimodal models, 3D representation learning, and Web3/decentralized systems.
-        In my free time I play football, fiddle around with
-        <a href="https://threejs.org/">threejs</a>, solve rubik's cube and do <a href="/photos">photography</a>.
-      </p>
-
-      <hr />
-
-      <h2>Experience</h2>
-      <ul>
-        <li>
-          <strong>Singularity Forge</strong> -- Co-Founder & ML Engineer
-          <span class="date-right">April 2025 - Present</span><br />
-          <ul class="nested">
-            <li>Leading SaaS development: <strong>RevQA</strong> (AI sales coaching platform), <strong>Logo Generation App</strong> (AI prompt orchestration), <strong>Voice-to-Text Notetaking App</strong></li>
-            <li>Designing algorithms across multiple subnets in the <strong>Bittensor</strong> ecosystem for mining operations</li>
-            <li>Leading R&D in <strong>Satellite and Drone Technology</strong> for environmental mapping -- leveraging DINO v3, sensor fusion to identify landmines, map red zones, and create 3D environmental models</li>
-          </ul>
-        </li>
-        <li>
-          <strong>Omega Labs</strong> -- AI Engineer
-          <span class="date-right">Aug 2024 - April 2025</span><br />
-          <ul class="nested">
-            <li><strong>Any-to-Any Multimodal Models:</strong> Led development of models enabling seamless modality transformations, integrating image functionality into speech-to-speech models</li>
-            <li><strong>Diarization Pipeline:</strong> Built system to scrape, process, and transcribe YouTube audio -- 60,000+ row dataset on Hugging Face with audio quality scoring</li>
-            <li><strong>Speech-to-Speech Models:</strong> Developed and fine-tuned Mini-Omni, built evaluation frameworks across multiple modalities</li>
-          </ul>
-        </li>
-        <li>
-          <strong>Samsung Research & Development</strong> -- Senior AI Engineer, Visual Intelligence
-          <span class="date-right">Dec 2021 - Dec 2024</span><br />
-          <ul class="nested">
-            <li><strong>Portrait Relighting:</strong> Studio relighting and dramatic effects by training LoRA for Stable Diffusion, shipping on Samsung S25</li>
-            <li><strong>OnlyMe Video Call:</strong> 60 FPS video instance segmentation model for Galaxy S24</li>
-            <li><strong>Selfie Camera Bokeh:</strong> Instance segmentation for S23, Flip4, Fold4 -- 97.2 IoU, 60ms inference</li>
-          </ul>
-        </li>
-        <li>
-          <strong>Vision CAIR Lab, KAUST</strong> -- Research Assistant
-          <span class="date-right">Sept 2021 - March 2022</span><br />
-          Worked with Prof. Mohamed H. Elhoseiny on <strong>3D COMPaT</strong>, a large annotated 3D dataset with part-material composition. Published in <strong>ECCV 2022 Oral Track</strong>. Developed part-material segmentation using branched DETR.
-        </li>
-        <li>
-          <strong>Embodied AI Lab, UC San Diego</strong> -- Research Assistant
-          <span class="date-right">July 2021 - Sept 2021</span><br />
-          Collaborated with Prof. Hao Su on single-image to 3D shape reconstruction. Proposed a compositional learning framework using localized modules and substructure factorization.
-        </li>
-        <li>
-          <strong>Machine Learning Lab, Indian Institute of Science</strong> -- Research Assistant
-          <span class="date-right">July 2020 - July 2021</span><br />
-          Researched unsupervised LiDAR reconstruction using GANs and Auto-encoders. Developed training techniques for Variational Autoencoders with global and local feature modeling using DCT.
-        </li>
-      </ul>
-
-      <hr />
-
-      <h2>Papers</h2>
-      <ul>
-        <li>
-          Ujjwal Upadhyay, Yuchen Li, Habib Slim, <strong>Tezuesh Varshney</strong>, Ahmed Abdelreheem, Arpit Prajapati, Suhail Pothigara, Peter Wonka, and Mohamed Elhoseiny.
-          <strong>"3DCoMPaT: Composition of materials on parts of 3D things."</strong>
-          In 17th European Conference on Computer Vision (<strong>ECCV</strong>), 2022.
-        </li>
-        <li>
-          Mansi Agarwal and <strong>Tezuesh Varshney</strong>.
-          <strong>"Survey on Zero-Shot Learning and its application."</strong>
-        </li>
-      </ul>
-
-      <hr />
-
-      <h2>Skills</h2>
-      <div class="skills-grid">
-        <p><strong>Generative AI:</strong> Diffusion Networks, GANs, Autoencoders, 3D Representation Learning</p>
-        <p><strong>Languages:</strong> Python, C++, SQL</p>
-        <p><strong>ML Tools:</strong> PyTorch Lightning, PyTorch, TensorFlow, Hugging Face</p>
-        <p><strong>Image Processing:</strong> OpenCV, PIL, Albumentations</p>
-        <p><strong>Web3 & Blockchain:</strong> Bittensor, TAO mining, decentralized agents</p>
+<BaseLayout description="Tezuesh Varshney — Co-Founder & ML Engineer at Singularity Forge. Former Senior AI Engineer at Samsung R&D. ECCV 2022 author.">
+  <div class="container">
+    <!-- Hero Postcard -->
+    <section class="hero-postcard">
+      <div class="hero">
+        <div class="hero-text">
+          <div class="hero-from">Postcard from Tokyo</div>
+          <h1 class="hero-name">Tezuesh Varshney</h1>
+          <p class="hero-title">Co-Founder & ML Engineer @ Singularity Forge</p>
+          <p class="hero-bio">
+            Building AI-powered SaaS and leading R&D in satellite/drone tech for environmental mapping.
+            Previously shipped computer vision models to Samsung Galaxy flagships (S25, S24, S23).
+            Published at <strong>ECCV 2022</strong>. Interested in generative AI, multimodal models, 3D, and Web3.
+          </p>
+        </div>
+        <div class="stamp-frame">
+          <img src="/images/avatar.jpg" alt="Tezuesh Varshney" class="hero-avatar" />
+          <div class="postmark">
+            <span class="postmark-text">Tokyo</span>
+            <span class="postmark-year">2025</span>
+          </div>
+        </div>
       </div>
+      <span class="hero-jp-side">テズエシュ・バルシュニー</span>
+      <div class="halftone-corner" aria-hidden="true"></div>
+    </section>
 
-      <hr />
+    <!-- Experience -->
+    <section class="postcard">
+      <h2 class="section-heading">
+        <span class="jp-label">経験</span>
+        Experience
+      </h2>
+      <div class="timeline">
+        {experience.map((exp) => (
+          <div class="exp-card">
+            <div class="exp-header">
+              <div>
+                <span class="exp-company">{exp.company}</span>
+                <span class="exp-role"> — {exp.role}</span>
+              </div>
+              <span class="exp-date">{exp.date}</span>
+            </div>
+            <ul class="exp-details">
+              {exp.details.map((d) => <li set:html={d} />)}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </section>
 
-      <h2>Projects</h2>
-      <ul>
-        <li>
-          <a href="https://github.com/square-1111/3D-Point-Cloud-Modeling">3D Point Cloud Modeling</a><br />
-          PyTorch implementation of Learning Representations and Generative Models for 3D Point Clouds. Implemented Chamfer Distance and Earth Mover Distance from scratch. Generative Modeling on ShapeNet using Autoencoder and GANs.
-        </li>
-        <li>
-          <a href="https://github.com/square-1111/Apery">Apery</a><br />
-          Heuristic algorithms for artistic image generation. Transfer learning with VGG-19 for style transfer. Hill Climbing algorithm for image reconstruction using shape primitives.
-        </li>
-      </ul>
+    <!-- Papers -->
+    <section class="postcard">
+      <h2 class="section-heading">
+        <span class="jp-label">出版物</span>
+        Publications
+      </h2>
+      <div class="paper-item">
+        Ujjwal Upadhyay, Yuchen Li, Habib Slim, <strong>Tezuesh Varshney</strong>, Ahmed Abdelreheem, Arpit Prajapati, Suhail Pothigara, Peter Wonka, and Mohamed Elhoseiny.
+        <strong>"3DCoMPaT: Composition of materials on parts of 3D things."</strong>
+        <br /><span class="paper-venue">ECCV 2022 (Oral)</span>
+      </div>
+      <div class="paper-item">
+        Mansi Agarwal and <strong>Tezuesh Varshney</strong>.
+        <strong>"Survey on Zero-Shot Learning and its application."</strong>
+      </div>
+    </section>
 
-      <hr />
+    <!-- Skills -->
+    <section class="postcard">
+      <h2 class="section-heading">
+        <span class="jp-label">技術</span>
+        Skills
+      </h2>
+      <div class="skills-section">
+        {skills.map((cat) => (
+          <div class="skill-category">
+            <div class="skill-label">{cat.label}</div>
+            <div class="skill-tags">
+              {cat.items.map((item) => <span class="skill-tag">{item}</span>)}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
 
-      <h2>Awards</h2>
-      <ul>
-        <li><strong>Certificate of Appreciation</strong> from Samsung for contributions to S24, S23, Flip4, and Fold4</li>
-        <li>Won <strong>HackData 2019</strong> -- 24-hr hackathon at Shiv Nadar University</li>
-        <li><strong>Sir Syed Global Scholar Award 2019</strong> -- Amongst 25 students university-wide</li>
-        <li><strong>4th of 128 teams</strong> -- NIOT SAVe 2019, Autonomous Underwater Vehicle Competition (IIT-Madras)</li>
-        <li>Best team from AMU for <strong>ACM-ICPC Online Round 2017-18</strong></li>
-        <li>Founded <strong>AMU-OSS</strong> -- Open Source Software Society, 150+ members</li>
-        <li>Qualified <strong>Google CodeJam 2018</strong> and <strong>SnackDown 2018</strong></li>
-      </ul>
+    <!-- Projects -->
+    <section class="postcard">
+      <h2 class="section-heading">
+        <span class="jp-label">プロジェクト</span>
+        Projects
+      </h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3><a href="https://github.com/square-1111/3D-Point-Cloud-Modeling">3D Point Cloud Modeling</a></h3>
+          <p>PyTorch implementation for 3D Point Clouds. Chamfer Distance and Earth Mover Distance from scratch. Generative Modeling on ShapeNet with Autoencoders and GANs.</p>
+        </div>
+        <div class="project-card">
+          <h3><a href="https://github.com/square-1111/Apery">Apery</a></h3>
+          <p>Artistic image generation with heuristic algorithms. Transfer learning via VGG-19 for style transfer. Hill Climbing for image reconstruction using shape primitives.</p>
+        </div>
+      </div>
+    </section>
 
-      <hr />
+    <!-- Awards -->
+    <section class="postcard">
+      <h2 class="section-heading">
+        <span class="jp-label">受賞歴</span>
+        Awards
+      </h2>
+      <div class="awards-list">
+        {awards.map((a) => (
+          <div class="award-item">
+            <strong>{a.title}</strong><br />
+            <span style="color: var(--color-text-secondary); font-size: 0.85rem;">{a.desc}</span>
+          </div>
+        ))}
+      </div>
+    </section>
 
-      <h2>Education</h2>
-      <ul>
-        <li>
-          <strong>Zakir Husain College of Engineering & Technology, AMU</strong><br />
-          <em>B.Tech in Computer Engineering; CGPA: 9.017/10.0</em>
-          <span class="date-right">2016 - 2020</span><br />
-          Thesis: Analogy Generation
-        </li>
-      </ul>
-    </div>
-  </section>
+    <!-- Education -->
+    <section class="postcard">
+      <h2 class="section-heading">
+        <span class="jp-label">学歴</span>
+        Education
+      </h2>
+      <div class="edu-item">
+        <div class="exp-header">
+          <div>
+            <span class="exp-company">Zakir Husain College of Engineering & Technology, AMU</span>
+          </div>
+          <span class="exp-date">2016 - 2020</span>
+        </div>
+        <p style="margin: 0.5rem 0 0; color: var(--color-text-secondary);">
+          B.Tech in Computer Engineering — CGPA: 9.017/10.0 — Thesis: Analogy Generation
+        </p>
+      </div>
+    </section>
+  </div>
 </BaseLayout>
