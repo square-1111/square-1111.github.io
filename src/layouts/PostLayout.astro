@@ -1,0 +1,44 @@
+---
+import BaseLayout from './BaseLayout.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+  keywords?: string;
+  date: Date;
+}
+
+const { title, description, keywords, date } = Astro.props;
+
+const formattedDate = date.toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'short',
+  day: 'numeric',
+});
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  keywords={keywords}
+  isArticle={true}
+  publishedDate={date.toISOString()}
+>
+  <div class="container">
+    <article class="stamp post" itemscope itemtype="http://schema.org/BlogPosting">
+      <div class="stamp-inner">
+        <span class="postal-label">Correspondencia</span>
+        <header>
+          <div class="post-meta">
+            <time datetime={date.toISOString()} itemprop="datePublished">{formattedDate}</time>
+            <span> &bull; Tezuesh Varshney</span>
+          </div>
+          <h1 class="post-title" itemprop="name headline">{title}</h1>
+        </header>
+        <div class="post-content" itemprop="articleBody">
+          <slot />
+        </div>
+      </div>
+    </article>
+  </div>
+</BaseLayout>

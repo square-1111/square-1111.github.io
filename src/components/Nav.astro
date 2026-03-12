@@ -1,0 +1,36 @@
+---
+const navLinks = [
+  { href: '/resume', label: 'Resume' },
+  { href: '/about', label: 'About' },
+  { href: '/blog', label: 'Blog' },
+  { href: '/photos', label: 'Photos' },
+];
+---
+
+<a href="https://cal.com/tezuesh" data-cal-link="tezuesh" class="airmail-stripe clickable">
+  Meet Tez
+</a>
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="/" class="nav-brand">
+      <h1>Tezuesh Varshney</h1>
+      <span class="nav-postal-label">Servicio Postal</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" id="nav-toggle">
+      <span class="toggle-bar"></span>
+      <span class="toggle-bar"></span>
+      <span class="toggle-bar"></span>
+    </button>
+    <div class="nav-links" id="nav-links">
+      {navLinks.map(({ href, label }) => (
+        <a href={href} class="nav-link">{label}</a>
+      ))}
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.getElementById('nav-toggle')?.addEventListener('click', () => {
+    document.getElementById('nav-links')?.classList.toggle('open');
+  });
+</script>
