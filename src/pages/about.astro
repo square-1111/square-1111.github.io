@@ -5,68 +5,73 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 <BaseLayout title="About" description="About Tezuesh Varshney — Co-Founder at Singularity Forge, former Samsung Senior AI Engineer, ECCV 2022 author.">
   <article class="container">
     <h1 class="page-title">About</h1>
-    <span class="page-title-jp">自己紹介</span>
+    <span class="page-subtitle">Servicio Postal &bull; Biographical Record</span>
 
-    <section class="postcard">
-      <div class="about-content">
+    <section class="stamp">
+      <div class="stamp-inner">
+        <span class="postal-label">Par Avion</span>
+        <span class="stamp-value">$25</span>
+        <div class="about-content">
+          <p>
+            I'm the Co-Founder & ML Engineer at <strong>Singularity Forge</strong>, building AI-powered SaaS products
+            and leading R&D in satellite/drone technology for environmental mapping. Before this, I worked as an
+            AI Engineer at <strong>Omega Labs</strong> on any-to-any multimodal models, and spent 3 years as a
+            Senior AI Engineer at <strong>Samsung Research & Development</strong> shipping computer vision models
+            to flagship Galaxy devices.
+          </p>
+          <p>
+            My research background includes work at <strong>KAUST</strong> (3D COMPaT, <a href="#">ECCV 2022 Oral</a>),
+            <strong>UC San Diego</strong> (3D shape reconstruction with Prof. Hao Su), and the
+            <strong>Indian Institute of Science</strong> (unsupervised LiDAR reconstruction).
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="stamp">
+      <div class="stamp-inner">
+        <span class="postal-label">Correo Aereo</span>
+        <span class="stamp-value">10<small>c</small></span>
+        <h2 class="section-heading">Skills</h2>
+        <table class="skills-table">
+          <tr><td>Generative AI</td><td>Diffusion Networks, GANs, Autoencoders, 3D Representation Learning</td></tr>
+          <tr><td>Languages</td><td>Python, C++, SQL</td></tr>
+          <tr><td>ML Tools</td><td>PyTorch Lightning, PyTorch, TensorFlow, Hugging Face</td></tr>
+          <tr><td>Vision</td><td>OpenCV, PIL, Albumentations</td></tr>
+          <tr><td>Web3</td><td>Bittensor, TAO mining, decentralized agents</td></tr>
+        </table>
+      </div>
+    </section>
+
+    <section class="stamp">
+      <div class="stamp-inner">
+        <span class="postal-label">Via Aerea</span>
+        <span class="stamp-value">$1</span>
+        <h2 class="section-heading">Publications</h2>
+        <div class="paper-item">
+          Ujjwal Upadhyay et al., <strong>Tezuesh Varshney</strong>.
+          <strong>"3DCoMPaT: Composition of materials on parts of 3D things."</strong>
+          <br /><span class="paper-venue">ECCV 2022 (Oral)</span>
+        </div>
+        <div class="paper-item">
+          Mansi Agarwal and <strong>Tezuesh Varshney</strong>.
+          <strong>"Survey on Zero-Shot Learning and its application."</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="stamp">
+      <div class="stamp-inner">
+        <span class="postal-label">Servicio Postal</span>
+        <span class="stamp-value">5<small>c</small></span>
+        <h2 class="section-heading">Interests</h2>
         <p>
-          I'm the Co-Founder & ML Engineer at <strong>Singularity Forge</strong>, building AI-powered SaaS products
-          and leading R&D in satellite/drone technology for environmental mapping. Before this, I worked as an
-          AI Engineer at <strong>Omega Labs</strong> on any-to-any multimodal models, and spent 3 years as a
-          Senior AI Engineer at <strong>Samsung Research & Development</strong> shipping computer vision models
-          to flagship Galaxy devices.
+          Football, solving combinatorics problems, <a href="https://threejs.org/">ThreeJS</a>,
+          Rubik's cube, and <a href="/photos">photography</a>.
         </p>
-
-        <p>
-          My research background includes work at <strong>KAUST</strong> (3D COMPaT, <a href="#">ECCV 2022 Oral</a>),
-          <strong>UC San Diego</strong> (3D shape reconstruction with Prof. Hao Su), and the
-          <strong>Indian Institute of Science</strong> (unsupervised LiDAR reconstruction).
-        </p>
-      </div>
-    </section>
-
-    <section class="postcard">
-      <h2 class="section-heading">
-        <span class="jp-label">技術</span>
-        Skills
-      </h2>
-      <table class="skills-table">
-        <tr><td>Generative AI</td><td>Diffusion Networks, GANs, Autoencoders, 3D Representation Learning</td></tr>
-        <tr><td>Languages</td><td>Python, C++, SQL</td></tr>
-        <tr><td>ML Tools</td><td>PyTorch Lightning, PyTorch, TensorFlow, Hugging Face</td></tr>
-        <tr><td>Vision</td><td>OpenCV, PIL, Albumentations</td></tr>
-        <tr><td>Web3</td><td>Bittensor, TAO mining, decentralized agents</td></tr>
-      </table>
-    </section>
-
-    <section class="postcard">
-      <h2 class="section-heading">
-        <span class="jp-label">出版物</span>
-        Publications
-      </h2>
-      <div class="paper-item">
-        Ujjwal Upadhyay et al., <strong>Tezuesh Varshney</strong>.
-        <strong>"3DCoMPaT: Composition of materials on parts of 3D things."</strong>
-        <br /><span class="paper-venue">ECCV 2022 (Oral)</span>
-      </div>
-      <div class="paper-item">
-        Mansi Agarwal and <strong>Tezuesh Varshney</strong>.
-        <strong>"Survey on Zero-Shot Learning and its application."</strong>
-      </div>
-    </section>
-
-    <section class="postcard">
-      <h2 class="section-heading">
-        <span class="jp-label">趣味</span>
-        Interests
-      </h2>
-      <p>
-        Football, solving combinatorics problems, <a href="https://threejs.org/">ThreeJS</a>,
-        Rubik's cube, and <a href="/photos">photography</a>.
-      </p>
-
-      <div class="resume-link">
-        <a href="/pdf/resume.pdf">Download Resume (PDF)</a>
+        <div class="resume-link">
+          <a href="/pdf/resume.pdf">Download Resume (PDF)</a>
+        </div>
       </div>
     </section>
   </article>

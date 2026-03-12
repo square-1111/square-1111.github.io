@@ -10,20 +10,24 @@ const posts = (await getCollection('blog'))
   <article class="page container">
     <header class="page-header">
       <h1 class="page-title">Blog</h1>
-      <span class="page-title-jp">ブログ</span>
+      <span class="page-subtitle">Correspondencia &bull; 100 Days of Writing</span>
     </header>
-    <section class="postcard">
-      <div class="post-list">
-        {posts.map((post) => (
-          <article class="post-item">
-            <span class="post-meta date-label">
-              {post.data.date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: '2-digit' })}
-            </span>
-            <div class="article-title">
-              <a class="post-link" href={`/blog/${post.id}/`}>{post.data.title}</a>
-            </div>
-          </article>
-        ))}
+    <section class="stamp">
+      <div class="stamp-inner">
+        <span class="postal-label">Correo Aereo</span>
+        <span class="stamp-value">10<small>c</small></span>
+        <div class="post-list">
+          {posts.map((post) => (
+            <article class="post-item">
+              <span class="post-meta date-label">
+                {post.data.date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: '2-digit' })}
+              </span>
+              <div class="article-title">
+                <a class="post-link" href={`/blog/${post.id}/`}>{post.data.title}</a>
+              </div>
+            </article>
+          ))}
+        </div>
       </div>
     </section>
   </article>

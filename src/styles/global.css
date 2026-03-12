@@ -1,88 +1,42 @@
 /* ========================================
-   POSTCARD FROM TOKYO
-   Japanese anime-inspired portfolio theme
+   VINTAGE TRAVEL STAMPS
+   1960s postal ephemera portfolio theme
    ======================================== */
 
-/* Fonts: Shippori Mincho for headings, Zen Kaku Gothic New for body */
-@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;500;600;700;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Zen+Maru+Gothic:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
 
-/* === Color Palette: Traditional Japanese + Anime === */
+/* === Color Palette: Vintage Postal === */
 :root {
-  --font-heading: 'Shippori Mincho B1', 'Georgia', serif;
-  --font-body: 'Zen Kaku Gothic New', -apple-system, sans-serif;
-  --font-display: 'Zen Maru Gothic', sans-serif;
+  --font-heading: 'Bebas Neue', 'Impact', sans-serif;
+  --font-body: 'Open Sans', -apple-system, sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
 
-  /* Kinari — warm washi paper */
-  --color-bg: #F7EFE3;
-  /* Card surface */
-  --color-surface: #FAF7F2;
-  /* Sumi ink */
-  --color-text: #2A2A28;
-  /* Warm grey */
-  --color-text-secondary: #7a7468;
-  /* Ai — deep indigo (primary) */
-  --color-primary: #004C71;
-  --color-primary-hover: #003a57;
-  /* Shu — vermillion (accent/stamp red) */
-  --color-accent: #E94709;
-  --color-accent-soft: rgba(233, 71, 9, 0.12);
-  /* Asagi — pale indigo (links) */
-  --color-link: #00A5BF;
-  --color-link-hover: #008799;
-  /* Yamabuki — golden */
-  --color-gold: #F8B400;
-  /* Akebono — dawn pink */
-  --color-pink: #F9A383;
-  /* Sakura */
-  --color-sakura: #FEEEED;
-  /* Moegi — sprout green */
-  --color-green: #86B81B;
-  /* Fuji — wisteria purple */
-  --color-fuji: #BAA7CC;
-  /* Borders */
-  --color-border: #d4cfc5;
-  --color-border-light: #e8e3da;
-  --color-card-shadow: rgba(42, 42, 40, 0.08);
+  /* Dark warm grey — stamp album background */
+  --color-bg: #4A4A42;
+  /* Stamp paper cream */
+  --color-stamp: #E8DCC8;
+  --color-stamp-alt: #D4C9A8;
+  /* Deep teal — silhouettes & primary */
+  --color-teal: #2C4A52;
+  --color-teal-light: #5B8A8A;
+  /* Dusty red — postal accent */
+  --color-red: #C45C48;
+  --color-red-soft: rgba(196, 92, 72, 0.15);
+  /* Sage olive */
+  --color-sage: #7A8C6E;
+  /* Text */
+  --color-text: #2A2A25;
+  --color-text-light: #E8DCC8;
+  --color-text-secondary: #6B6558;
+  --color-text-faded: #8A8272;
+  /* Borders & shadows */
+  --color-border: #C4B99A;
+  --color-border-light: #D8CCAF;
+  --color-card-shadow: rgba(0, 0, 0, 0.35);
 
-  --max-width: 56rem;
-  --radius: 3px;
-  --radius-lg: 6px;
-
-  /* Sticker colors for skill tags */
-  --sticker-1: #E94709;
-  --sticker-2: #004C71;
-  --sticker-3: #86B81B;
-  --sticker-4: #00A5BF;
-  --sticker-5: #F8B400;
-  --sticker-6: #BAA7CC;
-}
-
-/* Dark mode: Tokyo Night */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-bg: #1A1A2E;
-    --color-surface: #222240;
-    --color-text: #E4E0D8;
-    --color-text-secondary: #9e978a;
-    --color-primary: #51A8DD;
-    --color-primary-hover: #7abce6;
-    --color-accent: #FF6B5A;
-    --color-accent-soft: rgba(255, 107, 90, 0.15);
-    --color-link: #5CC8D9;
-    --color-link-hover: #8fd8e6;
-    --color-gold: #F8C445;
-    --color-pink: #F9A383;
-    --color-sakura: #2E2235;
-    --color-green: #A4D65E;
-    --color-fuji: #C8B8DA;
-    --color-border: #353550;
-    --color-border-light: #2a2a45;
-    --color-card-shadow: rgba(0, 0, 0, 0.35);
-  }
-  .site-header {
-    background: rgba(26, 26, 46, 0.92) !important;
-  }
+  --max-width: 58rem;
+  --perf-r: 5px;   /* radius of each scallop bump */
+  --perf-d: 12px;  /* spacing of each bump */
 }
 
 /* === Reset === */
@@ -90,57 +44,60 @@
 html { scroll-behavior: smooth; }
 html, body { width: 100%; margin: 0; padding: 0; }
 
-/* === Paper Texture Background === */
+/* === Body — dark album page === */
 body {
-  color: var(--color-text);
+  color: var(--color-text-light);
   font-family: var(--font-body);
   font-size: 16px;
-  line-height: 1.8;
+  line-height: 1.75;
   background-color: var(--color-bg);
   -webkit-font-smoothing: antialiased;
-  /* Washi paper texture */
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+  /* Subtle grain texture */
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+  perspective: 1200px;
 }
 
 /* === Typography === */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
-  line-height: 1.35;
-  font-weight: 700;
-  color: var(--color-text);
+  line-height: 1.1;
+  font-weight: 400;
   margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
 }
-h1 { font-size: 2.2rem; letter-spacing: 0.03em; }
-h2 { font-size: 1.4rem; margin-top: 2.5rem; margin-bottom: 1.25rem; letter-spacing: 0.02em; }
-h3 { font-size: 1.15rem; }
+h1 { font-size: 3rem; }
+h2 { font-size: 2rem; margin-top: 0; margin-bottom: 1.25rem; }
+h3 { font-size: 1.4rem; }
 
 p { margin: 0 0 1em; }
 
 a {
-  color: var(--color-link);
+  color: var(--color-teal-light);
   text-decoration: none;
   transition: color 200ms ease;
 }
-a:hover { color: var(--color-accent); }
+a:hover { color: var(--color-red); }
+
+/* Inside stamps, links use teal */
+.stamp a { color: var(--color-teal); }
+.stamp a:hover { color: var(--color-red); }
 
 hr {
   border: none;
   height: 1px;
   background: var(--color-border);
-  margin: 2rem auto;
-  max-width: 80px;
+  margin: 1.5rem 0;
 }
 
 img, picture { margin: 0; max-width: 100%; }
 
 blockquote {
-  padding: 1.25rem 1.5rem;
+  padding: 1rem 1.25rem;
   margin: 1.5rem 0;
   color: var(--color-text-secondary);
-  line-height: 1.9;
-  border-left: 3px solid var(--color-accent);
-  background-color: var(--color-surface);
-  border-radius: 0 var(--radius) var(--radius) 0;
+  border-left: 3px solid var(--color-red);
+  background: rgba(196, 92, 72, 0.06);
   font-style: italic;
 }
 blockquote p { margin: 0; }
@@ -149,8 +106,8 @@ code {
   font-family: var(--font-mono);
   font-size: 0.88em;
   padding: 2px 6px;
-  background-color: var(--color-border-light);
-  border-radius: 3px;
+  background: rgba(44, 74, 82, 0.08);
+  border-radius: 2px;
 }
 pre {
   font-family: var(--font-mono);
@@ -159,8 +116,8 @@ pre {
   overflow: auto;
   max-height: 40em;
   border: 1px solid var(--color-border);
-  border-radius: var(--radius);
-  background-color: var(--color-surface);
+  background: var(--color-stamp);
+  color: var(--color-text);
 }
 pre code { padding: 0; background: none; }
 
@@ -178,37 +135,36 @@ li { margin-bottom: 0.3em; }
 .container {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 2rem 2rem 5rem;
+  padding: 4rem 2rem 4rem;
 }
 
 /* ========================================
-   HEADER + AIRMAIL NAV
+   HEADER — Airmail Postal Strip
    ======================================== */
 .site-header {
   position: sticky;
   top: 0;
   z-index: 100;
-  backdrop-filter: blur(14px);
-  background: rgba(247, 239, 227, 0.92);
+  background: var(--color-teal);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.3);
 }
 
-/* Airmail stripe — the classic red/blue diagonal */
+/* Classic airmail red/blue stripe */
 .airmail-stripe {
-  height: 6px;
+  height: 8px;
   background: repeating-linear-gradient(
     -45deg,
-    transparent,
-    transparent 8px,
-    var(--color-primary) 8px,
-    var(--color-primary) 10px,
-    transparent 10px,
-    transparent 18px,
-    var(--color-accent) 18px,
-    var(--color-accent) 20px
+    var(--color-red),
+    var(--color-red) 8px,
+    var(--color-stamp) 8px,
+    var(--color-stamp) 16px,
+    var(--color-teal) 16px,
+    var(--color-teal) 24px,
+    var(--color-stamp) 24px,
+    var(--color-stamp) 32px
   );
 }
 
-/* === Nav === */
 .navbar { min-height: 48px; }
 .nav-container {
   display: flex;
@@ -216,48 +172,48 @@ li { margin-bottom: 0.3em; }
   justify-content: space-between;
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 0.75rem 2rem;
+  padding: 0.6rem 2rem;
 }
 .nav-brand {
   text-decoration: none;
-  color: var(--color-text);
+  color: var(--color-stamp);
   display: flex;
-  align-items: center;
-  gap: 0.6rem;
+  align-items: baseline;
+  gap: 0.75rem;
 }
 .nav-brand h1 {
   font-family: var(--font-heading);
-  font-size: 1.05rem;
-  font-weight: 700;
+  font-size: 1.4rem;
+  font-weight: 400;
   margin: 0;
-  letter-spacing: 0.06em;
-}
-/* Tiny Japanese decorative text next to brand */
-.nav-brand-jp {
-  font-family: var(--font-display);
-  font-size: 0.65rem;
-  color: var(--color-accent);
-  opacity: 0.7;
   letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-stamp);
+}
+.nav-postal-label {
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  color: var(--color-teal-light);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  opacity: 0.7;
 }
 .nav-links {
   display: flex;
-  gap: 0.25rem;
+  gap: 0.15rem;
 }
 .nav-link {
-  color: var(--color-text-secondary);
-  padding: 0.4rem 0.85rem;
-  border-radius: var(--radius);
-  font-size: 0.85rem;
-  font-family: var(--font-display);
-  font-weight: 500;
-  letter-spacing: 0.03em;
+  color: var(--color-stamp-alt);
+  padding: 0.35rem 0.9rem;
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
   transition: all 200ms ease;
-  position: relative;
 }
 .nav-link:hover {
-  color: var(--color-accent);
-  background: var(--color-accent-soft);
+  color: var(--color-stamp);
+  background: rgba(232, 220, 200, 0.1);
 }
 .nav-toggle {
   display: none;
@@ -270,9 +226,9 @@ li { margin-bottom: 0.3em; }
 }
 .toggle-bar {
   display: block;
-  width: 18px;
-  height: 1.5px;
-  background-color: var(--color-text);
+  width: 20px;
+  height: 2px;
+  background-color: var(--color-stamp);
   border-radius: 1px;
 }
 @media (max-width: 640px) {
@@ -283,376 +239,455 @@ li { margin-bottom: 0.3em; }
     position: absolute;
     top: 56px;
     right: 1rem;
-    background: var(--color-surface);
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius);
+    background: var(--color-teal);
+    border: 1px solid rgba(232,220,200,0.15);
     padding: 0.5rem;
-    box-shadow: 0 4px 20px var(--color-card-shadow);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
     z-index: 50;
   }
   .nav-links.open { display: flex; }
 }
 
 /* ========================================
-   POSTCARD SECTIONS
-   Each major content block is a "postcard"
+   STAMP — Perforated edge card
+   The core building block
    ======================================== */
-.postcard {
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  padding: 2rem 2.5rem;
-  margin-bottom: 2rem;
+.stamp {
+  color: var(--color-text);
+  padding: 2.5rem 3rem;
+  margin-bottom: 2.5rem;
   position: relative;
-  box-shadow:
-    0 1px 3px rgba(42,42,40,0.06),
-    0 6px 20px rgba(42,42,40,0.04);
-  border-radius: 2px;
-  /* Subtle organic rotation */
-  transform: rotate(-0.25deg);
-  transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94), box-shadow 0.4s ease;
-}
-.postcard:nth-child(even) {
-  transform: rotate(0.25deg);
-}
-.postcard:hover {
-  transform: rotate(0deg) translateY(-3px);
-  box-shadow:
-    0 2px 6px rgba(42,42,40,0.08),
-    0 12px 32px rgba(42,42,40,0.08);
+  box-shadow: 0 4px 20px var(--color-card-shadow);
+
+  /* Scalloped stamp edges — dark semicircles cut into cream on all 4 sides */
+  background-color: var(--color-stamp);
+  background-image:
+    radial-gradient(circle, var(--color-bg) var(--perf-r), transparent 0),
+    radial-gradient(circle, var(--color-bg) var(--perf-r), transparent 0),
+    radial-gradient(circle, var(--color-bg) var(--perf-r), transparent 0),
+    radial-gradient(circle, var(--color-bg) var(--perf-r), transparent 0);
+  background-size:
+    var(--perf-d) var(--perf-d),
+    var(--perf-d) var(--perf-d),
+    var(--perf-d) var(--perf-d),
+    var(--perf-d) var(--perf-d);
+  background-position:
+    calc(var(--perf-d) / 2) calc(var(--perf-r) * -1),
+    calc(var(--perf-d) / 2) calc(100% + var(--perf-r)),
+    calc(var(--perf-r) * -1) calc(var(--perf-d) / 2),
+    calc(100% + var(--perf-r)) calc(var(--perf-d) / 2);
+  background-repeat:
+    repeat-x,
+    repeat-x,
+    repeat-y,
+    repeat-y;
 }
 
-/* Slide-in animation */
-@keyframes postcard-in {
-  from {
+/* Inner border like real stamps */
+.stamp-inner {
+  border: 2px solid var(--color-border);
+  padding: 1.75rem 2rem;
+  position: relative;
+}
+
+/* Postal label decoration */
+.postal-label {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-text-faded);
+  position: absolute;
+  top: -0.4rem;
+  left: 1.5rem;
+  background: var(--color-stamp);
+  padding: 0 0.5rem;
+}
+
+/* Denomination value */
+.stamp-value {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  font-family: var(--font-heading);
+  font-size: 1.6rem;
+  color: var(--color-red);
+  letter-spacing: 0.02em;
+  line-height: 1;
+}
+.stamp-value small {
+  font-size: 0.5em;
+  vertical-align: super;
+}
+
+/* Stamp entrance — laid on table with 3D tilt */
+@keyframes stamp-land {
+  0% {
     opacity: 0;
-    transform: translateY(40px) rotate(-2deg);
+    transform: perspective(800px) rotateX(15deg) rotateY(-5deg) translateY(60px) scale(0.92);
   }
-  to {
+  60% {
     opacity: 1;
-    transform: translateY(0) rotate(-0.25deg);
+    transform: perspective(800px) rotateX(-2deg) rotateY(1deg) translateY(-5px) scale(1.01);
   }
-}
-@keyframes postcard-in-even {
-  from {
-    opacity: 0;
-    transform: translateY(40px) rotate(2deg);
-  }
-  to {
+  100% {
     opacity: 1;
-    transform: translateY(0) rotate(0.25deg);
+    transform: perspective(800px) rotateX(0) rotateY(0) translateY(0) scale(1);
   }
 }
-.postcard {
-  animation: postcard-in 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+.stamp {
+  animation: stamp-land 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) both;
 }
-.postcard:nth-child(2) { animation-delay: 0.08s; }
-.postcard:nth-child(3) { animation-delay: 0.16s; }
-.postcard:nth-child(4) { animation-delay: 0.24s; }
-.postcard:nth-child(5) { animation-delay: 0.32s; }
-.postcard:nth-child(6) { animation-delay: 0.40s; }
-.postcard:nth-child(7) { animation-delay: 0.48s; }
-.postcard:nth-child(even) {
-  animation-name: postcard-in-even;
-}
+.stamp:nth-child(2) { animation-delay: 0.1s; }
+.stamp:nth-child(3) { animation-delay: 0.18s; }
+.stamp:nth-child(4) { animation-delay: 0.26s; }
+.stamp:nth-child(5) { animation-delay: 0.34s; }
+.stamp:nth-child(6) { animation-delay: 0.42s; }
+.stamp:nth-child(7) { animation-delay: 0.50s; }
+.stamp:nth-child(8) { animation-delay: 0.58s; }
 
 @media (max-width: 640px) {
-  .postcard {
+  .stamp {
     padding: 1.5rem 1.25rem;
-    transform: rotate(0deg);
   }
-  .postcard:nth-child(even) { transform: rotate(0deg); }
-  .postcard:hover { transform: translateY(-2px); }
+  .stamp-inner { padding: 1.25rem 1rem; }
 }
 
 /* ========================================
-   SECTION HEADINGS with Japanese labels
+   SECTION HEADINGS
    ======================================== */
 .section-heading {
   font-family: var(--font-heading);
-  font-size: 1.3rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
+  font-size: 2rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-teal);
   margin-bottom: 1.5rem;
-  position: relative;
   display: flex;
-  flex-direction: column;
-  gap: 0.15rem;
+  align-items: baseline;
+  gap: 0.75rem;
 }
-/* Japanese label above heading */
-.section-heading .jp-label {
-  font-family: var(--font-display);
-  font-size: 0.68rem;
-  color: var(--color-accent);
-  letter-spacing: 0.15em;
-  font-weight: 400;
-  opacity: 0.8;
-}
-/* Vermillion accent dot instead of line */
 .section-heading::after {
   content: '';
-  display: block;
-  width: 6px;
-  height: 6px;
-  background: var(--color-accent);
-  border-radius: 50%;
-  margin-top: 0.4rem;
+  flex: 1;
+  height: 1px;
+  background: var(--color-border);
 }
 
 /* ========================================
-   HERO — The Main Postcard
+   HERO STAMP — The main attraction
    ======================================== */
-.hero-postcard {
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  padding: 2.5rem 3rem;
-  margin-bottom: 2rem;
+.hero-stamp {
+  color: var(--color-text);
+  padding: 2.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2.5rem;
   position: relative;
-  box-shadow:
-    0 2px 6px rgba(42,42,40,0.06),
-    0 8px 28px rgba(42,42,40,0.06);
-  border-radius: 2px;
-  overflow: hidden;
-  animation: postcard-in 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  box-shadow: 0 6px 32px var(--color-card-shadow);
+
+  /* Scalloped stamp edges */
+  background-color: var(--color-stamp);
+  background-image:
+    radial-gradient(circle, var(--color-bg) var(--perf-r), transparent 0),
+    radial-gradient(circle, var(--color-bg) var(--perf-r), transparent 0),
+    radial-gradient(circle, var(--color-bg) var(--perf-r), transparent 0),
+    radial-gradient(circle, var(--color-bg) var(--perf-r), transparent 0);
+  background-size:
+    var(--perf-d) var(--perf-d),
+    var(--perf-d) var(--perf-d),
+    var(--perf-d) var(--perf-d),
+    var(--perf-d) var(--perf-d);
+  background-position:
+    calc(var(--perf-d) / 2) calc(var(--perf-r) * -1),
+    calc(var(--perf-d) / 2) calc(100% + var(--perf-r)),
+    calc(var(--perf-r) * -1) calc(var(--perf-d) / 2),
+    calc(100% + var(--perf-r)) calc(var(--perf-d) / 2);
+  background-repeat:
+    repeat-x,
+    repeat-x,
+    repeat-y,
+    repeat-y;
+
+  /* Envelope open animation */
+  animation: envelope-open 1s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+@keyframes envelope-open {
+  0% {
+    opacity: 0;
+    transform: perspective(1000px) rotateX(-30deg) translateY(80px) scale(0.85);
+    clip-path: polygon(10% 100%, 90% 100%, 90% 100%, 10% 100%);
+  }
+  40% {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+  60% {
+    opacity: 1;
+    transform: perspective(1000px) rotateX(3deg) translateY(-8px) scale(1.02);
+  }
+  100% {
+    opacity: 1;
+    transform: perspective(1000px) rotateX(0) translateY(0) scale(1);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
 }
 
-/* Sunset gradient strip at top of hero */
-.hero-postcard::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 4px;
-  background: linear-gradient(90deg, var(--color-pink), var(--color-accent), var(--color-gold));
+.hero-stamp-inner {
+  border: 2.5px solid var(--color-teal);
+  padding: 2.5rem 2.5rem 2rem;
+  position: relative;
+  background: linear-gradient(135deg, var(--color-stamp) 0%, var(--color-stamp-alt) 100%);
+}
+
+/* Teal header band inside hero stamp */
+.hero-band {
+  background: var(--color-teal);
+  color: var(--color-stamp);
+  padding: 0.75rem 1.5rem;
+  margin: -2.5rem -2.5rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-band-label {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+.hero-band-value {
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  letter-spacing: 0.05em;
+  color: var(--color-stamp);
 }
 
 .hero {
   display: flex;
-  align-items: center;
-  gap: 3rem;
+  align-items: flex-start;
+  gap: 2.5rem;
+  margin-top: 0.5rem;
 }
 .hero-text { flex: 1; }
 .hero-name {
   font-family: var(--font-heading);
-  font-size: 2.8rem;
-  font-weight: 800;
-  letter-spacing: 0.03em;
-  margin-bottom: 0.3rem;
-  line-height: 1.15;
-  color: var(--color-primary);
+  font-size: 3.5rem;
+  letter-spacing: 0.08em;
+  color: var(--color-teal);
+  line-height: 1;
+  margin-bottom: 0.15rem;
 }
-/* Decorative Tokyo label */
-.hero-from {
-  font-family: var(--font-display);
-  font-size: 0.72rem;
-  color: var(--color-accent);
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
+.hero-country {
+  font-family: var(--font-heading);
+  font-size: 1.3rem;
+  letter-spacing: 0.15em;
+  color: var(--color-red);
   margin-bottom: 0.75rem;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-.hero-from::before {
-  content: '';
-  width: 20px;
-  height: 1.5px;
-  background: var(--color-accent);
 }
 .hero-title {
   font-family: var(--font-mono);
-  font-size: 0.88rem;
-  color: var(--color-link);
-  font-weight: 500;
-  margin-bottom: 1rem;
-  letter-spacing: 0.02em;
+  font-size: 0.8rem;
+  color: var(--color-teal-light);
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  letter-spacing: 0.03em;
+  text-transform: none;
 }
 .hero-bio {
   color: var(--color-text-secondary);
-  font-size: 0.98rem;
-  line-height: 1.85;
-  max-width: 34rem;
+  font-size: 0.92rem;
+  line-height: 1.75;
+  max-width: 36rem;
 }
 .hero-bio strong { color: var(--color-text); }
 
-/* === STAMP AVATAR === */
-.stamp-frame {
-  position: relative;
+/* Stamp-framed avatar */
+.stamp-avatar-frame {
   flex-shrink: 0;
+  position: relative;
 }
 .hero-avatar {
-  width: 150px;
-  height: 150px;
+  width: 160px;
+  height: 180px;
   object-fit: cover;
-  border-radius: 2px;
-  /* Perforated stamp border */
-  outline: 3px solid var(--color-border);
-  outline-offset: 6px;
-  border: 3px dashed var(--color-accent);
-  padding: 4px;
-  background: var(--color-surface);
-  box-shadow: 0 4px 16px var(--color-card-shadow);
+  border: 3px solid var(--color-teal);
+  display: block;
 }
-/* Postmark circle */
+
+/* Postmark overlay on avatar */
 .postmark {
   position: absolute;
-  top: -12px;
-  right: -12px;
-  width: 72px;
-  height: 72px;
-  border: 2.5px solid rgba(233, 71, 9, 0.5);
+  top: -16px;
+  right: -20px;
+  width: 80px;
+  height: 80px;
+  border: 2.5px solid rgba(196, 92, 72, 0.5);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  transform: rotate(-12deg);
+  transform: rotate(-18deg);
   pointer-events: none;
+  z-index: 2;
 }
-.postmark-text {
-  font-family: var(--font-mono);
-  font-size: 0.5rem;
-  font-weight: 700;
-  letter-spacing: 0.2em;
-  color: rgba(233, 71, 9, 0.55);
-  text-transform: uppercase;
-}
-.postmark-year {
-  font-family: var(--font-mono);
-  font-size: 0.65rem;
-  font-weight: 700;
-  color: rgba(233, 71, 9, 0.55);
-}
-/* Inner ring of postmark */
 .postmark::before {
   content: '';
   position: absolute;
-  inset: 4px;
-  border: 1.5px solid rgba(233, 71, 9, 0.3);
+  inset: 5px;
+  border: 1.5px solid rgba(196, 92, 72, 0.3);
   border-radius: 50%;
 }
 /* Wavy cancel lines */
 .postmark::after {
   content: '';
   position: absolute;
-  right: -30px;
+  right: -35px;
   top: 50%;
-  width: 35px;
-  height: 20px;
+  width: 40px;
+  height: 24px;
   background: repeating-linear-gradient(
     0deg,
     transparent,
     transparent 3px,
-    rgba(233, 71, 9, 0.25) 3px,
-    rgba(233, 71, 9, 0.25) 4.5px
+    rgba(196, 92, 72, 0.3) 3px,
+    rgba(196, 92, 72, 0.3) 5px
   );
   transform: translateY(-50%);
 }
+.postmark-text {
+  font-family: var(--font-heading);
+  font-size: 0.65rem;
+  letter-spacing: 0.15em;
+  color: rgba(196, 92, 72, 0.6);
+  text-transform: uppercase;
+}
+.postmark-year {
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  color: rgba(196, 92, 72, 0.6);
+}
 
-/* Vertical Japanese text decoration */
-.hero-jp-side {
+/* Vertical side text */
+.hero-side-text {
   position: absolute;
-  right: 2rem;
+  right: -2rem;
   top: 50%;
-  transform: translateY(-50%);
-  writing-mode: vertical-rl;
-  font-family: var(--font-display);
-  font-size: 0.75rem;
-  color: var(--color-border);
+  transform: translateY(-50%) rotate(90deg);
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  color: var(--color-text-faded);
   letter-spacing: 0.3em;
+  text-transform: uppercase;
+  white-space: nowrap;
   opacity: 0.5;
-  pointer-events: none;
 }
 
 @media (max-width: 640px) {
-  .hero-postcard { padding: 1.75rem 1.5rem; }
+  .hero-stamp-inner { padding: 1.5rem 1.25rem 1.25rem; }
+  .hero-band { margin: -1.5rem -1.25rem 1.25rem; padding: 0.5rem 1rem; }
   .hero {
     flex-direction: column-reverse;
+    align-items: center;
     text-align: center;
-    gap: 1.5rem;
+    gap: 1.25rem;
   }
-  .hero-name { font-size: 2rem; }
-  .hero-avatar { width: 120px; height: 120px; }
+  .hero-name { font-size: 2.5rem; }
+  .hero-avatar { width: 130px; height: 150px; }
   .hero-bio { max-width: 100%; }
-  .hero-from { justify-content: center; }
-  .hero-jp-side { display: none; }
+  .hero-side-text { display: none; }
 }
 
 /* ========================================
-   EXPERIENCE — Stamped Letters
+   EXPERIENCE CARDS — Flippable postcards
    ======================================== */
-.timeline { display: flex; flex-direction: column; gap: 1rem; }
+.timeline { display: flex; flex-direction: column; gap: 1.25rem; }
 
+/* Flip container */
+.exp-flip {
+  perspective: 1000px;
+  height: auto;
+}
+.exp-flip-inner {
+  position: relative;
+  transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transform-style: preserve-3d;
+}
+.exp-flip:hover .exp-flip-inner {
+  transform: rotateY(180deg);
+}
+.exp-front, .exp-back {
+  backface-visibility: hidden;
+}
+.exp-back {
+  position: absolute;
+  inset: 0;
+  transform: rotateY(180deg);
+  background: var(--color-stamp-alt);
+  border: 2px solid var(--color-border);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* Postcard back pattern */
+  background-image:
+    linear-gradient(var(--color-border) 1px, transparent 1px),
+    linear-gradient(90deg, transparent 49.8%, var(--color-red) 49.8%, var(--color-red) 50.2%, transparent 50.2%);
+  background-size: 100% 2rem, 100% 100%;
+  background-position: 0 3rem, 0 0;
+}
+.exp-back-content {
+  background: var(--color-stamp-alt);
+  padding: 0.75rem;
+  text-align: center;
+}
+.exp-back-company {
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  color: var(--color-teal);
+  letter-spacing: 0.1em;
+}
+.exp-back-role {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--color-text-faded);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.exp-back-hint {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  color: var(--color-text-faded);
+  position: absolute;
+  bottom: 0.75rem;
+  right: 1rem;
+  letter-spacing: 0.05em;
+}
+
+/* Front of experience card */
 .exp-card {
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-left: 3px solid var(--color-primary);
-  border-radius: var(--radius);
+  background: var(--color-stamp);
+  border: 2px solid var(--color-border);
   padding: 1.25rem 1.5rem;
   position: relative;
-  transition: box-shadow 300ms ease, transform 300ms ease;
+  transition: box-shadow 300ms ease;
 }
-/* Washi tape decoration on first card */
-.exp-card:first-child {
-  border-left-color: var(--color-accent);
-}
-.exp-card:first-child::before {
-  content: '';
-  position: absolute;
-  top: -8px;
-  left: 16px;
-  width: 80px;
-  height: 20px;
-  background: repeating-linear-gradient(
-    45deg,
-    rgba(186, 167, 204, 0.35),
-    rgba(186, 167, 204, 0.35) 4px,
-    rgba(249, 163, 131, 0.25) 4px,
-    rgba(249, 163, 131, 0.25) 8px
-  );
-  transform: rotate(-1.5deg);
-  border-radius: 1px;
-}
-/* Washi tape on other cards - different pattern */
-.exp-card:nth-child(2)::before {
-  content: '';
-  position: absolute;
-  top: -8px;
-  right: 20px;
-  width: 70px;
-  height: 18px;
-  background: repeating-linear-gradient(
-    -45deg,
-    rgba(0, 165, 191, 0.2),
-    rgba(0, 165, 191, 0.2) 4px,
-    rgba(248, 180, 0, 0.15) 4px,
-    rgba(248, 180, 0, 0.15) 8px
-  );
-  transform: rotate(1deg);
-  border-radius: 1px;
-}
-.exp-card:nth-child(3)::before {
-  content: '';
-  position: absolute;
-  top: -8px;
-  left: 40px;
-  width: 65px;
-  height: 18px;
-  background: repeating-linear-gradient(
-    45deg,
-    rgba(134, 184, 27, 0.25),
-    rgba(134, 184, 27, 0.25) 4px,
-    rgba(254, 238, 237, 0.4) 4px,
-    rgba(254, 238, 237, 0.4) 8px
-  );
-  transform: rotate(-0.8deg);
-  border-radius: 1px;
+.exp-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
 }
 
-.exp-card:hover {
-  box-shadow: 0 4px 20px var(--color-card-shadow);
-  transform: translateY(-1px);
+/* Teal accent bar on left */
+.exp-card::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: var(--color-teal);
 }
+.exp-card:first-child::before { background: var(--color-red); }
+
 .exp-header {
   display: flex;
   justify-content: space-between;
@@ -663,49 +698,57 @@ li { margin-bottom: 0.3em; }
 }
 .exp-company {
   font-family: var(--font-heading);
-  font-weight: 700;
-  font-size: 1.05rem;
-  color: var(--color-primary);
+  font-size: 1.3rem;
+  letter-spacing: 0.08em;
+  color: var(--color-teal);
+  text-transform: uppercase;
 }
 .exp-role {
   color: var(--color-text-secondary);
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
-/* Date as "date stamp" */
+/* Date in stamp denomination style */
 .exp-date {
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  color: var(--color-accent);
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  color: var(--color-red);
   white-space: nowrap;
-  padding: 0.15rem 0.5rem;
-  border: 1px solid rgba(233, 71, 9, 0.25);
-  border-radius: 2px;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.05em;
 }
 .exp-details {
   margin-top: 0.75rem;
   padding-left: 1.25em;
   color: var(--color-text-secondary);
-  font-size: 0.9rem;
-  line-height: 1.8;
+  font-size: 0.88rem;
+  line-height: 1.75;
 }
-.exp-details li { margin-bottom: 0.4em; }
+.exp-details li { margin-bottom: 0.35em; }
 .exp-details strong { color: var(--color-text); }
+.exp-flip-hint {
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  color: var(--color-text-faded);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.75rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.exp-flip:hover .exp-flip-hint { opacity: 1; }
 
 /* ========================================
-   SKILL TAGS — Travel Stickers
+   SKILL TAGS — Luggage stickers
    ======================================== */
 .skills-section { margin-top: 0; }
-.skill-category {
-  margin-bottom: 1.25rem;
-}
+.skill-category { margin-bottom: 1.25rem; }
 .skill-label {
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  font-weight: 500;
-  color: var(--color-text-secondary);
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  letter-spacing: 0.12em;
+  color: var(--color-teal);
   text-transform: uppercase;
-  letter-spacing: 0.1em;
   margin-bottom: 0.5rem;
 }
 .skill-tags {
@@ -713,76 +756,70 @@ li { margin-bottom: 0.3em; }
   flex-wrap: wrap;
   gap: 0.5rem;
 }
-/* Travel sticker style */
 .skill-tag {
-  font-family: var(--font-display);
+  font-family: var(--font-body);
   font-size: 0.78rem;
-  padding: 0.3rem 0.85rem;
-  border-radius: 2px;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  border: 1.5px solid;
+  font-weight: 600;
+  padding: 0.3rem 0.75rem;
+  border: 2px solid;
   position: relative;
-  transition: transform 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: default;
 }
 .skill-tag:hover {
-  transform: rotate(-2deg) scale(1.05);
+  transform: rotate(-3deg) scale(1.08);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
-/* Varied sticker colors */
-.skill-category:nth-child(1) .skill-tag {
-  background: rgba(233, 71, 9, 0.08);
-  color: var(--color-accent);
-  border-color: rgba(233, 71, 9, 0.25);
-  transform: rotate(-0.5deg);
+/* Rotate stickers */
+.skill-category:nth-child(odd) .skill-tag { transform: rotate(-0.8deg); }
+.skill-category:nth-child(even) .skill-tag { transform: rotate(0.6deg); }
+
+/* Color cycling for sticker variety */
+.skill-category:nth-child(5n+1) .skill-tag {
+  background: var(--color-teal);
+  color: var(--color-stamp);
+  border-color: var(--color-teal);
 }
-.skill-category:nth-child(2) .skill-tag {
-  background: rgba(0, 76, 113, 0.08);
-  color: var(--color-primary);
-  border-color: rgba(0, 76, 113, 0.25);
-  transform: rotate(0.8deg);
+.skill-category:nth-child(5n+2) .skill-tag {
+  background: transparent;
+  color: var(--color-red);
+  border-color: var(--color-red);
 }
-.skill-category:nth-child(3) .skill-tag {
-  background: rgba(134, 184, 27, 0.1);
-  color: #5a8a10;
-  border-color: rgba(134, 184, 27, 0.3);
-  transform: rotate(-0.3deg);
+.skill-category:nth-child(5n+3) .skill-tag {
+  background: var(--color-sage);
+  color: #fff;
+  border-color: var(--color-sage);
 }
-.skill-category:nth-child(4) .skill-tag {
-  background: rgba(0, 165, 191, 0.08);
-  color: #007a8f;
-  border-color: rgba(0, 165, 191, 0.25);
-  transform: rotate(0.5deg);
+.skill-category:nth-child(5n+4) .skill-tag {
+  background: transparent;
+  color: var(--color-teal);
+  border-color: var(--color-teal);
 }
-.skill-category:nth-child(5) .skill-tag {
-  background: rgba(186, 167, 204, 0.15);
-  color: #7a5f9e;
-  border-color: rgba(186, 167, 204, 0.4);
-  transform: rotate(-0.7deg);
+.skill-category:nth-child(5n+5) .skill-tag {
+  background: var(--color-red);
+  color: var(--color-stamp);
+  border-color: var(--color-red);
 }
 
 /* ========================================
    PAPERS
    ======================================== */
 .paper-item {
-  background: var(--color-surface);
   border: 1px solid var(--color-border);
-  border-radius: var(--radius);
   padding: 1.25rem 1.5rem;
   margin-bottom: 0.75rem;
   font-size: 0.9rem;
-  line-height: 1.8;
-  position: relative;
+  line-height: 1.75;
+  background: var(--color-stamp);
 }
 .paper-venue {
   display: inline-block;
-  font-family: var(--font-mono);
-  font-size: 0.7rem;
-  color: #fff;
-  background: var(--color-accent);
-  padding: 0.15rem 0.6rem;
-  border-radius: 2px;
-  font-weight: 500;
-  letter-spacing: 0.03em;
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  color: var(--color-stamp);
+  background: var(--color-red);
+  padding: 0.1rem 0.75rem;
+  letter-spacing: 0.08em;
   margin-top: 0.25rem;
 }
 
@@ -795,65 +832,55 @@ li { margin-bottom: 0.3em; }
   gap: 1.25rem;
 }
 .project-card {
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius);
+  background: var(--color-stamp);
+  border: 2px solid var(--color-teal);
   padding: 1.5rem;
-  transition: box-shadow 300ms ease, transform 300ms ease;
-  position: relative;
-}
-.project-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 3px;
-  background: linear-gradient(90deg, var(--color-link), var(--color-fuji));
-  border-radius: var(--radius) var(--radius) 0 0;
+  transition: transform 300ms ease, box-shadow 300ms ease;
 }
 .project-card:hover {
-  box-shadow: 0 4px 20px var(--color-card-shadow);
-  transform: translateY(-2px);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
 }
 .project-card h3 {
   font-family: var(--font-heading);
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+  letter-spacing: 0.08em;
 }
-.project-card h3 a { font-weight: 700; color: var(--color-primary); }
-.project-card h3 a:hover { color: var(--color-accent); }
+.project-card h3 a { color: var(--color-teal); }
+.project-card h3 a:hover { color: var(--color-red); }
 .project-card p {
   color: var(--color-text-secondary);
   font-size: 0.88rem;
   margin: 0;
-  line-height: 1.7;
+  line-height: 1.65;
 }
 
 /* ========================================
-   AWARDS — Badge-style
+   AWARDS
    ======================================== */
 .awards-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 0.75rem;
   list-style: none;
   padding: 0;
 }
 .award-item {
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius);
-  padding: 0.85rem 1.1rem;
+  background: var(--color-stamp);
+  border: 2px solid var(--color-border);
+  padding: 0.85rem 1rem;
   font-size: 0.88rem;
-  position: relative;
   transition: transform 0.2s ease;
 }
-.award-item:hover { transform: translateY(-1px); }
+.award-item:hover { transform: translateY(-2px); }
 .award-item strong {
-  color: var(--color-accent);
   font-family: var(--font-heading);
-  font-weight: 700;
-  font-size: 0.9rem;
+  font-size: 1rem;
+  color: var(--color-red);
+  letter-spacing: 0.05em;
+  display: block;
+  text-transform: uppercase;
 }
 
 /* ========================================
@@ -864,62 +891,63 @@ li { margin-bottom: 0.3em; }
   display: flex;
   align-items: baseline;
   gap: 1.5rem;
-  padding: 0.75rem 0.75rem;
-  border-bottom: 1px solid var(--color-border-light);
+  padding: 0.65rem 0.75rem;
+  border-bottom: 1px solid rgba(232, 220, 200, 0.15);
   transition: all 200ms ease;
-  border-radius: var(--radius);
+  color: var(--color-text-light);
+}
+/* Inside a stamp, use stamp colors */
+.stamp .post-item {
+  color: var(--color-text);
+  border-bottom-color: var(--color-border-light);
 }
 .post-item:hover {
-  background: var(--color-sakura);
-  transform: translateX(4px);
+  background: rgba(196, 92, 72, 0.06);
+  padding-left: 1.25rem;
 }
 .post-item .date-label {
   font-family: var(--font-mono);
-  font-size: 0.75rem;
-  color: var(--color-text-secondary);
+  font-size: 0.72rem;
+  color: var(--color-text-faded);
   white-space: nowrap;
-  min-width: 6.5rem;
+  min-width: 6rem;
 }
 .post-item .article-title a {
   color: var(--color-text);
   font-weight: 500;
-  font-family: var(--font-body);
 }
-.post-item .article-title a:hover {
-  color: var(--color-accent);
-}
+.post-item .article-title a:hover { color: var(--color-red); }
 
 /* ========================================
-   POST
+   SINGLE POST
    ======================================== */
 .post-meta {
   font-family: var(--font-mono);
-  color: var(--color-text-secondary);
+  color: var(--color-text-faded);
   font-size: 0.82rem;
   margin-bottom: 0.5rem;
 }
 .post-title {
   font-family: var(--font-heading);
+  font-size: 2.5rem;
+  color: var(--color-teal);
   margin-bottom: 2rem;
-  color: var(--color-text);
-  font-size: 2rem;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.06em;
 }
 .post-content {
   font-size: 1.05rem;
   line-height: 1.9;
 }
 .post-content a {
-  color: var(--color-link);
-  font-weight: 500;
+  color: var(--color-teal);
+  font-weight: 600;
   text-decoration: underline;
-  text-decoration-color: rgba(0, 165, 191, 0.3);
+  text-decoration-color: rgba(44, 74, 82, 0.3);
   text-underline-offset: 3px;
-  transition: text-decoration-color 200ms ease, color 200ms ease;
 }
 .post-content a:hover {
-  text-decoration-color: var(--color-accent);
-  color: var(--color-accent);
+  color: var(--color-red);
+  text-decoration-color: var(--color-red);
 }
 
 /* ========================================
@@ -927,48 +955,50 @@ li { margin-bottom: 0.3em; }
    ======================================== */
 .page-title {
   font-family: var(--font-heading);
-  font-size: 2.2rem;
-  color: var(--color-primary);
-  margin-bottom: 0.3rem;
-  position: relative;
+  font-size: 3rem;
+  color: var(--color-stamp);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 0.15rem;
 }
-.page-title-jp {
-  font-family: var(--font-display);
-  font-size: 0.72rem;
-  color: var(--color-accent);
-  letter-spacing: 0.2em;
+.page-subtitle {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  color: var(--color-teal-light);
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
   display: block;
-  margin-bottom: 1.5rem;
-  opacity: 0.7;
+  margin-bottom: 1.75rem;
+  opacity: 0.6;
 }
 
 /* ========================================
    ABOUT PAGE
    ======================================== */
-.about-content { font-size: 1.02rem; line-height: 1.9; }
-.about-content a { font-weight: 500; }
+.about-content { font-size: 1rem; line-height: 1.85; }
+.about-content a { font-weight: 600; }
 .skills-table {
   width: 100%;
   border-collapse: collapse;
-  margin: 1.25rem 0 1.75rem;
+  margin: 1rem 0 1.5rem;
 }
 .skills-table td {
-  padding: 0.65rem 1rem;
+  padding: 0.6rem 1rem;
   border-bottom: 1px solid var(--color-border-light);
   vertical-align: top;
-  font-size: 0.92rem;
+  font-size: 0.9rem;
 }
 .skills-table td:first-child {
-  font-family: var(--font-mono);
-  font-size: 0.8rem;
-  font-weight: 500;
-  color: var(--color-accent);
-  width: 140px;
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  color: var(--color-teal);
+  width: 150px;
   white-space: nowrap;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 .resume-link {
-  margin-top: 2.5rem;
+  margin-top: 2rem;
   padding-top: 1.5rem;
   border-top: 1px solid var(--color-border);
 }
@@ -976,76 +1006,59 @@ li { margin-bottom: 0.3em; }
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.65rem 1.75rem;
-  background: var(--color-accent);
-  color: #fff;
-  border-radius: 2px;
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 0.88rem;
-  letter-spacing: 0.04em;
+  padding: 0.6rem 1.75rem;
+  background: var(--color-red);
+  color: var(--color-stamp);
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
   transition: all 200ms ease;
-  position: relative;
 }
 .resume-link a:hover {
-  background: #d03e05;
-  color: #fff;
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(233, 71, 9, 0.25);
+  background: #b04e3c;
+  color: var(--color-stamp);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(196, 92, 72, 0.3);
 }
 
 /* ========================================
-   FOOTER — Postcard bottom
+   FOOTER
    ======================================== */
 .footer {
-  border-top: none;
-  background-color: var(--color-surface);
-  padding: 1.5rem 0 0;
+  background: var(--color-teal);
+  padding: 0;
   position: relative;
 }
-/* Torn paper edge on top of footer */
-.footer::before {
-  content: '';
-  position: absolute;
-  top: -10px;
-  left: 0;
-  right: 0;
-  height: 12px;
-  background:
-    linear-gradient(135deg, var(--color-bg) 33.33%, transparent 33.33%) 0 0,
-    linear-gradient(225deg, var(--color-bg) 33.33%, transparent 33.33%) 0 0;
-  background-size: 14px 12px;
-  background-repeat: repeat-x;
-}
 .footer-airmail {
-  height: 5px;
+  height: 8px;
   background: repeating-linear-gradient(
     -45deg,
-    transparent,
-    transparent 8px,
-    var(--color-primary) 8px,
-    var(--color-primary) 10px,
-    transparent 10px,
-    transparent 18px,
-    var(--color-accent) 18px,
-    var(--color-accent) 20px
+    var(--color-red),
+    var(--color-red) 8px,
+    var(--color-stamp) 8px,
+    var(--color-stamp) 16px,
+    var(--color-teal) 16px,
+    var(--color-teal) 24px,
+    var(--color-stamp) 24px,
+    var(--color-stamp) 32px
   );
-  margin-bottom: 1.5rem;
 }
 .footer-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 1.5rem;
+  padding: 1.5rem 2rem;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: 0.5rem;
 }
-.footer-jp {
-  font-family: var(--font-display);
-  font-size: 0.7rem;
-  color: var(--color-text-secondary);
-  letter-spacing: 0.15em;
-  opacity: 0.6;
+.footer-label {
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  color: var(--color-teal-light);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  opacity: 0.5;
 }
 .site-footer {
   list-style: none;
@@ -1057,12 +1070,12 @@ li { margin-bottom: 0.3em; }
 }
 .site-footer li { display: inline; }
 .site-footer a {
-  color: var(--color-text-secondary);
+  color: var(--color-stamp-alt);
   transition: all 200ms ease;
   display: flex;
 }
 .site-footer a:hover {
-  color: var(--color-accent);
+  color: var(--color-stamp);
   transform: translateY(-2px);
 }
 
@@ -1084,30 +1097,27 @@ li { margin-bottom: 0.3em; }
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
-  border-radius: 2px;
   cursor: pointer;
   transition: all 400ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  border: 2px solid transparent;
+  border: 3px solid transparent;
 }
 .photo-gallery .column img:hover {
-  opacity: 0.92;
+  border-color: var(--color-red);
+  box-shadow: 0 4px 16px rgba(196, 92, 72, 0.25);
   transform: scale(1.02);
-  border-color: var(--color-accent);
-  box-shadow: 0 4px 20px rgba(233, 71, 9, 0.15);
 }
 .photo-gallery .pano {
   margin-top: 10px;
   margin-left: 4px;
   margin-right: 4px;
   width: calc(100% - 8px);
-  border-radius: 2px;
   cursor: pointer;
   transition: all 400ms ease;
-  border: 2px solid transparent;
+  border: 3px solid transparent;
 }
 .photo-gallery .pano:hover {
-  border-color: var(--color-accent);
-  box-shadow: 0 4px 20px rgba(233, 71, 9, 0.15);
+  border-color: var(--color-red);
+  box-shadow: 0 4px 16px rgba(196, 92, 72, 0.25);
 }
 @media screen and (max-width: 800px) {
   .photo-gallery .column { flex: 50%; max-width: 50%; }
@@ -1121,7 +1131,7 @@ li { margin-bottom: 0.3em; }
   display: none;
   position: fixed;
   inset: 0;
-  background: rgba(26, 26, 40, 0.95);
+  background: rgba(42, 42, 37, 0.96);
   z-index: 1000;
   align-items: center;
   justify-content: center;
@@ -1134,14 +1144,13 @@ li { margin-bottom: 0.3em; }
   max-width: 90vw;
   max-height: 90vh;
   object-fit: contain;
-  border-radius: 2px;
-  border: 3px solid rgba(255,255,255,0.1);
+  border: 4px solid var(--color-stamp);
+  box-shadow: 0 8px 40px rgba(0,0,0,0.5);
 }
 
 /* === Astro Code Blocks === */
 .astro-code {
   padding: 1.25rem;
-  border-radius: var(--radius);
   margin: 1.5rem 0;
   max-height: 40em;
   overflow: auto;
@@ -1150,80 +1159,30 @@ li { margin-bottom: 0.3em; }
 
 /* === Education === */
 .edu-item {
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius);
+  background: var(--color-stamp);
+  border: 2px solid var(--color-border);
   padding: 1.25rem 1.5rem;
 }
 .edu-item .exp-header { margin-bottom: 0; }
 
 /* ========================================
-   CHERRY BLOSSOM PETALS (decorative)
+   PERFORATED SEPARATOR
    ======================================== */
-.sakura-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  z-index: 0;
-  overflow: hidden;
-}
-.petal {
-  position: absolute;
-  top: -20px;
-  width: 12px;
-  height: 12px;
-  background: radial-gradient(ellipse at center, var(--color-pink) 0%, rgba(249, 163, 131, 0) 70%);
-  border-radius: 50% 0 50% 50%;
-  opacity: 0;
-  animation: petal-fall linear infinite;
-}
-@keyframes petal-fall {
-  0% {
-    transform: translateY(-10vh) translateX(0) rotate(0deg);
-    opacity: 0;
-  }
-  10% { opacity: 0.6; }
-  90% { opacity: 0.4; }
-  100% {
-    transform: translateY(105vh) translateX(80px) rotate(720deg);
-    opacity: 0;
-  }
-}
-.petal:nth-child(1) { left: 10%; animation-duration: 12s; animation-delay: 0s; width: 10px; height: 10px; }
-.petal:nth-child(2) { left: 25%; animation-duration: 15s; animation-delay: 2s; width: 14px; height: 14px; }
-.petal:nth-child(3) { left: 45%; animation-duration: 11s; animation-delay: 4s; }
-.petal:nth-child(4) { left: 65%; animation-duration: 14s; animation-delay: 1s; width: 8px; height: 8px; }
-.petal:nth-child(5) { left: 80%; animation-duration: 13s; animation-delay: 3s; width: 11px; height: 11px; }
-.petal:nth-child(6) { left: 55%; animation-duration: 16s; animation-delay: 5s; width: 9px; height: 9px; }
-.petal:nth-child(7) { left: 35%; animation-duration: 10s; animation-delay: 7s; width: 13px; height: 13px; }
-.petal:nth-child(8) { left: 90%; animation-duration: 14s; animation-delay: 6s; }
-
-/* Reduce motion for accessibility */
-@media (prefers-reduced-motion: reduce) {
-  .petal { animation: none; opacity: 0; }
-  .postcard { animation: none; transform: none; }
-  .postcard:nth-child(even) { transform: none; }
-}
-
-/* ========================================
-   HALFTONE DECORATIVE CORNER
-   ======================================== */
-.halftone-corner {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 80px;
-  height: 80px;
+.perf-separator {
+  height: var(--stamp-hole);
+  margin: 1rem 0;
   background-image: radial-gradient(
     circle,
-    var(--color-primary) 0.6px,
-    transparent 0.6px
+    var(--color-bg) calc(var(--stamp-hole) / 2 - 0.5px),
+    var(--color-border) calc(var(--stamp-hole) / 2 - 0.5px),
+    var(--color-border) calc(var(--stamp-hole) / 2 + 0.5px),
+    transparent calc(var(--stamp-hole) / 2 + 0.5px)
   );
-  background-size: 8px 8px;
-  opacity: 0.06;
-  pointer-events: none;
-  border-radius: 0 0 2px 0;
+  background-size: var(--stamp-spacing) var(--stamp-hole);
+}
+
+/* === Reduce motion === */
+@media (prefers-reduced-motion: reduce) {
+  .stamp, .hero-stamp { animation: none; transform: none; }
+  .exp-flip:hover .exp-flip-inner { transform: none; }
 }

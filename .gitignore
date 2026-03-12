@@ -17,3 +17,10 @@ node_modules/
 # editor
 .vscode/
 .idea/
+
+# screenshots & temp
+*.png
+!public/**/*.png
+.playwright-mcp/
+.claude/
+set-city-stamps-flat-style/
